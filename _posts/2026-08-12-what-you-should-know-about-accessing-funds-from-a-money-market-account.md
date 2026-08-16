@@ -83,11 +83,11 @@ By effectively managing fund access and understanding the tools available to you
    Why it matters: Small fees can accumulate over time, impacting your returns significantly.
 
 2. **Ignoring Withdrawal Limits**  
-Some people may be unaware of their bank's specific withdrawal policies.   
+   Some people may be unaware of their bank's specific withdrawal policies.   
    Why it matters: Exceeding limits can lead to penalties, reducing your access to funds.
 
 3. **Not Tracking Interest Rates**  
-Failing to monitor current interest rates can lead to missed opportunities for better returns.  
+   Failing to monitor current interest rates can lead to missed opportunities for better returns.  
    Why it matters: A small difference in APY can translate into substantial fluctuations in earnings over time.
 
 By avoiding these common pitfalls, you can improve your experience with a money market account and enhance your potential savings.

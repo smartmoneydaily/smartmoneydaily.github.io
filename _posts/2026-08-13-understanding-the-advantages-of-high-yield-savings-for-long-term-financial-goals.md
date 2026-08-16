@@ -23,8 +23,8 @@ HYSAs, CDs, and money market accounts all serve unique purposes. HYSAs generally
 |------------------------|--------------------|------------------------------|----------------------|
 | Liquidity              | High               | Low (fixed term)             | Moderate             |
 | Interest Rate          | Typically higher than traditional savings | Fixed rate during term  | Usually competitive, but varies |
-| Access to Funds        | Unlimited          | Limited (penalties apply)    | Depending on bank rules |
-| FDIC Cover             | Yes                | Yes                          | Yes                  |
+| Access to Funds        | Bank limits may apply | Limited (penalties apply) | Depending on bank rules |
+| FDIC Coverage          | Yes                | Yes                          | Yes                  |
 
 ## What Is the Benefit of Compound Interest in HYSAs?
 

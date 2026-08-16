@@ -52,14 +52,14 @@ To maximize your returns in a fluctuating market, consider these strategies:
 
 3. **Watch for Special Promotions**: Some banks may offer promotional rates on newly opened CDs. These rates can be significantly higher than standard offerings, providing an opportunity to maximize your savings.
 
-## For example, if you had $10,000 in a 12-month CD at 1.68% APY...
+## What $10,000 Earns in a 12-Month CD
 
 To calculate the interest you would earn by the end of the term, follow these steps:
 
 1. **Identify the APY**: 1.68% or 0.0168
 2. **Calculate interest for one year**: $10,000 × 0.0168 = $168
 
-By the end of the year, you would have earned $168 in interest, resulting in a total of $10,168 in your account. This straightforward calculation shows the power of compounding interest, especially with higher APYs.
+By the end of the year, you would have earned $168 in interest, resulting in a total of $10,168 in your account. Note that this example credits interest once at maturity, so it is simple interest. An account that compounds monthly or daily at the same rate would end up slightly ahead, which is why APY (not the nominal rate) is the number worth comparing.
 
 ## Should You Be Concerned About Inflation When Investing in CDs?
 

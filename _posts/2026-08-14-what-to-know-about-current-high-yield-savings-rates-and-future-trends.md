@@ -29,13 +29,13 @@ To further explore the benefits of HYSAs, see our guide "[Understanding the Adva
 
 ## How Do High-Yield Savings Rates Compare to CDs?
 
-In the current financial environment, certificates of deposit (CDs) also present competitive interest rates. As of July 20, 2026, the FDIC reported the national average APY for a 12-month CD at 1.68%. Since HYSAs typically involve more flexibility with withdrawals, they might be better suited for individuals seeking easy access to their funds. In contrast, CDs usually pay higher interest rates for locking in money for a predefined period.
+In the current financial environment, certificates of deposit (CDs) also present competitive interest rates. As of July 20, 2026, the FDIC reported the national average APY for a 12-month CD at 1.68%. Since HYSAs typically involve more flexibility with withdrawals, they might be better suited for individuals seeking easy access to their funds. In contrast, a CD trades that flexibility for a rate that is locked for the full term. That protects you if rates fall, but it does not automatically beat a competitive HYSA — as the national averages above show, the locked rate can sit well below what the strongest online savings accounts pay.
 
 Here’s a quick comparative table to illustrate key differences:
 
 | Feature                        | High-Yield Savings Account  | Certificate of Deposit (CD)  |
 |--------------------------------|-----------------------------|------------------------------|
-| Interest Rate                  | Typically higher than average| Fixed, often higher than HYSAs|
+| Interest Rate                  | Typically higher than average| Fixed for the full term      |
 | Liquidity                      | High (easy access)          | Low (penalties for early withdrawal)  |
 | FDIC Insurance                 | Yes (up to $250,000)       | Yes (up to $250,000)        |
 | Withdrawal Limits              | Individual bank policies may apply| Generally no access until maturity|

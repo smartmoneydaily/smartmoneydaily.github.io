@@ -2,7 +2,7 @@
 layout: post
 title: "Why Money Market Accounts Are a Safe Choice in Uncertain Times"
 date: 2026-08-15 10:51:17 +0000
-categories: [interest-rates]
+categories: [money-market]
 description: "Money market accounts offer stability and liquidity, making them a safe choice during economic uncertainty. compare their benefits and features in this post."
 tags: [interest-rates, personal-finance, savings, banking]
 ---
@@ -84,7 +84,7 @@ While money market accounts are often considered safe and stable, it is essentia
 
 - **Interest Rate Fluctuations**: Although money market accounts typically offer higher interest rates than traditional savings accounts, these rates can fluctuate based on market conditions. Changes in economic factors, such as federal interest rate adjustments, may lead to a decrease in the earning potential of your account.
 
-- **Limited Transactions**: Money market accounts usually limit the number of certain transactions per month to six, including electronic transfers, withdrawals, and checks. Exceeding this limit can result in fees or conversion of the account to a checking account, which may not earn as much interest.
+- **Limited Transactions**: Many banks still cap certain transactions — electronic transfers, withdrawals, and checks — at around six per month. This is now each bank's own policy rather than a federal requirement, since the Federal Reserve suspended the Regulation D limit in 2020. Exceeding this limit can result in fees or conversion of the account to a checking account, which may not earn as much interest.
 
 - **Minimum Balance Requirements**: Many money market accounts require a higher minimum balance than standard savings accounts to avoid monthly fees and earn the premium interest rate. Failing to meet this balance could diminish your returns and add costs.
 
