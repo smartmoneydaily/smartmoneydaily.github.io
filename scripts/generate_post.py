@@ -406,7 +406,21 @@ TITLE_PATTERNS = [
     "How [thing] is taxed / what happens when rates change",
     "A beginner's guide to [thing]",
 ]
-PATTERN_PREFIXES = ["how", "what", "is", "common", "a beginner", "the", "why", "should"]
+# v16: 실제로 쓰이던 제목 첫 단어가 목록에 없어 'other' 로 새던 구멍을 메운다
+# ("Are Traditional CDs...", "Understanding the Advantages..." 가 둘 다 other 로 분류돼
+#  다양성 카운트에서 빠졌고, 그 결과 forced hint 가 한 번도 발동하지 않았다 — 2026-08-16 실측).
+PATTERN_PREFIXES = ["how", "what", "is", "are", "do", "does", "can", "when", "which", "why",
+                    "should", "common", "a beginner", "the", "understanding"]
+# 위 중 '질문형' 계열. 개별 prefix 만 세면 what↔how 를 번갈아 쓰는 것만으로 영구히 회피되므로
+# 계열 단위 과점도 함께 감시한다.
+QUESTION_PREFIXES = {"how", "what", "is", "are", "do", "does", "can", "when", "which", "why", "should"}
+# 질문형이 과점일 때 강제할 서술형 구조 (제목 프롬프트의 패턴 3/6/7/8 과 1:1 대응)
+_STATEMENT_HINTS = (
+    "a direct '[Thing A] vs [Thing B]' comparison title",
+    "a 'Common mistakes with ...' title",
+    "a \"A beginner's guide to ...\" title",
+    "a plain declarative title about how something is taxed, or about what changes when rates move",
+)
 
 STOPWORDS_TITLE = {
     "the","a","an","for","and","with","to","of","in","on","at","is","are","my","best","top","how","what",
@@ -441,7 +455,8 @@ def _pattern_of(title):
     if " vs " in s:
         return "vs"
     for p in PATTERN_PREFIXES:
-        if s.startswith(p + " "):
+        # 아포스트로피 형태도 같은 패턴 ("a beginner's guide to ..." → "a beginner")
+        if s.startswith(p + " ") or s.startswith(p + "'") or s.startswith(p + "’"):
             return p
     return "other"
 
@@ -460,14 +475,44 @@ def _least_used_category(used_topics, categories, window=30):
     return random.choice(sorted_cats[:max(5, len(sorted_cats) // 3)])
 
 
-def _forced_pattern_hint(used_topics, recent_n=5):
+def _forced_pattern_hint(used_topics, recent_n=6):
+    """제목 형식이 한쪽으로 쏠렸을 때 프롬프트에 넣을 강제 지시문(str)을 반환. 없으면 None.
+
+    v16(2026-08-16): 구버전은 개별 prefix 가 6편 중 4회 이상일 때만 발동해서, what/how 를
+    번갈아 쓰는 것만으로 영구히 회피됐다(최근 20편 중 13편이 질문형인데 발동 0회 — 실측).
+    ① 질문형 '계열' 과점을 먼저 보고 ② 그다음 개별 패턴 과점(임계 4→3)을 본다.
+    """
     if len(used_topics) < recent_n:
         return None
-    prefixes = [_pattern_of(t) for t in used_topics[-recent_n:]]
+    recent = used_topics[-recent_n:]
+    prefixes = [_pattern_of(t) for t in recent]
+
+    # ① 계열 과점 — 최근 제목이 거의 다 질문형이면 서술형을 강제한다.
+    questions = sum(1 for p in prefixes if p in QUESTION_PREFIXES)
+    if questions >= max(3, len(recent) - 2):
+        return {
+            "kind": "no_question",
+            "avoid": None,
+            "text": (
+                f"FORCED FORM: {questions} of the last {len(recent)} titles were question-style, so THIS "
+                "title MUST NOT be a question and MUST NOT start with a question word "
+                "(How/What/Why/Is/Are/Do/Does/Can/When/Which/Should). Use "
+                f"{random.choice(_STATEMENT_HINTS)}."
+            ),
+        }
+
+    # ② 개별 패턴 과점 — 같은 첫 단어가 반복되면 다른 패턴으로 돌린다.
     most_common = max(set(prefixes), key=prefixes.count)
-    if prefixes.count(most_common) >= 4:
+    if most_common != "other" and prefixes.count(most_common) >= 3:
         candidates = [p for p in PATTERN_PREFIXES if p != most_common]
-        return random.choice(candidates)
+        return {
+            "kind": "prefix",
+            "avoid": most_common,
+            "text": (
+                f"FORCED PATTERN: title MUST start with '{random.choice(candidates).title()}' "
+                f"(the last {len(recent)} posts overused '{most_common.title()}')."
+            ),
+        }
     return None
 
 
@@ -588,7 +633,8 @@ def generate_unique_topic(used_topics, existing_slugs, living_titles=None, max_a
 
         hints = []
         if forced_pattern:
-            hints.append(f"FORCED PATTERN: title MUST start with '{forced_pattern.title()}' (recent 5 posts overused other patterns).")
+            # v16: _forced_pattern_hint 가 완성된 지시문을 반환한다 (계열 과점 / 개별 패턴 과점)
+            hints.append(forced_pattern["text"])
         if attempt > 0:
             hints.append(f"PREVIOUS attempt #{attempt} rejected ({last_reason}). Try a totally different angle, topic, AND pattern.")
 
@@ -633,6 +679,18 @@ def generate_unique_topic(used_topics, existing_slugs, living_titles=None, max_a
         # 동률 보조 키 (codex: 페널티 합산은 '유사도 최저 발행' 정책과 어긋남)
         candidates.append((worst_jaccard, 1 if hit_banned else 0, title, category, slug))
 
+        # v16: 강제 회전 지시를 결과에서 실제로 검증한다 — 프롬프트로만 시키면 모델이 무시해도
+        # 그대로 통과했다(codex 중간). banned keyword 와 같은 취급: 정규 시도에서는 거절하되
+        # 후보로는 남겨 두고, 완화 단계에서는 해제한다(회전보다 발행이 우선 — 스킵 금지 규칙).
+        if forced_pattern and not relaxed:
+            _p = _pattern_of(title)
+            if forced_pattern["kind"] == "no_question" and _p in QUESTION_PREFIXES:
+                last_reason = "ignored FORCED FORM: title is still a question"
+                continue
+            if forced_pattern["kind"] == "prefix" and _p == forced_pattern["avoid"]:
+                last_reason = f"ignored FORCED PATTERN: title still starts with '{_p}'"
+                continue
+
         if hit_banned and not relaxed:
             last_reason = f"banned keyword used: {hit_banned[0]}"
             continue
@@ -661,27 +719,47 @@ def generate_unique_topic(used_topics, existing_slugs, living_titles=None, max_a
 # v14 (2026-07-28): 본문에 실제로 쓰는 계산기를 붙인다.
 # 123편 전수 진단에서 "규칙 설명만 있고 독자가 자기 숫자로 판단할 방법이 없다"가 색인 거부의
 # 핵심이었다. 계산기는 _includes/tools/ 에 있는 정적 JS 라 외부 호출·비용이 없다.
+# v16(2026-08-16): 리드인 문장이 도구당 1개로 고정돼 있어, 같은 계산기가 붙은 글 7편에
+# "Enter your own balance and APY below to see what the difference is worth over your time frame."
+# 이 글자 하나 안 틀리고 반복됐다(실측) — 그 자체가 양산 지문. 도구별 변형 중 하나를 고른다.
 _TOOL_RULES = (
     ("cd-penalty", (
         "penalt", "early withdrawal", "cash out", "break a cd", "breaking a cd", "withdraw early",
-    ), "Enter your CD's balance, rate, months held, and the penalty from your disclosure to see "
-       "whether breaking it actually pays."),
+    ), (
+        "Enter your CD's balance, rate, months held, and the penalty from your disclosure to see "
+        "whether breaking it actually pays.",
+        "Your own disclosure has the penalty terms — put them in below, with your balance and how "
+        "long you have held the CD, and the math will show whether an early exit leaves you ahead.",
+        "Rather than guess, run your numbers: balance, rate, months held, and the stated penalty.",
+    )),
     ("ladder-builder", (
         "ladder", "laddering", "rungs",
-    ), "Put your total amount and the number of rungs in below to see each rung's size, maturity, "
-       "and interest."),
+    ), (
+        "Put your total amount and the number of rungs in below to see each rung's size, maturity, "
+        "and interest.",
+        "How a ladder actually splits up depends on your total and how many rungs you want — set "
+        "both below to see the maturity schedule.",
+        "Try it with your own total: the rung sizes and maturity dates fall out of those two inputs.",
+    )),
     ("apy-calculator", (
         "apy", "compound", "interest earn", "how much", "yield", "savings account", "money market",
         "returns", "earnings", "grow",
-    ), "Enter your own balance and APY below to see what the difference is worth over your time frame."),
+    ), (
+        "Enter your own balance and APY below to see what the difference is worth over your time frame.",
+        "The gap only means something against your own balance — put yours in below with the APY "
+        "you are comparing.",
+        "Run your own numbers instead: your balance, the APY on offer, and the period you plan to hold.",
+        "Below, set the balance you would actually deposit and the rate you are being quoted.",
+    )),
 )
 
 
 def _pick_tool(title, category):
     hay = f"{title} {category}".lower()
-    for tool, keys, lead in _TOOL_RULES:
+    for tool, keys, leads in _TOOL_RULES:
         if any(k in hay for k in keys):
-            return tool, lead
+            # leads 는 변형 튜플 (구버전 단일 문자열도 안전하게 허용)
+            return tool, random.choice(leads) if isinstance(leads, (tuple, list)) else leads
     return None, None
 
 
@@ -769,7 +847,12 @@ def _build_structure_plan():
     else:
         parts.append(
             "- NO opening blockquote. Open directly with a specific 2-3 sentence lead "
-            "(a common mistake, a true general fact, or the core question) — no generic intro."
+            "(a common mistake, a true general fact, or the core question) — no generic intro. "
+            # v16: 5/7 편이 '상품 정의 → 많은 사람이 오해한다 → 이해하는 것이 essential 하다'
+            # 3단 템플릿으로 시작했다(실측). 그 틀을 명시적으로 금지한다.
+            "Do NOT open by defining the account type dictionary-style, and do NOT use the "
+            "'many people underestimate/misunderstand X ... understanding X is essential/crucial' "
+            "construction anywhere in the opening."
         )
     h2_count = random.randint(4, 8)
     q_share = random.choice(["one or two", "roughly half", "most"])
@@ -793,9 +876,16 @@ def _build_structure_plan():
             "each with a one-line 'Why it matters:' explanation."
         )
     elif _extra == "worked_example":
+        # v16: 구버전은 "labeled 'for example, if you had...'" 를 GPT 가 제목 지시로 읽어
+        # '## For example, if you had $10,000 in a 12-month CD at 1.68% APY...' 라는 문장형 H2 를
+        # 실제로 발행했다(2026-08-16 실측). 라벨은 본문 문장이고 제목은 명사구임을 못 박는다.
         parts.append(
-            "- Include ONE fully worked, clearly hypothetical numeric example (labeled 'for example, if you had...'), "
-            "walking through the arithmetic step by step."
+            "- Work ONE clearly hypothetical numeric example into the body prose, introducing it inline "
+            "with wording like \"for example, if you had...\", and walk through the arithmetic step by step. "
+            "Put it under a SHORT descriptive noun-phrase heading — never use the example sentence itself "
+            "as a heading, and never end a heading with '...'. "
+            "If the example only credits interest once, call it simple interest — do not describe a single "
+            "annual credit as compounding."
         )
     elif _extra == "faq":
         parts.append(f"- Near the end, include '## {random.choice(_FAQ_HEADINGS)}' with 3-5 ### Q&A pairs, accurate and specific.")
@@ -1096,6 +1186,54 @@ _PROMISSORY_FIXES = {
 }
 
 
+def _h2_lines(content):
+    """fenced code block 밖에 있는 H2 만 (줄 인덱스, 제목 텍스트) 로 반환.
+
+    codex(중간): 문서 전체에 정규식을 걸면 ``` 블록 안의 열 0 '## ...' 까지 헤딩으로
+    오인한다. 검증과 수리가 같은 기준을 쓰도록 이 헬퍼 하나로 통일한다."""
+    out = []
+    fence = None
+    for i, line in enumerate(content.split("\n")):
+        stripped = line.strip()
+        if fence:
+            if stripped.startswith(fence):
+                fence = None
+            continue
+        if stripped.startswith("```") or stripped.startswith("~~~"):
+            fence = stripped[:3]
+            continue
+        m = re.match(r"^##\s+(.+?)\s*$", line)
+        if m:
+            out.append((i, m.group(1)))
+    return out
+
+
+# 문장형 H2 를 제목 자리에 남겨야 할 때 쓰는 대체 제목 (API 없이 동작해야 한다)
+_EXAMPLE_HEADINGS = ("Running the Numbers", "A Worked Example",
+                     "Putting Numbers to It", "How the Math Works Out")
+
+
+def _sentence_like_heading(h):
+    """H2 텍스트가 '제목'이 아니라 '문장'인지 판정. 과탐으로 정상 글이 막히면 안 되므로
+    명백한 신호만 본다 (실제 질문형 제목 'How Does X Work?' 은 반드시 통과해야 한다)."""
+    s = h.strip().rstrip("#").strip()
+    if not s:
+        return False
+    if s.endswith("...") or s.endswith("…"):
+        return True
+    if re.match(r"^(for example|for instance|if you|let'?s|suppose|imagine|say you)\b", s, re.I):
+        return True
+    # 물음표로 끝나는 진짜 질문형 제목은 길어도 정상
+    if s.endswith("?"):
+        return False
+    # 마침표로 끝나면 문장 (약어 마침표는 제외)
+    if s.endswith(".") and not re.search(r"\b(u\.s|inc|ltd|etc|vs|jr|sr)\.$", s, re.I):
+        return True
+    if len(s) > 80:
+        return True
+    return False
+
+
 def _repair_normalize(content, market_data):
     """API 없이 도는 순수 문자열 수리 패스 — _deterministic_repair 본체이자, 분량 보강(API)
     이후 재정규화에도 재사용한다 (codex: 보강 섹션이 새 위반을 넣을 수 있음)."""
@@ -1115,6 +1253,24 @@ def _repair_normalize(content, market_data):
     content = re.sub(r"(?<=\S)[ \t]{2,}", " ", content)
 
     content = re.sub(r"^#\s+.*\n?", "", content, flags=re.M)
+
+    # v16: 문장형 H2 처리. 기본은 문단으로 강등하지만, 강등하면 정상 H2 가 3개 미만으로
+    # 떨어지는 경우에는 강등 대신 짧은 제목으로 바꿔 끼운다 — codex(높음) 지적대로 강등이
+    # H2 부족을 유발하면 API 보강에 의존하게 되고, 그 보강이 실패하면 발행 자체가 밀린다.
+    # 이 경로는 OpenAI 없이도 동작해야 하므로 대체 제목은 로컬 상수에서 고른다.
+    heads = _h2_lines(content)
+    bad_heads = [(i, h) for i, h in heads if _sentence_like_heading(h)]
+    if bad_heads:
+        lines = content.split("\n")
+        good = len(heads) - len(bad_heads)
+        for i, h in bad_heads:
+            if good >= 3:
+                lines[i] = h  # 문장은 문단이 제자리
+            else:
+                lines[i] = "## " + random.choice(_EXAMPLE_HEADINGS)
+                good += 1
+        content = "\n".join(lines)
+
     content = re.sub(r"\n*^##\s+About the Author\b.*?(?=\n##\s|\Z)", "", content,
                      flags=re.DOTALL | re.MULTILINE | re.IGNORECASE)
 
@@ -1198,6 +1354,14 @@ def validate_post_quality(content, market_data=None):
         problems.append("markdown '# Title' line in body (title is rendered by the layout)")
     if re.search(r"^##\s+About the Author\b", content, re.M | re.I):
         problems.append("'About the Author' section in body (author box is rendered by the layout)")
+    # v16: 문장이 통째로 H2 로 올라간 케이스 차단 (실측: '## For example, if you had $10,000
+    # in a 12-month CD at 1.68% APY...' 가 라이브 목차에 그대로 노출됐다)
+    bad_heads = [h for _, h in _h2_lines(content) if _sentence_like_heading(h)]
+    if bad_heads:
+        problems.append(
+            "sentence used as an H2 heading: " + "; ".join(f'"{h[:60]}"' for h in bad_heads[:2])
+            + " — headings must be short noun phrases or real questions, not example sentences"
+        )
     if market_data:
         cited = [r for _, r in market_data["rates"] if re.search(rf"\b{re.escape(r)}%", content)]
         if cited:
@@ -1401,3 +1565,5 @@ if __name__ == "__main__":
 # v15.1_no_skip 2026-08-02  (never skip publishing: relaxed-retry + best-candidate topic fallback, deterministic content repair)
 # v15.2_quality_floor 2026-08-02  (no-skip AND no-garbage: more retries, quality caps never relax; hard fails defer to the next cron slot)
 # v15.3_no_extra_cost 2026-08-02  (dropped the gpt-4o escalation per owner cost rule — all calls stay on gpt-4o-mini)
+# v16_pattern_rotation 2026-08-16  (title-pattern rotation actually fires: wider prefix list + question-family
+#   over-use detection; per-tool lead-in variants; sentence-as-H2 blocked in validate + demoted in repair)
