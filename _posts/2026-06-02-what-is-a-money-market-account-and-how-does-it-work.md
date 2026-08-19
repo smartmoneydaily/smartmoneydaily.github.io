@@ -3,7 +3,7 @@ layout: post
 title: "What Is a Money Market Account and How Does It Work?"
 date: 2026-06-02 17:02:49 +0000
 categories: [savings]
-description: "A money market account is a bank deposit account that pays interest and lets you spend from it. Here is how tiers, transfer limits, and insurance actually work."
+description: "A money market account is a bank deposit that pays interest and lets you spend from it, and here is how balance tiers, transfer limits, and FDIC coverage work."
 tags: [money-market, high-yield-savings-accounts, 2026]
 redirect_from:
   - /2026/06/09/understanding-money-market-accounts-benefits-and-drawbacks-explained/
@@ -13,154 +13,98 @@ redirect_from:
 
 ![Diagram comparing a money market account with savings, checking, and money market funds](/assets/pin-images/2026-06-02-what-is-a-money-market-account-and-how-does-it-work.png)
 
-> **Short answer:** A money market account is a deposit account at a bank or credit union. It pays interest like a savings account, and it usually lets you spend directly from it with checks or a debit card like a checking account. It carries the same federal deposit insurance as any other bank account — up to $250,000 per depositor, per insured institution, per ownership category. It is not a money market fund, and that distinction is the one that costs people money.
 
-Almost everything that makes a money market account (MMA) good or bad for you sits in three places: the rate tier table, the transaction rules, and the fee schedule. The name tells you nothing. Two accounts labeled "money market" at two banks can behave completely differently — one may function as a savings account with a checkbook, the other as a high-minimum account that quietly pays less than the bank's own basic savings product. This walks through how the account works, then how to read those three sections before you sign anything.
+A money market account is a deposit account at a bank or credit union that pays interest and usually lets you spend straight from it, through checks, a debit card, or both. It does part of what a savings account does and part of what a checking account does, and it carries the same federal deposit insurance as either one.
 
-## A Money Market Account in Plain Terms
+What follows is the mechanical version: what the account is and what it is not, how balance tiers change the yield you actually receive, what replaced the old six-transfer rule, how insurance applies to the balance, and the arithmetic for turning an APY into dollars. Two worked examples, both recheckable on a calculator.
 
-An MMA is a deposit account. You put money in, the bank owes you that money back, and it pays you interest for the use of it. That is the whole legal structure. It is not an investment, there is no share price, and your balance does not go down when markets fall.
+One reference point first. As of August 17, 2026, the FDIC national average was 0.63% APY for money market accounts, 0.38% for savings, and 0.07% for interest checking. Those are averages across insured institutions, not offers, and not what any particular account pays.
 
-What separates it from a plain savings account is the payment access. Most MMAs come with some combination of paper checks, a debit or ATM card, and online bill pay — features a savings account normally does not have. What separates it from a checking account is that it is built to hold a balance rather than to churn: banks often set transaction caps, minimum balances, and tiered rates that reward you for leaving money alone.
+## The account behind the name
 
-The rate is variable. Unlike a certificate of deposit, nothing about your APY is locked. The bank can reprice the account, and the disclosure you sign says so in plain language. That flexibility cuts both directions and is worth understanding before you commit a large balance — see [why money market rates move and how fast yours follows](/2026/06/07/how-changing-interest-rates-affect-your-money-market-account-returns/) for how repricing tends to play out.
+A money market account and a money market fund are different products with confusingly similar names. The account is a deposit at a bank or credit union. The fund is an investment sold through a brokerage.
 
-## The Hybrid Part: Checks, Cards, and Transfer Rules
+That distinction decides what happens if the institution fails. Deposits at an insured bank are covered by the FDIC. Investments are not insured. A credit union version of the account is covered by the NCUA instead, at the same standard limit.
 
-The access features are where MMAs earn their reputation as a hybrid, and where the fine print varies most.
+Two things to verify on any account you are considering: whether the institution is FDIC- or NCUA-insured, and whether the product disclosure describes a deposit account or a security. The FDIC's BankFind tool confirms the first, and it also shows which brand names share a single bank charter.
 
-**Check writing.** Many MMAs issue a checkbook, usually with a monthly cap on how many checks clear without a fee. Some issue none at all. Ask before assuming.
+## MMA, savings, and checking side by side
 
-**Debit and ATM access.** Some MMAs include a card that works at ATMs, at point of sale, or both. Others limit the card to ATM withdrawals only.
-
-**Transfer limits.** This is the most misunderstood rule in deposit banking. Federal Regulation D once capped certain withdrawals and transfers from savings and money market accounts at six per month. The Federal Reserve amended the rule in April 2020 and removed that cap ([Federal Reserve, reserve requirements](https://www.federalreserve.gov/monetarypolicy/reservereq.htm)). The six-per-month limit is no longer a federal requirement. But banks were allowed to keep enforcing their own version, and many did. So the correct question is not "what does the law allow" but "what does this bank's account agreement say, and what does it charge when I go over."
-
-Here is how the four cash products actually differ:
-
-| | Money Market Account | High-Yield Savings | Checking | Money Market Fund |
-|---|---|---|---|---|
-| What it is | Bank deposit | Bank deposit | Bank deposit | Mutual fund (investment) |
-| Insured by | FDIC or NCUA | FDIC or NCUA | FDIC or NCUA | Not federally insured |
-| Pays interest | Yes, variable | Yes, variable | Rarely, or low | Yes, yield varies daily |
-| Check writing | Often | Almost never | Yes | Sometimes, via brokerage |
-| Debit / ATM card | Often | Rarely | Yes | No |
-| Transaction caps | Bank's own policy | Bank's own policy | Usually none | Trade settlement rules |
-| Rate structure | Frequently tiered by balance | Sometimes tiered | n/a | Net yield after expenses |
-| Best fit | Cash you spend from occasionally | Cash you do not touch | Daily spending | Brokerage cash |
-
-The single most important row is the second one. Three of these four are bank deposits with federal insurance behind them. One is not.
-
-## Tiered Rates: Why Your Balance Sets Your APY
-
-Most MMAs price by balance tier, and the advertised APY in the ad is almost always the top tier. Whether you actually receive it depends on your balance and on which of two tier methods the bank uses.
-
-**Whole-balance tiers.** Your entire balance earns the rate attached to the tier you land in. Cross the line downward and every dollar reprices.
-
-**Split (blended) tiers.** Each slice of your balance earns its own tier rate, and your effective APY is the weighted average.
-
-The difference is not academic. Take a hypothetical account that pays 2.00% APY on balances under $25,000 and 3.50% APY at $25,000 and above, and suppose you hold $26,000.
-
-| Method | How interest is figured | Annual interest | Effective APY |
+| | Money market | Savings | Interest checking |
 |---|---|---|---|
-| Whole-balance, $26,000 | $26,000 × 3.50% | $910 | 3.50% |
-| Whole-balance, drops to $24,900 | $24,900 × 2.00% | $498 | 2.00% |
-| Split tiers, $26,000 | ($25,000 × 2.00%) + ($1,000 × 3.50%) | $535 | 2.06% |
+| National average APY, Aug 17, 2026 | 0.63% | 0.38% | 0.07% |
+| Checks or debit card | Often included | Generally not | Yes |
+| Federal transfer cap | None since 2020 | None since 2020 | None |
+| Deposit insurance | FDIC or NCUA | FDIC or NCUA | FDIC or NCUA |
 
-Two lessons fall out of that table. First, on a whole-balance structure, letting the balance slip $1,100 below the line costs roughly $412 of annual interest in this example — a cliff, not a slope. Second, a split-tier account advertising 3.50% may hand you an effective 2.06%, because only the top $1,000 ever touches the headline rate. Both accounts can legally advertise the same number.
+The rate row is a national average, and an average hides a wide spread. Every other row describes the product category in general terms. Your own account disclosure and fee schedule are the authority for your account.
 
-The fix is procedural, not clever: find the tier table on the rate sheet, locate the line your realistic *minimum* balance falls into, and confirm in writing which of the two methods the bank uses. To sanity-check the resulting number against your own deposit, plug your balance, the tier rate that actually applies to you, and the compounding frequency into the calculator below.
+## Rate tiers and the blended yield
 
-{% include tools/tiered-rate-calculator.html %}
+A money market account may quote more than one APY, tied to balance ranges; your rate sheet shows whether yours does. Two accounts can advertise the same top rate and pay very different amounts, because the tier language differs.
 
-For a fuller walkthrough of comparing two offers on tiers, minimums, and limits, see the companion piece on [choosing a money market account](/2026/06/28/a-complete-guide-to-choosing-a-money-market-account/).
+Here is a hypothetical account, used only to show the arithmetic. Say it pays 0.50% on the portion of the balance up to $10,000 and 1.00% on the portion above that. You hold $25,000 for a year:
 
-## Money Market Account vs Money Market Fund: Only One Is Insured
+- First $10,000 × 0.50% = $50.00
+- Next $15,000 × 1.00% = $150.00
+- Total = $50.00 + $150.00 = $200.00
 
-These two products share a name and nothing else that matters.
+Blended yield: $200.00 ÷ $25,000 = 0.0080, or 0.80%.
 
-A **money market account** is a deposit at a bank or credit union. If the institution fails, the FDIC covers bank deposits and the NCUA covers credit union share accounts, each up to $250,000 per depositor, per institution, per ownership category ([FDIC deposit insurance](https://www.fdic.gov/resources/deposit-insurance), [NCUA share insurance](https://ncua.gov/consumers/share-insurance-coverage)).
+Now a second hypothetical account with the same two rates, but paying 1.00% on the entire balance once you cross $10,000:
 
-A **money market fund** is a mutual fund that buys short-term debt. You own shares. It is a securities product, not a deposit, and it carries no federal deposit insurance. Brokerage account protection covers a failed broker, not investment losses. Fund shares are designed to hold a stable value, but "designed to" is not a guarantee, and funds can carry redemption terms that a bank account does not.
+- $25,000 × 1.00% = $250.00
 
-If someone tells you their "money market" pays a great rate, the first question is where it is held — a bank, or a brokerage. The answer changes what protection you have. The [money market fund guide](/2026/06/25/a-comprehensive-guide-to-finding-the-right-money-market-fund/) covers the fund side, including what to check on a fund fact sheet.
+Same advertised numbers, $50.00 apart ($250.00 − $200.00). The disclosure tells you which method applies. The language to look for is whether the rate applies to the portion of the balance within each tier or to the whole balance.
 
-## Where Your Deposit Goes, and Why the Rate Moves
+## Transfer limits after Regulation D
 
-Understanding the bank's side explains the rate behavior you will see.
+Regulation D once capped certain transfers out of savings and money market accounts at six per month. That limit was suspended in 2020 and has not been reinstated. Many banks and credit unions still set their own limit as a matter of account terms.
 
-Your deposit funds the bank's lending and its own holdings. Deposits are one source of funding among several, and they compete with wholesale borrowing. When a bank wants more deposits — to fund loan growth, to replace outflows, to build liquidity — it raises deposit rates to attract them. When it does not need the money, it lets rates sit.
+The question is no longer what federal law allows but what your agreement says. Look for three things: the number of transfers permitted per statement cycle, the fee for exceeding it, and whether repeated excess transfers allow the institution to convert the account to checking or close it. All three are written into the deposit agreement.
 
-Two forces sit behind that decision. The first is the policy rate environment set by the Federal Reserve, which shapes what every short-term dollar is worth. The second is competition: an online-only bank with no branch network has a lower cost structure than a bank with a thousand lobbies to staff, and that shows up in what each can afford to pay.
+## Insurance on a money market balance
 
-The practical consequence is that MMA rates drift, and they drift on the bank's schedule, not yours. Your account agreement almost certainly permits repricing without advance notice. That is why the useful habit is not picking the highest number today but checking your own account quarterly. The FDIC publishes monthly national deposit rate averages by product type — look yours up there rather than trusting any figure quoted in an article, including this one, and judge whether your account has fallen behind ([FDIC national rates](https://www.fdic.gov/resources/bankers/national-rates/)).
+FDIC standard coverage is $250,000 per depositor, per insured bank, per ownership category. Credit union accounts are insured by the NCUA at the same standard limit.
 
-## What an MMA Is Good At
+The per-category part does the work. Ownership categories — single accounts, joint accounts, certain retirement accounts, revocable trust accounts — are insured separately from each other. A single-name money market account and a single-name savings account at the same bank fall in the same category and share one $250,000 limit. The same money held jointly is counted under a different category.
 
-**Spendable savings.** When you need to actually pay something from the balance — a contractor, a tax bill, an insurance premium — checks or a card beat waiting on a transfer from savings.
+FDIC rules for trust accounts changed effective April 1, 2024. Rather than working from a formula you may have read before that date, run your accounts through the FDIC's EDIE estimator, which applies the current rules to the specific balances you enter.
 
-**A bills-and-buffer account.** Some savers park one to two months of large, irregular bills in an MMA, pay directly from it, and keep the rest of the emergency reserve elsewhere.
+## APY on a real balance
 
-**Higher balances that still need reach.** Because tiers often reward size, an MMA can be a reasonable home for a large cash position that must stay available.
+APY includes the effect of compounding; a stated interest rate does not. That makes APY the number to compare across accounts, because two accounts with the same interest rate but different compounding schedules produce different APYs.
 
-**Same protection as any deposit.** Nothing about the hybrid features weakens your coverage. An insured MMA is insured on the same terms as checking or savings at the same institution.
+For a balance held steady for a full year with no deposits or withdrawals, interest is simply balance × APY. Take $12,000 at each of the three national averages as of August 17, 2026:
 
-## Where MMAs Disappoint
+- Money market, 0.63%: $12,000 × 0.0063 = $75.60
+- Savings, 0.38%: $12,000 × 0.0038 = $45.60
+- Interest checking, 0.07%: $12,000 × 0.0007 = $8.40
 
-**Minimums that bite twice.** Some accounts charge a monthly fee below a threshold *and* drop your rate below a separate threshold. Those two numbers are often different, and both appear in the disclosures rather than the ad.
+The money market figure beats the savings figure by $30.00 ($75.60 − $45.60) and the checking figure by $67.20 ($75.60 − $8.40).
 
-**Tier cliffs.** As shown above, a whole-balance structure can erase a chunk of your yield the month you dip under the line.
+Two caveats. Real balances move, so a partial year or a changing balance calls for the average daily balance rather than a single number. And a maintenance fee comes out of the account, not out of the APY: a $5 monthly fee costs $60.00 a year, which would leave $15.60 of that $75.60 ($75.60 − $60.00).
 
-**Transaction caps and excess-item fees.** If the account limits you to a set number of checks or transfers, the fee for going over can dwarf a month of interest.
+### Compounding and crediting
 
-**Rates that quietly lag.** Variable means variable. An account competitive when you opened it can sit unchanged while the market moves.
+You do not need to adjust an APY for compounding frequency, because the APY already accounts for it. A stated interest rate does need that adjustment, which is why two products are only comparable when you line up APY against APY.
 
-**Fees generally.** Across deposit products, MMAs tend to carry the longest fee schedules, so total the monthly cost before you compare rates at all.
+What compounding frequency does change is timing. Interest credited monthly starts earning interest itself from the credit date; interest credited annually does not. The disclosure states both the compounding method and the crediting schedule, and they are not always the same.
 
-Every one of those terms must be disclosed to you before you open the account. Truth in Savings — implemented as Regulation DD, 12 CFR Part 1030 — requires banks to give you the APY, the rate, minimum balance requirements, fees, and transaction limits in a written disclosure ([CFPB, Regulation DD](https://www.consumerfinance.gov/rules-policy/regulations/1030/)). If you cannot find those items, you have not been given the right document yet. Ask for it by name.
+## A CD comparison on the same money
 
-## Who Should Use One Instead of a Savings Account
+Set the same money against a CD and the gap reads more clearly in dollars than in percentage points. Take the same $12,000 and hold it for six months.
 
-An MMA earns its place when at least one of these is true for you:
+Using the FDIC national averages as of August 17, 2026, with simple proration of the annual rate over half a year:
 
-- You need to pay someone directly out of this money, not transfer it first.
-- You hold a large enough balance to reach a real tier, and you can keep it above the line.
-- You want the money organizationally separate from daily checking but still one step from being spent.
-- Your bank's MMA quotes a better APY than the same bank's savings account for your actual balance.
+- Money market, 0.63%: $12,000 × 0.0063 ÷ 2 = $37.80
+- 6-month CD, 1.41%: $12,000 × 0.0141 ÷ 2 = $84.60
+- Difference: $84.60 − $37.80 = $46.80
 
-A plain high-yield savings account is usually the better default when you never spend from the balance, your balance is modest, or you would be flirting with a minimum. In that case, skip the MMA entirely. There is no prize for holding the more complicated product.
+That $46.80 is what the term commitment is worth on those averages. Against it, the money is locked for six months and an early withdrawal triggers the penalty in the disclosure, commonly expressed as a number of months of interest. The money market balance stays spendable the whole time. Neither answer is right in general; the comparison only resolves once you know whether you might need the cash before the term ends.
 
-## Misconceptions Worth Clearing Up First
+## Where an MMA fits
 
-**"Money market accounts always pay more than savings accounts."** Not a rule. It is a marketing position. Pull the two rate sheets from the same bank and compare the tier that applies to your balance. Sometimes the savings account wins outright.
+A money market account suits cash you want liquid and insured — an emergency fund, a tax payment coming due, a down payment with no fixed date. You get spending access without moving money first, and the balance is insured on the same terms as any other deposit.
 
-**"You can only make six withdrawals a month, by law."** No longer true at the federal level since April 2020. Whatever limit you face is your bank's own policy, which means it is negotiable in the sense that you can choose a different bank.
-
-**"You cannot lose money in a money market account."** The balance is protected within insurance limits, but you can absolutely end a year with less purchasing power than you started with, and fees can exceed interest on a small balance. Protection against bank failure is not protection against inflation or against a fee schedule.
-
-**"Money market accounts and money market funds are basically the same."** They are not. One is insured, one is not. Nothing else about the comparison matters until you have settled that.
-
-**"All money market accounts are insured."** Confirm the institution rather than assuming. Look up the bank in FDIC BankFind, or the credit union with the NCUA, and note that a fintech app is not itself a bank — it holds your money at a partner institution, and the coverage depends on that arrangement. The mechanics of that check are in [what FDIC insurance actually covers](/2026/05/29/what-is-fdic-insurance-and-how-does-it-protect-your-money/).
-
-## Frequently Asked Questions
-
-**Is a money market account insured?**
-If it is held at an FDIC-insured bank or an NCUA-insured credit union, yes — up to $250,000 per depositor, per institution, per ownership category. Verify the institution rather than the product name.
-
-**Can I write checks from a money market account?**
-Often, but not always, and usually with a monthly limit. Confirm the check allowance and the excess-item fee in the account disclosure before you rely on it.
-
-**How is the interest taxed?**
-Interest from a deposit account is ordinary taxable income for the year it is credited, and the institution reports it on Form 1099-INT. It is taxable whether or not you withdraw it.
-
-**What happens if my balance drops below the minimum?**
-Two possible outcomes, sometimes both: a monthly maintenance fee, and a drop to a lower rate tier. The thresholds for each are disclosed separately.
-
-**Can a bank lower my rate after I open the account?**
-Yes. MMA rates are variable, and the account agreement permits repricing. That is the trade you make in exchange for keeping full access to the money.
-
-**Should my emergency fund live in a money market account?**
-It can, if the account has no minimum you would struggle to hold and no transaction cap that would block you in a crisis. Compare it against a high-yield savings account on rate and access before deciding.
-
-## Putting This Into Practice
-
-Pull up the account you are considering — or the one you already hold — and find three documents: the rate sheet with the tier table, the fee schedule, and the Truth in Savings disclosure. Write down the tier that applies to your realistic minimum balance, the fee threshold, and the transaction cap. Those three numbers determine what this account is worth to you far more than the APY on the landing page does.
+The tradeoff runs both ways. A CD generally pays a fixed rate for a fixed term but charges an early-withdrawal penalty, stated in the disclosure and often quoted as a number of months of interest. A plain savings account may pay a comparable rate without tiers or minimums. Before opening anything, read three lines of the disclosure: the tier structure, the minimum balance required to earn the advertised rate, and the monthly fee along with the conditions that waive it.

@@ -3,7 +3,7 @@ layout: post
 title: "Short-Term vs Long-Term CD: Which Term Fits Right Now"
 date: 2026-06-08 14:37:29 +0000
 categories: [savings]
-description: "Choose a CD term with a rule instead of a rate forecast: what locking actually buys, break-even math when rates move, and how to match a maturity to the date."
+description: "Pick a CD term with arithmetic instead of a rate forecast: the FDIC average curve, a break-even renewal rate, and what breaking one early really costs."
 tags: [cd-rates, cd-term-length, interest-rates, 2026]
 redirect_from:
   - /2026/07/25/is-a-short-term-or-long-term-cd-better-for-your-savings-strategy/
@@ -15,153 +15,108 @@ redirect_from:
 
 ![A savings timeline split into a short maturity within one year and a multi-year locked term](/assets/pin-images/2026-06-08-should-you-opt-for-a-short-term-or-long-term-cd.png)
 
-> **Short answer:** Set the term by the date you need the money, then let the rate curve decide whether stretching longer is worth it. If a five-year quote pays only a little more than a one-year quote, you are not being paid enough to commit — stay short. If the longer term pays meaningfully more and your cash-need date is genuinely far away, locking is what a CD is for.
 
-Most "short or long" advice is a rate forecast in disguise: rates are going up, so stay short; rates are going down, so lock. Nobody knows which is true, and you have to decide today anyway. The workable version of this decision uses three inputs you can observe — when you need the money, how much extra the longer term pays, and what it costs to get out early.
+A certificate of deposit asks one real question: how long. The APY you get, the penalty you would pay to get out, whether the account renews itself at maturity — all of it follows from the term you pick. Most term advice tries to settle that question by guessing where rates go next.
 
-## Start With the Date, Not the Rate
+This settles it differently. You get the current shape of the CD curve from FDIC national average data, the arithmetic that shows exactly what renewal rate a shorter term needs in order to beat a longer one, what an early-withdrawal penalty costs in dollars, and a way to choose a maturity from a calendar date instead of a forecast.
 
-Before you look at a single offer, answer one question: on what date does this money have a job to do?
+One ground rule for the numbers. Every rate below is an FDIC national average as of August 17, 2026. A national average is not an offer and not a rate you can go open today. Use it as a reference line for judging whatever a bank puts in front of you.
 
-- **A fixed date** (tuition due in August, closing costs in 14 months, a car replacement in three years) means you can buy a maturity that lands just before it.
-- **A fuzzy date** ("sometime next year, maybe") means any term you pick has a real chance of colliding with the need.
-- **No date at all** — this is your emergency cash — means the money should not be in a term deposit in the first place. Liquidity is the whole point of that balance, and a CD sells liquidity in exchange for yield.
+## The two things a term decides
 
-Only after the date is settled does the rate matter. A CD that pays more but matures two months after you need the cash is not a better deal; it is a penalty waiting to happen. If you are still deciding whether a CD belongs in the plan at all, start with [what a certificate of deposit is and how one works](/2026/07/16/what-is-a-certificate-of-deposit-and-how-does-it-benefit-you/).
+A term decides two things.
 
-## What a Longer Term Actually Buys: Rate Certainty
+First, it fixes your APY for the full length of the CD. If rates move after you fund it, your CD does not move. That is the point of the product, and it cuts both ways.
 
-A CD is a contract that fixes your rate for a stated period. That is the product. Everything else — insurance, compounding, the shiny APY on the landing page — you can get elsewhere.
+Second, it sets the date your money comes back without a penalty. Before that date, the deposit agreement governs. CDs generally charge an early-withdrawal penalty, stated in the disclosure and often quoted as a number of months of interest.
 
-So the honest way to frame the long term is not "more interest." It is **more months of a known rate**. A savings account can reprice any day; a five-year CD cannot. What makes the choice tractable is that the two possible mistakes are not symmetrical:
+What the term does not change is your insurance. FDIC standard coverage is $250,000 per depositor, per insured bank, per ownership category — the same for a three-month CD as for a five-year one. Credit union share certificates carry the same standard limit through the NCUA. Ownership categories (single, joint, certain retirement accounts, revocable trust) are insured separately from one another. FDIC trust-account rules were revised effective April 1, 2024, so if a trust holds the deposit, run it through the FDIC's EDIE estimator rather than any formula you remember.
 
-- Lock long and rates rise: you are stuck below market, but you have an exit. Break the CD, pay a stated penalty, and reinvest. The damage is capped and calculable.
-- Stay short and rates fall: every renewal reprices downward and there is no exit that helps. You cannot go back and buy last year's rate.
+One more distinction that matters when you compare quotes: APY includes the effect of compounding, a stated interest rate does not. Compare APY to APY.
 
-That asymmetry is the strongest structural argument for taking the longer term when the curve pays for it — not a forecast, just the observation that one error is reversible for a known price and the other is not.
+## The national average term curve
 
-| | Short term (3–12 months) | Long term (2–5 years) |
-|---|---|---|
-| What you buy | Optionality — you reprice soon | Certainty — the rate is fixed for years |
-| Reinvestment risk | High; every maturity is a new rate | Low until maturity |
-| Penalty exposure | Smaller (fewer days of interest at risk) | Larger, and stated in days of interest |
-| If rates rise | You catch up quickly | You can break it and pay to catch up |
-| If rates fall | Each renewal pays less | You keep the old, higher rate |
-| Fits | Known near-term expense, fuzzy timelines, testing a new bank | Money with a distant, firm date; ladder rungs |
+FDIC national averages, as of August 17, 2026:
 
-## Short Terms of 3 to 12 Months: Who They Fit
+| Term | National average APY |
+| --- | --- |
+| 1 month | 0.22% |
+| 3 months | 1.14% |
+| 6 months | 1.41% |
+| 12 months | 1.71% |
+| 24 months | 1.57% |
+| 36 months | 1.34% |
+| 48 months | 1.27% |
+| 60 months | 1.36% |
 
-Short CDs are for money that has a job soon and must not lose value in the meantime. A down payment 10 months out, a tax bill, a planned move. You are not really reaching for yield; you are refusing to gamble with a balance that has a deadline.
+For context, the savings national average is 0.38% and the money market average is 0.63%, both as of the same date.
 
-They also make sense when the deposit curve is flat — when a one-year quote is close to a five-year quote, the long term is asking for four extra years of commitment and offering almost nothing for it.
+Two features are worth reading off that table. The peak sits at 12 months, not at the far end. And only the one-month average, 0.22%, falls below the savings average of 0.38% — every term from three months out averages above both savings and money market.
 
-The cost is reinvestment risk. A one-year CD renewed five times is five separate rate decisions, and you control none of them. Savers who call short CDs "safer" usually mean "shorter penalty exposure," which is true — but the rate risk simply moved from the price to the renewal.
+A curve where shorter terms yield more than longer ones is called inverted. When the averages look like this, "lock it up longer for a better rate" no longer describes the average, and the case for a long term has to come from something other than yield.
 
-One practical warning: short promotional terms often renew into something ordinary. An 11-month special typically rolls into the bank's standard 12-month product at whatever that product pays on renewal day. Truth in Savings — [Regulation DD, 12 CFR Part 1030](https://www.consumerfinance.gov/rules-policy/regulations/1030/) — requires the renewal terms and the early withdrawal penalty to be disclosed before you open the account. That disclosure holds the answer, not the marketing page.
+## Break-even math for the shorter term
 
-## Long Terms of 2 to 5 Years: The Case for Locking, and Its Cost
+Here is the test that replaces a forecast. Put $10,000 to work for 24 months, two ways, using the national averages above.
 
-Long CDs earn their place when three things are true: the money has no claim on it for the full term, the curve pays a real premium for the extra years, and you have separate liquid savings so you will never be forced to break it.
+**Path A — one 24-month CD at 1.57% APY.**
+Year one: $10,000 × 1.0157 = $10,157.00.
+Year two: $10,157.00 × 1.0157 = $10,316.46.
+Interest over two years: $316.46.
 
-That third condition is the one people skip. A long CD funded with money that is quietly doubling as an emergency reserve is a penalty with a maturity date attached. Keep the reserve liquid and the CD money genuinely idle, and the long term stops being risky in any way that matters.
+**Path B — a 12-month CD at 1.71% APY, then a renewal for another 12 months.**
+Year one: $10,000 × 1.0171 = $10,171.00.
+Year two is the unknown. For Path B to tie Path A, the renewal has to turn $10,171.00 into $10,316.46. That works out to a renewal APY of about 1.43%: $10,171.00 × 1.0143 = $10,316.45, one cent short of Path A.
 
-The real cost of the long term is not the penalty schedule. It is that you have pre-committed your reinvestment decision for years — fine if you are paid for it, expensive if you are not. Which brings up the number nobody calculates.
+So the shorter term wins unless the renewal a year from now comes in below roughly 1.43% APY — 0.14 points under today's 24-month average and 0.28 points under today's 12-month average.
 
-## Price the Lock: What an Extra Year of Commitment Pays
+That figure is the whole decision, and you can recompute it for any pair of offers with two lines of multiplication. You are not predicting anything. You are naming the rate that would have to appear for the long lock to have been worth it, then deciding whether you would be comfortable if it did.
 
-Put every term you are considering on one line and compute the premium per additional year of commitment:
+Run the same test at the long end and it gets starker. The 60-month average of 1.36% sits 0.35 points below the 12-month average of 1.71%, so a five-year lock at the average starts you behind on yield and asks you to stay there for four more years. That can still be the right call if you have a date five years out and want the rate settled now. It is not a call the yield makes for you.
 
-**(longer-term APY − shorter-term APY) ÷ (extra years of lock)**
+## The cost of breaking early
 
-For example, suppose a bank quotes 4.00% APY at 12 months and 4.20% APY at 60 months. That is 0.20 percentage points for four additional years of commitment — 0.05 points per year. On $25,000 that premium is worth roughly $12.50 a year, in exchange for giving up any say over the money until 2031. Now suppose the 60-month quote were 4.80% instead. Same math gives 0.20 points per extra year, four times the compensation, and the lock starts to look like a purchase rather than a concession.
+The break-even above assumes you hold to maturity. Price the other case before you sign.
 
-Do this with quotes you collect yourself, and use the FDIC's [national rates and rate caps](https://www.fdic.gov/resources/bankers/national-rates/) publication as the baseline — it is issued monthly by product and term, which answers "is this offer good, or does it only look good next to my current bank?" Compare offers on the same term and the same dollar amount; the mechanics are in [how to compare CD rates across banks](/2026/06/10/how-to-effectively-compare-cd-rates-across-different-banks/).
+Take that same $10,000 in a 24-month CD at 1.57% APY, with a penalty of six months of interest, and suppose you need the cash at month 12. Using simple monthly proration — annual interest divided by twelve, no compounding inside the year, the convention used throughout this example:
 
-When the curve is flat or inverted — long terms paying the same or less than short ones — the market is telling you it will not pay for your commitment. Take the short term and reassess at maturity.
+- Interest earned in 12 months: $10,000 × 1.57% = $157.00
+- One month of interest: $157.00 ÷ 12 = $13.083333
+- Penalty of six months: $13.083333 × 6 = $78.50
+- Net interest kept: $157.00 − $78.50 = $78.50
 
-## Three Rate Paths After You Lock, in Dollars
+You keep $78.50 on $10,000, an effective 0.785% for the year.
 
-Assumptions, all hypothetical: $10,000, and two choices. Choice A is a single five-year CD at 4.00% APY. Choice B is a one-year CD renewed four times, starting at 3.60% APY. In the rising path each renewal is 0.50 points higher than the last; in the falling path each renewal is 0.50 points lower; in the flat path every renewal is 3.60%.
+Now compare it two ways. Money left in savings at the 0.38% national average would have earned $38.00, so the broken CD still came out $40.50 ahead. A 12-month CD at the 1.71% average would have paid $171.00, so the term mismatch cost you $92.50 against the CD you should have picked.
 
-| Rate path over five years | A: 5-year lock at 4.00% | B: rolling 1-year CDs | Who wins |
-|---|---|---|---|
-| Rising (3.60 → 5.60%) | $12,166.53 | $12,520.13 | Rolling, by $353.60 |
-| Flat (3.60% throughout) | $12,166.53 | $11,934.35 | Lock, by $232.18 |
-| Falling (3.60 → 1.60%) | $12,166.53 | $11,368.03 | Lock, by $798.50 |
+Run the same penalty at month six and the arithmetic turns ugly: six months of interest earned is $78.50, six months of penalty is $78.50, and you net $0.00. Some agreements take the shortfall out of principal when the penalty exceeds interest earned. Your disclosure states whether yours does.
 
-Two things fall out of that table. The lock does not need rates to fall in order to win — it wins in the flat case too, because it started higher. And the rolling strategy's win in the rising case is the smallest of the three gaps, while its loss in the falling case is the largest.
+## Maturity dates and spending dates
 
-The [fix it or float it calculator](/tools/cd-vs-savings-calculator/) will do this with your own figures.
+The rule that beats a forecast is a calendar rule.
 
-## If Rates Rise After You Lock: Your Three Real Options
+Write down the date you need the money. Not "sometime next year" — a date. Then pick a term that matures on or before it. A CD that matures two months after the tuition bill is due is the wrong CD no matter what it pays.
 
-Your existing CD keeps paying its contract rate. Nothing about it is "worth less" in the sense a bond would be — there is no market price on a bank CD, only the contract and the penalty. Your options:
+If you cannot name a date, the money probably needs to stay reachable, which is what savings and money market accounts are for: 0.38% and 0.63% national average respectively, lower yields with no maturity to work around. Regulation D's six-transfer limit was suspended in 2020, though many banks still set their own transfer limits, so check the account agreement before assuming unlimited access.
 
-**1. Do nothing.** Correct whenever the remaining term is short or the rate gap is thin.
+Between those two cases sits money with a soft date — a car sometime this year, a move maybe next spring. That is where a short term does its best work. It pays a real yield, and it hands the money back often enough that a slipping plan does not cost you a penalty.
 
-**2. Break it and reinvest.** Worth doing only when the math clears. Because the penalty is typically written as a number of days of interest, principal cancels out and you can solve for the break-even in years:
+## Ladders and split deposits
 
-**break-even years = (penalty days ÷ 365 × your current rate) ÷ (new rate − your current rate)**
+Splitting one deposit across several terms buys a maturity on a regular schedule instead of one date at the end.
 
-Suppose your CD pays 4.00% APY, the disclosure sets the penalty at 180 days of interest, and a comparable new CD pays 4.75%. Then (180 ÷ 365 × 0.04) ÷ 0.0075 = 0.0197 ÷ 0.0075 ≈ **2.6 years**. If more than about two years and eight months remain on your term, moving is worth the penalty; if less remains, it is not. On $10,000 the penalty in that example is roughly $197 and the rate advantage is about $75 a year, which is the same answer expressed in dollars.
+Put $10,000 into four equal $2,500 pieces at 3, 6, 12, and 24 months. At national averages that is 1.14%, 1.41%, 1.71%, and 1.57%. Because the pieces are the same size, the simple average is also the deposit-weighted average:
 
-Check your own disclosure for the penalty days and whether the penalty is charged on the contract rate or the current rate, then read [what breaking a CD early actually costs](/2026/05/25/what-happens-when-you-cash-out-a-cd-early/) before you call the bank.
+(1.14 + 1.41 + 1.71 + 1.57) ÷ 4 = 5.83 ÷ 4 = 1.4575%
 
-**3. Add new money at the new rate.** Often the best answer: direct your next deposits into today's terms and let the old CD run to maturity.
+Against putting the whole $10,000 in the 12-month at 1.71%, the ladder gives up 0.2525 percentage points of blended yield. What it buys is a maturity in three months, another in six, another in twelve — four decision points instead of one, each of which can roll into a longer term or come out as cash.
 
-## If Rates Fall After You Lock: The Case You Bought
+That trade is worth making when you are genuinely unsure of your own timeline. It is not worth making when you know the date, because then you are paying for flexibility you already have.
 
-This is the scenario the long term was purchased for, and it is quiet — nothing happens, which is the point. New CDs and savings accounts reprice down, your contract does not, and the gap between your rate and the market shows up as a growing advantage every month.
+## The short version
 
-Two housekeeping items still apply. Watch the maturity date: renewal happens at whatever the bank pays then, and the grace period stated in your disclosure is the only window in which you can move the money without a penalty. And do not treat a falling market as a reason to extend everything at once — that is a forecast again. Splitting money across maturities, which is what [CD laddering](/2026/07/09/what-you-need-to-know-about-laddering-certificates-of-deposit/) does, turns the term question into a schedule.
-
-## Term Picker: Match a Maturity to Your Cash-Need Date
-
-| When you need the money | How certain is the date | Reasonable structure |
-|---|---|---|
-| Within 3 months | Any | Savings or money market — no CD |
-| 3–12 months | Firm | CD maturing a few weeks before the date |
-| 3–12 months | Vague | No-penalty CD, or keep it liquid |
-| 1–3 years | Firm | Term at or just under the horizon |
-| 1–3 years | Vague | Split: half short, half at the horizon |
-| 3–5 years | Firm | Longer term if the premium per extra year justifies it |
-| No date (emergency reserve) | — | Not a CD; liquidity is the requirement |
-| Mixed dates across several goals | — | Ladder rather than a single term |
-
-Two rules make this table work. Buy the maturity *before* the need, never after — a term that ends two weeks late is a term you will break. And when the date is vague, split rather than guess.
-
-## Open Today or Wait? Write the Rule Before You Look at Rates
-
-"Should I wait for better rates" is unanswerable as a forecast and easy as a rule. Two pieces:
-
-**Price the wait.** Money sitting in savings while you deliberate earns the savings rate, not nothing. Suppose the CD pays 4.50% APY, your savings pays 3.50%, and the balance is $25,000. Waiting 30 days costs about $25,000 × 1.00% × 30 ÷ 365 ≈ $21. That tells you something useful: waiting a few weeks for a genuinely better offer is cheap; waiting six months on a hunch is not.
-
-**Split by date, not by opinion.** Fund half now and the rest on a date you set in advance — 30 or 60 days out — regardless of what rates did in between. You capture today's offer if rates fall and the new one if they rise, and you never have to be right.
-
-The [FOMC calendar](https://www.federalreserve.gov/monetarypolicy.htm) is public if you want to know when policy decisions are scheduled, but deposit pricing reflects each bank's own funding needs and competition as much as policy. Use the calendar for context, not as a signal.
-
-## Term Choices That Age Badly
-
-- **Auto-renewal into a longer term.** Many CDs renew into the same term at the current rate unless you act in the grace window. A CD you forgot about becomes another full term at a rate you never agreed to.
-- **The odd promotional maturity.** A 13-month or 11-month special usually renews into a standard term, not another special. Diary the maturity the day you open it.
-- **A long CD holding emergency money.** The account is not the problem; the funding source is. Move the reserve out before you lock.
-- **Stretching the term to reach a jumbo tier.** Committing money you actually need, to qualify for a higher tier, trades a small rate bump for a large liquidity problem.
-- **Ignoring taxes on a multi-year CD.** Interest is generally taxable in the year it is credited, so a five-year CD can generate a 1099-INT every year even though you touch nothing until maturity. See IRS [Topic no. 403, Interest received](https://www.irs.gov/taxtopics/tc403).
-
-## Questions Savers Ask About CD Terms
-
-**Is a long-term CD always higher-yielding than a short one?**
-No. The deposit curve can be flat or inverted, and short promotional terms sometimes out-pay multi-year ones. Collect quotes instead of assuming.
-
-**If rates rise, does my CD lose value?**
-Your balance does not fall. You keep earning the contract rate, and the loss is opportunity cost, not principal. It only becomes a real loss if you break the CD for a penalty larger than what you gain.
-
-**Can I add money to an existing CD if rates go up?**
-Usually not. Most CDs take a single deposit at opening; add-on CDs are the exception and say so in the disclosure. Directing new money into a new CD is the normal workaround.
-
-**Are long-term CDs still insured?**
-Term length has nothing to do with coverage. Bank deposits are insured by the [FDIC](https://www.fdic.gov/resources/deposit-insurance/) up to $250,000 per depositor, per insured bank, per ownership category, and credit union shares are covered by the NCUA under a parallel structure. Accrued interest counts toward the limit, which matters on multi-year CDs near the cap.
-
-## Before You Sign
-
-Write down the date you need the money. Collect quotes for at least three terms at the same dollar amount. Compute the premium per extra year of lock, and read the penalty in days of interest so you know your exit price in advance. Then put the maturity date and the last day of the grace period in your calendar before you fund the account. That sequence answers "short or long" without a guess about where rates are heading.
+- Name the date first. The term follows from the date, not from a rate view.
+- No date usually means it is not CD money.
+- Longer does not mean higher. As of August 17, 2026 the national average peaks at 12 months (1.71%) and falls to 1.27% at 48 months.
+- Before accepting a longer lock, compute the renewal rate that would make the shorter path lose. If that rate looks unremarkable, the long lock is not buying much.
+- Read the penalty line before funding, and check whether it can reach into principal.
