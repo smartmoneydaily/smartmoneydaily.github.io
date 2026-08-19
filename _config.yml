@@ -5,7 +5,9 @@ baseurl: ""
 permalink: /:year/:month/:day/:title/
 paginate: 12
 paginate_path: "/page/:num/"
-future: true
+# 미래 날짜 글은 그날이 오기 전까지 사이트에 내보내지 않는다 (2026-08-19).
+# 며칠치를 미리 써 두고 하루 한 편씩 공개하기 위한 설정 — deploy.yml 의 일일 cron 이 짝.
+future: false
 
 theme: minima
 

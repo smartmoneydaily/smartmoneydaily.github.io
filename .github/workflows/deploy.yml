@@ -4,6 +4,11 @@ on:
   push:
     branches: ["main"]
   workflow_dispatch:
+  # 미리 써 둔 글을 발행일에 실제로 공개시키기 위한 일일 빌드 (2026-08-19).
+  # _config.yml 의 future: false 와 한 쌍 — 미래 날짜 글은 빌드 전까지 사이트에 안 나오므로,
+  # push 가 없는 날에도 하루 한 번 빌드를 돌려 그날짜 글을 내보낸다. KST 09:20 (UTC 00:20).
+  schedule:
+    - cron: '20 0 * * *'
 
 permissions:
   contents: read
