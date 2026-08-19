@@ -5,10 +5,13 @@ on:
     branches: ["main"]
   workflow_dispatch:
   # 미리 써 둔 글을 발행일에 실제로 공개시키기 위한 일일 빌드 (2026-08-19).
-  # _config.yml 의 future: false 와 한 쌍 — 미래 날짜 글은 빌드 전까지 사이트에 안 나오므로,
-  # push 가 없는 날에도 하루 한 번 빌드를 돌려 그날짜 글을 내보낸다. KST 09:20 (UTC 00:20).
+  # _config.yml 의 future: false 와 한 쌍 — 미래 날짜 글은 빌드 시점 기준으로 아직
+  # 미래면 사이트에 안 나오므로, push 가 없는 날에도 빌드를 돌려 그날짜 글을 내보낸다.
+  # 글의 발행 시각은 UTC 09~12시대(KST 저녁)라, 빌드는 그 뒤여야 한다.
+  # UTC 13:10 = KST 22:10, UTC 16:10 = KST 익일 01:10 (앞 슬롯이 지연·실패했을 때의 예비).
   schedule:
-    - cron: '20 0 * * *'
+    - cron: '10 13 * * *'
+    - cron: '10 16 * * *'
 
 permissions:
   contents: read
