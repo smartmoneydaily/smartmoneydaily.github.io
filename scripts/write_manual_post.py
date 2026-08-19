@@ -63,22 +63,33 @@ def build_post(item, market_data, recent_posts, used_topics):
     tags = [category] + [t for t in tags if t != category]
     tags_str = ", ".join(dict.fromkeys(tags))
 
-    # 발행 시각: 저녁 시간대(KST 18~22시 = UTC 09~13시) 안에서 분산
-    rng = random.Random(date_str)
-    hh, mm, ss = rng.randint(9, 12), rng.randint(0, 59), rng.randint(0, 59)
-    stamp = f"{date_str} {hh:02d}:{mm:02d}:{ss:02d}"
+    # 발행 시각: 기존 글을 덮어쓰는 경우 원래 시각을 그대로 유지(발행 이력 보존).
+    # 새 글은 저녁 시간대(KST 18~22시 = UTC 09~13시) 안에서 분산.
+    if item.get("date_stamp"):
+        stamp = item["date_stamp"]
+    else:
+        rng = random.Random(date_str)
+        hh, mm, ss = rng.randint(9, 12), rng.randint(0, 59), rng.randint(0, 59)
+        stamp = f"{date_str} {hh:02d}:{mm:02d}:{ss:02d}"
 
     posts_dir = os.path.join(get_repo_root(), "_posts")
     os.makedirs(posts_dir, exist_ok=True)
-    filename = f"{date_str}-{slug}.md"
-    filepath = os.path.join(posts_dir, filename)
-    suffix = 2
-    while os.path.exists(filepath):
-        filename = f"{date_str}-{slug}-{suffix}.md"
+    # overwrite: 기존 글의 본문만 교체한다 (URL·색인 보존 — 쿠마님 2026-08-19 지시).
+    if item.get("overwrite") and item.get("file"):
+        filename = item["file"]
         filepath = os.path.join(posts_dir, filename)
-        suffix += 1
-        if suffix > 99:
-            break
+        if not os.path.exists(filepath):
+            raise FileNotFoundError(f"덮어쓸 원본이 없다: {filename}")
+    else:
+        filename = f"{date_str}-{slug}.md"
+        filepath = os.path.join(posts_dir, filename)
+        suffix = 2
+        while os.path.exists(filepath):
+            filename = f"{date_str}-{slug}-{suffix}.md"
+            filepath = os.path.join(posts_dir, filename)
+            suffix += 1
+            if suffix > 99:
+                break
 
     description = item["description"].strip().replace('"', "'")
     frontmatter = f"""---

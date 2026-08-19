@@ -9,3 +9,7 @@ __pycache__/
 .env
 manual_context.json
 fix_inputs_smd.json
+rewrite_targets.json
+rewrite_apply.json
+rewrite_fix.json
+manual_context.json
