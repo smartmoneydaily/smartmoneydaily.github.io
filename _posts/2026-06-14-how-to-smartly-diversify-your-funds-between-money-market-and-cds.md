@@ -3,7 +3,7 @@ layout: post
 title: "How to Split Cash Across Savings, Money Market, and CDs"
 date: 2026-06-14 12:46:45 +0000
 categories: [savings]
-description: "A dollar-by-dollar method for dividing your cash into a spending buffer, an emergency reserve, and dated goal money, with two worked plans you can copy."
+description: "A dollar-by-dollar method for splitting cash into a buffer, a reserve, and dated money, with two worked plans priced at August 2026 national averages."
 tags: [savings-strategy, cash-allocation, money-market, 2026]
 redirect_from:
   - /2026/06/14/how-to-effectively-use-cds-and-money-market-accounts-together/
@@ -14,138 +14,98 @@ redirect_from:
 
 ![Cash divided into three labeled buckets feeding a savings account, a money market account, and a row of CD rungs](/assets/pin-images/2026-06-14-how-to-smartly-diversify-your-funds-between-money-market-and-cds.png)
 
-> **Short answer:** Split your cash by *when you will need it*, not by which account advertises the highest rate. Money you might spend within 30 days stays in checking or high-yield savings. The emergency reserve belongs somewhere you can reach in a day or two without a penalty. Only money with a known date more than a year out belongs in CDs. Set the dollar amounts first; pick the institutions second.
 
-Most comparison articles stop at "CDs pay more but lock your money up." That is true and useless, because it does not tell you how many dollars go where. This is the layout instead: three buckets, a rule for sizing each one, an account type that fits each rule, and two finished plans you can copy.
+Cash does three different jobs, and no single account does all three well. Some of it pays this month's bills. Some of it sits there to absorb a surprise. Some of it has a date attached — an estimated tax payment, a down payment, a tuition installment. Split the money by job rather than by product and the allocation stops being a guess.
 
-## Why One Account Cannot Do Three Jobs
+Below is a dollar-by-dollar method: how to size each bucket, which account type fits each job and why, and two complete worked plans — $30,000 and $120,000 — priced at the FDIC's national average rates as of August 17, 2026. Every number is arithmetic you can redo on paper.
 
-Your cash is doing three separate jobs at once, and they conflict.
+Two things this post will not do. It will not name a bank or a product, and it will not guess where rates go next. Both would be noise layered on top of a decision that is really about dates.
 
-The first job is paying this month's bills. That money has to move on demand, several times a month, with no waiting period. The second job is absorbing a surprise — a car repair, a deductible, a gap between paychecks. That money can wait a day or two but must never carry a withdrawal penalty. The third job is funding something you have already decided on with a date attached: a down payment, tuition, a replacement roof. That money will not be touched before its date, so tying it up costs you nothing.
+## Three jobs your cash has to do
 
-An account tuned for job one is tuned wrong for job three. A five-year CD is a fine home for a dated goal and a terrible home for a deductible. A checking account paying nothing is fine for one month of bills and expensive as a place to park $40,000. The mistake is rarely picking the wrong product; it is asking one product to cover all three jobs.
+**The buffer** covers scheduled spending between paychecks, plus enough cushion that you are not refreshing the balance before a card payment clears. It gets touched constantly, so instant access is the only feature that matters. Yield is nearly irrelevant here, and the arithmetic further down shows how nearly.
 
-## The Three Buckets
+**The reserve** is what you reach for when income stops or something expensive breaks. You need it quickly, but not within the hour. Same-day or next-day transfer is enough.
 
-| Bucket | Job it does | Time horizon | Penalty tolerance | Usual home |
-|---|---|---|---|---|
-| Spending buffer | Bills, subscriptions, day-to-day | 0–30 days | None | Checking, or a money market account with checks and a card |
-| Emergency reserve | Unplanned, unbudgeted costs | Same day to ~3 days | None | High-yield savings or money market account |
-| Goal money | A purchase with a date | 12 months to 5 years | Some, if the rate pays for it | CD ladder, plus short-term Treasuries for larger balances |
+**Dated money** is cash with a known spend date at least a few months out. This is the only bucket where locking funds up is a reasonable trade, because you already know when you need them back.
 
-The buckets are ordered. You fill the buffer, then the reserve, then the goal bucket. A dollar never skips a step — that is the whole discipline. Almost every "I had to break a CD early" story is a goal-bucket dollar that was really a reserve-bucket dollar.
+Sizing is straightforward. The buffer is one month of the spending that actually runs through your checking account, rounded up. The reserve is however many months of essential expenses you want covered — that number is yours, and it moves with how variable your income is and how many people depend on it. Dated money sizes itself: the amount of the bill, minus whatever you have already set aside for it.
 
-## Sizing Each Bucket From Your Cash Flow
+## Access rules, product by product
 
-Three numbers set the entire allocation: your monthly essential outflow, your emergency-fund target in months, and your total cash on hand.
+- **Checking.** Unlimited access and the lowest yield of the group. Interest checking averaged 0.07% APY on August 17, 2026.
+- **Savings and money market deposit accounts.** Both are deposit accounts, both insured, both liquid. The practical difference is written in your account disclosure: whether the account comes with checks or a debit card, and what transfer limits apply. Regulation D's six-transfer limit was suspended in 2020, and many banks still set their own limits — yours is in the disclosure, not in the regulation.
+- **CDs.** You agree to leave the money for a fixed term. Withdraw early and you pay a penalty stated in the disclosure, often quoted as a number of months of interest.
 
-**Buffer = one month of essential outflows, plus any balance you must hold to avoid a monthly fee.** Essentials means housing, utilities, food, transportation, insurance, minimum debt payments, childcare, and prescriptions — the list that does not shrink when your income does. If a money market account waives its maintenance fee above a stated balance, that balance becomes your floor, because paying a fee to earn interest is a losing trade.
+One vocabulary note that changes comparisons: a stated interest rate is what the bank pays before compounding, while the APY already includes the effect of compounding. APY is the number to compare across banks.
 
-**Reserve = monthly essentials × your target months.** Three to six months is a starting range, not an answer; a single-income household with variable pay and a high insurance deductible needs more months than a dual-income household with stable salaries. Work through the multipliers in [How Big Should Your Emergency Fund Be?](/2026/05/09/emergency-fund-basics-how-much-should-you-really-save/) before you commit a number here.
+All three product types sit inside the same coverage: $250,000 per depositor, per insured bank, per ownership category, with the NCUA insuring credit union share accounts at the same standard limit. Holding three different products at one bank does not create three limits. They share one.
 
-**Goal bucket = total cash − buffer − reserve, but only the part with a date.** If what is left over has no date attached, it is not goal money. It is either an over-large reserve or money that belongs in a long-term investment account, which is a different decision entirely.
+## National averages as a baseline
 
-## Matching Each Bucket to an Account Type
+| Product | FDIC national average APY, August 17, 2026 |
+|---|---|
+| Interest checking | 0.07% |
+| Savings | 0.38% |
+| Money market | 0.63% |
+| 3-month CD | 1.14% |
+| 6-month CD | 1.41% |
+| 12-month CD | 1.71% |
+| 24-month CD | 1.57% |
+| 60-month CD | 1.36% |
 
-| Account type | How fast you get cash | Rate behavior | Deposit insurance | Best bucket |
-|---|---|---|---|---|
-| Checking | Immediate, card and ATM | Usually none or minimal | FDIC or NCUA at an insured institution | Buffer |
-| High-yield savings | Internal transfer fast; external ACH takes business days | Variable, can change any day | FDIC or NCUA at an insured institution | Reserve |
-| Money market account | Checks, card, ATM at many banks | Variable, often tiered by balance | FDIC or NCUA at an insured institution | Buffer or reserve |
-| CD | At maturity; earlier withdrawal triggers a penalty | Fixed for the term | FDIC or NCUA at an insured institution | Goal |
-| Money market fund | Sells at a trade date, then settles | Floats with short-term markets | Not deposit insured | Goal, at a brokerage |
-| Treasury bills | At maturity, or sold on the secondary market | Fixed to maturity | Backed by the U.S. government, not FDIC | Goal, larger balances |
+These are national averages across insured institutions on one date. They are not offers, and no bank is obliged to pay them. Use them the way the plans below do — as a neutral yardstick for pricing the cost of leaving money in the wrong bucket.
 
-Two lines in that table cause most of the trouble. First, an external ACH transfer between banks is generally not same-day; your transfer disclosure states the cutoff times and posting schedule, and that document, not the app's marketing page, governs when the money lands. Second, a money market *account* is a deposit and a money market *fund* is a security held at a brokerage. Only one carries deposit insurance, which is why the fund never belongs in the reserve bucket.
+One feature of that table shapes both plans: on that date the 12-month average (1.71%) sat above the 24-month (1.57%) and the 60-month (1.36%). That is the shape on a single day, and it is not a forecast. Deposit pricing responds to two forces: the Federal Reserve's policy rate and competition among institutions for deposit funding. Neither one tells you what your bank will pay next month. Your account agreement states how and when it can change the rate.
 
-## Adding a CD Ladder to the Goal Bucket
+## Plan A: $30,000 with a bill due in a year
 
-Once the goal bucket has real money in it, a single CD is rarely the best shape. A ladder splits the bucket into rungs that mature on a staggered schedule, so a portion becomes available every few months without anyone paying a penalty.
+A household with $30,000 in cash and an estimated tax payment of about $10,000 due in twelve months.
 
-The mechanics are simple. Divide the goal bucket into equal rungs, buy one at each term from the shortest to the longest you will accept, and when a rung matures, either spend it or roll it into a new long rung. You always have a maturity date coming up inside a year.
+- Buffer, interest checking: **$3,000** → 3,000 × 0.0007 = **$2.10** a year
+- Reserve, money market: **$17,000** → 17,000 × 0.0063 = **$107.10** a year
+- Dated, 12-month CD maturing before the bill: **$10,000** → 10,000 × 0.0171 = **$171.00** a year
 
-If you want to run this on your own balance, the [cd ladder builder](/tools/cd-ladder-calculator/) does the arithmetic.
+Principal check: 3,000 + 17,000 = 20,000, and 20,000 + 10,000 = 30,000.
 
-A ladder is not automatically better than one term. When the deposit curve is flat or inverted — shorter terms quoted at or above longer terms — the long rungs pay you nothing extra for the extra lock-up, and a series of short CDs or even the savings account can win. Compare the actual quotes for each term before you commit to the shape; the trade-offs are worked through in [CD laddering](/2026/07/09/what-you-need-to-know-about-laddering-certificates-of-deposit/).
+Interest check: 2.10 + 107.10 = 109.20, and 109.20 + 171.00 = **$280.20** for the year.
 
-## Where Money Market Funds and Treasuries Fit
+Leave all $30,000 in interest checking instead and it earns 30,000 × 0.0007 = $21.00, so the split is worth 280.20 − 21.00 = $259.20 more. Leave it all in a savings account and it earns 30,000 × 0.0038 = $114.00, so the split is worth 280.20 − 114.00 = $166.20 more. Same money, same access to the buffer, different labels on the buckets.
 
-Above roughly six figures of goal money, deposits stop being the only sensible container.
+## Plan B: $120,000 with a two-year goal
 
-Money market funds hold short-term debt and pay a yield that moves with the market rather than with a bank's pricing committee. They are not deposits, they carry no FDIC coverage, and the prospectus governs how and when you get paid, including any liquidity fee or redemption provisions. They can be a reasonable home for goal money at a brokerage where you already hold cash. What they are not is an emergency account. The full comparison, including how a fund's expense ratio eats into the quoted yield, is in [money market funds and where risk hides](/2026/06/25/a-comprehensive-guide-to-finding-the-right-money-market-fund/).
+Same household later, now holding $120,000, with a $20,000 expense in a year and a $60,000 down payment about two years out.
 
-Treasury bills, notes, and I bonds are obligations of the federal government rather than insured bank deposits — a different form of protection, not a weaker one. Their interest is also exempt from state and local income tax, which matters more the higher your state rate. Terms, purchase limits, and redemption rules are published at [TreasuryDirect](https://www.treasurydirect.gov/).
+- Buffer, interest checking: **$6,000** → 6,000 × 0.0007 = **$4.20**
+- Reserve, money market: **$34,000** → 34,000 × 0.0063 = **$214.20**
+- 12-month CD: **$20,000** → 20,000 × 0.0171 = **$342.00**
+- 24-month CD: **$60,000** → 60,000 × 0.0157 = **$942.00** in the first year
 
-## Keeping Every Bucket Inside Coverage Limits
+Principal check: 6,000 + 34,000 = 40,000, then 40,000 + 20,000 = 60,000, then 60,000 + 60,000 = 120,000.
 
-Allocation and insurance are the same conversation once your cash gets large. The FDIC insures deposits up to $250,000 per depositor, per insured bank, per ownership category; the [NCUA](https://ncua.gov/consumers/share-insurance-coverage) provides equivalent share insurance at federally insured credit unions. Balances across your savings, money market account, and CDs at one bank are added together inside an ownership category — they are not separately insured because they are different products.
+First-year interest: 4.20 + 214.20 = 218.40, then 218.40 + 342.00 = 560.40, then 560.40 + 942.00 = **$1,502.40**.
 
-Two practical consequences. First, confirm the institution is actually insured, and confirm which charter holds your money, using [FDIC BankFind](https://www.fdic.gov/resources/deposit-insurance). Brands that look independent sometimes sit on a shared charter, and shared charter means shared limit. Second, if a plan pushes any single charter past the cap, the split across institutions is not optional — it is part of the design. [How to insure more than $250,000](/2026/06/12/how-to-ensure-your-funds-are-fully-covered-by-fdic-insurance/) walks through the routes.
+All $120,000 in a savings account at the average would earn 120,000 × 0.0038 = $456.00, so the split is worth 1,502.40 − 456.00 = $1,046.40 in year one.
 
-## Two Worked Plans
+The 24-month rung compounds. Held the full term at the same APY, 60,000 × 1.0157 × 1.0157 = $61,898.79 — $942.00 in year one and $956.79 in year two, $1,898.79 in total. Note also that $120,000 at one insured bank is comfortably under the $250,000 cap in a single ownership category, so this plan does not need a second institution for coverage reasons.
 
-To make the arithmetic visible, these plans assume savings pays 4.00%, the money market account pays 3.75%, and 1-, 2-, and 3-year CDs pay 4.20%, 4.10%, and 4.00%. Those are placeholders, not quotes. Substitute the rates you are actually offered, and check them against the national deposit rate averages the FDIC publishes monthly so you know whether an offer is above or below the middle of the market.
+## The cost of breaking a CD early
 
-**Plan A — $15,000 total, essentials of $3,000/month, three-month target, one dated goal 12 months out.**
+Use Plan B's 24-month CD: $60,000 at 1.57% APY, first-year interest of $942.00. Suppose the disclosure sets the penalty at six months of interest. All figures below use simple monthly proration — annual interest divided by twelve, multiplied by the months — which is close enough for sizing and easy to check. Your disclosure states the exact method.
 
-| Bucket | Amount | Home | Assumed rate | First-year interest |
-|---|---|---|---|---|
-| Buffer | $2,500 | Checking | 0.00% | $0 |
-| Reserve | $9,000 | High-yield savings | 4.00% | $360 |
-| Goal | $3,500 | 1-year CD | 4.20% | $147 |
-| **Total** | **$15,000** | — | — | **$507** |
+- Six months of interest: 942.00 ÷ 2 = **$471.00**. That is the penalty, whenever you break it.
+- Break it at month 20, having earned 942.00 × 20 ÷ 12 = $1,570.00. You keep 1,570.00 − 471.00 = **$1,099.00**.
+- Break it at month 3, having earned 942.00 × 3 ÷ 12 = $235.50. The penalty is still $471.00, which exceeds what the CD earned by 471.00 − 235.50 = **$235.50**.
 
-Blended return on the whole $15,000 is $507 ÷ $15,000, or about 3.38%. Note where the drag comes from: the $2,500 buffer earning nothing costs about $100 a year against the savings rate. That is the price of instant access, and at this balance it is a fair price. At $25,000 sitting in the same checking account, it would not be.
+That last line is the whole argument for putting only dated money into a term. Check whether your disclosure allows the penalty to reduce principal, and note that under this disclosure the penalty is set by the term you chose, not by how long you actually held it.
 
-**Plan B — $150,000 total, essentials of $6,000/month, six-month target, a down payment about three years out.**
+## Your sizing checklist
 
-| Bucket | Amount | Home | Assumed rate | First-year interest |
-|---|---|---|---|---|
-| Buffer | $6,000 | Checking | 0.00% | $0 |
-| Reserve | $36,000 | High-yield savings | 4.00% | $1,440 |
-| Near-term goal | $24,000 | Money market account with checks | 3.75% | $900 |
-| Goal rung 1 | $28,000 | 1-year CD | 4.20% | $1,176 |
-| Goal rung 2 | $28,000 | 2-year CD | 4.10% | $1,148 |
-| Goal rung 3 | $28,000 | 3-year CD | 4.00% | $1,120 |
-| **Total** | **$150,000** | — | — | **$5,784** |
+1. Add up one month of spending that clears your checking account. That is the buffer, rounded up.
+2. Decide the number of months of essential expenses your reserve should cover, and multiply. That figure goes in savings or a money market account.
+3. List every known bill with a date more than three months out, with its amount.
+4. Match a CD term to each date so the CD matures before the bill, never after.
+5. Leave everything that did not fit those three jobs in the reserve. Unlabeled cash belongs in the liquid bucket.
+6. Check the total at any one bank against $250,000 per ownership category before you open anything new.
 
-Blended return is about 3.86%. The whole $150,000 fits inside one insured bank in a single ownership category, so no split is required yet — but a plan that starts at $240,000 crosses the cap within a year on accrued interest alone, without anyone depositing another dollar. The money market account here is not chasing yield; it holds the slice of goal money that might be needed on short notice for an inspection or a deposit. And the last rung matures at the three-year mark, which is the reason for choosing that term over five years.
-
-## Rebalancing and the Maturity Calendar
-
-An allocation drifts. Interest accumulates, essentials rise, CDs mature, and a plan that was correct in June is stale by December if nobody looks at it.
-
-Put two recurring items on a calendar. The first is a quarterly review that takes about ten minutes: recompute one month of essentials, compare the reserve to its target, move any excess to the goal bucket, and confirm no single insured institution has crept above the coverage cap.
-
-The second is a maturity list. For every CD, write down the maturity date, the grace period length stated in your disclosure, and what you intend to do with the money. Auto-renewal is the default at most banks, and a renewed CD locks in whatever rate is posted that week for another full term. The grace period is the only window where you can take the money out without a penalty; miss it and the decision has been made for you. Deposit account terms and the disclosures banks must give you are set out under Truth in Savings, 12 CFR Part 1030, and the [Consumer Financial Protection Bureau](https://www.consumerfinance.gov/) publishes plain-language explanations of what those documents must tell you.
-
-## Allocation Mistakes That Cost Real Money
-
-**Over-locking.** Putting reserve dollars into CDs because the rate is better, then breaking one at the first surprise. The penalty is charged in days of interest and can reach into principal if the CD has not earned enough yet. If a dollar has no date, it does not go into a CD.
-
-**Idle balances.** The quieter opposite error: a checking account holding four months of essentials because it always has. Nothing bad ever happens, which is why it persists for years.
-
-**Rate chasing with the wrong bucket.** Moving the reserve to a new bank every time a promotional rate appears means the emergency money is periodically in transit, which is exactly when you cannot use it. Chase rates with the goal bucket, where a few days of settlement time is irrelevant.
-
-**Ignoring the tax line.** Interest from savings, money market accounts, and CDs is ordinary income reported on Form 1099-INT, and CD interest is generally taxable in the year it is credited even if the CD has not matured. Confirm current treatment with the IRS or a tax professional before you rely on a plan's after-tax result.
-
-**Forgetting the fee schedule.** A monthly maintenance fee on a money market account can wipe out the yield advantage that made you open it. Compare the fee against the interest the balance actually earns, not against the advertised rate.
-
-## Splitting Cash: What People Ask Before They Commit
-
-**Should I open all these accounts at one bank or spread them out?**
-One bank is simpler to manage and keeps transfers internal and fast. Spread out when a single insured institution would hold more than the coverage limit for your ownership category, or when a materially better rate is available elsewhere for the goal bucket specifically.
-
-**What if my emergency fund is not full yet?**
-Then there is no goal bucket. Fill the buffer, then direct everything to the reserve. Opening a CD before the reserve is funded is the most common way people end up paying an early withdrawal penalty.
-
-**How often do the variable rates change?**
-Savings and money market rates are variable by contract and the bank can reprice them on any day, without waiting for a policy move. Rates on new CDs also change frequently, though an open CD keeps its rate for the term. Background on what drives the changes is at the [Federal Reserve](https://www.federalreserve.gov/monetarypolicy.htm).
-
-**What do I do when a CD matures and I still need the money later?**
-Decide during the grace period, not after. Either move it to the reserve, or roll it into a new rung at whatever term matches the remaining time to your goal date. Letting it auto-renew into the bank's default term is how a three-year goal ends up funded by a five-year CD.
-
-## Start Here
-
-Write down three numbers: one month of essentials, your reserve target, and your total cash. Subtract in that order. Whatever is left has to justify itself with a date before it goes into a CD. That sequence takes fifteen minutes with a statement and a calculator, and it prevents most of the expensive mistakes above.
+The split does not require you to be right about interest rates. It requires you to be honest about when you need each dollar back.
