@@ -3,7 +3,7 @@ layout: post
 title: "Why Money Market Rates Move and How Fast Yours Follows"
 date: 2026-06-07 14:50:14 +0000
 categories: [savings]
-description: "Money market APYs are variable by contract, so your bank can reprice without telling you. Here is how to back out the rate you actually earned and decide."
+description: "Back out the APY your money market account actually paid last month from one statement, compare it to the FDIC national average, and decide whether to move."
 tags: [interest-rates, money-market, 2026]
 redirect_from:
   - /2026/07/06/how-to-understand-interest-rates-in-money-market-accounts/
@@ -12,154 +12,108 @@ redirect_from:
 
 ![Statement lines showing monthly interest credited on a money market account, used to back out the effective rate](/assets/pin-images/2026-06-07-how-changing-interest-rates-affect-your-money-market-account-returns.png)
 
-> **What to do:** Treat the APY on a money market account as a price your bank can change any day without notifying you. Once a quarter, back the rate you actually earned out of your own statement, compare it to the national average the FDIC publishes, and decide whether the gap is worth moving money over.
 
-A money market account rate is variable by design. Three forces push on it — the policy rate, how badly the bank needs deposits, and what competing banks are paying — but none of them obligate your bank to change your rate on any particular day, or at all. That is why savers get surprised: the headline moves, their interest line does not, and nothing arrives in the mail to explain it. The fix is not to follow the news more closely. It is to measure the rate your own account is paying and compare it to a published baseline.
+A money market account pays a variable APY. That one word in the deposit agreement carries most of the meaning: the rate you opened at is not a rate you are owed, and it can move while your balance sits perfectly still.
 
-## The Three Forces That Set a Money Market Rate
+This post does two things. First, it shows how to recover the rate you actually earned last period from a statement, using only the interest credited and the balance that earned it. That matters because the APY on a bank's rate page is today's number, not the one that produced last month's payment. Second, it gives you a reference point to judge that figure against, and a short list of things to verify before deciding that moving money is worth the afternoon.
 
-**Policy rates set the floor for the bank's alternatives.** When the [Federal Reserve](https://www.federalreserve.gov/monetarypolicy.htm) moves the federal funds target, it changes what a bank earns on overnight balances and short-term government paper. It also changes what your money could earn elsewhere — Treasury bills, government money market funds — which is the competitive pressure that eventually reaches deposit pricing.
+There are no forecasts here. Where deposit rates go next is not something I know.
 
-**The bank's own funding need decides whether it bothers.** A bank with more deposits than it can lend out has no reason to bid for yours. A bank growing its loan book, or losing balances to competitors, has every reason. This is why two institutions can quote very different money market rates in the same week under identical policy conditions. Neither one is wrong; they need your money by different amounts.
+## Variable rate, in plain terms
 
-**Channel and overhead set the ceiling.** An institution running branches, tellers, and regional offices carries costs that a deposit-only online operation does not. That difference shows up in what each can afford to pay. It also shows up in speed: a bank that competes primarily on rate tends to keep its rate sheet current, while one competing on branches and relationships has less reason to.
+A fixed rate is a promise attached to a defined term. A CD is the familiar example: you agree to leave the money for a stated period, the APY is locked for that period, and early access triggers a penalty spelled out in the disclosure, often quoted as a number of months of interest.
 
-The practical takeaway is that a money market rate is a pricing decision made inside these constraints, not the output of a formula. Do not assume a published policy change flows through to your account by any fixed amount or on any fixed schedule. Verify it.
+A money market account makes no such promise. The rate is variable, which means the bank sets it and the bank can change it. Your deposit agreement and Truth in Savings disclosure govern this. They state how the rate is determined, when interest compounds and is credited, and how you will be notified of a change. If you have never opened yours, it is the highest-value document in this whole exercise. Look for it in online banking under account documents or disclosures, or ask the bank to send a copy.
 
-## Variable by Design: The Clause That Lets a Bank Reprice
+One distinction to keep straight: APY includes the effect of compounding across a year, while a stated interest rate does not. Compare APY to APY or you are comparing different things.
 
-Deposit accounts in the United States are governed by the Truth in Savings Act and its implementing rule, [Regulation DD, 12 CFR Part 1030](https://www.consumerfinance.gov/rules-policy/regulations/1030/). Two provisions matter here.
+## The mechanics behind a rate move
 
-First, for a variable-rate account, the account disclosure has to tell you that the rate may change, how the rate is determined, how often it may change, and any limits on the change. That is where you learn whether the bank is following an index or simply setting the rate at its discretion — and in most retail money market accounts, it is discretion.
+Deposit rates do not come off a single dial. Two forces are worth understanding, and neither of them lets you predict anything.
 
-Second, the advance-notice requirement that applies to changes in account terms does not apply to interest rate changes on a variable-rate account. A bank that must give you 30 days' notice before adding a monthly fee owes you no notice at all before dropping your APY. The change shows up in the interest line of your next statement, and nowhere else.
+The first is Federal Reserve policy. The Fed sets a target range for the federal funds rate, the rate at which banks lend reserves to one another overnight, and that target influences short-term rates across the money markets. It does not set your APY. No federal agency tells your bank what to pay on a money market account.
 
-Before you fund an account, find these items in the disclosure and write down the answers:
+The second is competition for deposits. Deposits fund lending, and an institution that wants more of them can offer more for them. That is a mechanism, not a schedule. What binds your particular account is the rate section of your own agreement, which states the conditions under which the APY may change and whether it is tied to any published benchmark. Read that section and find out what yours says.
 
-- Is the rate variable or fixed for a stated period?
-- Is it tied to an index, or set at the institution's discretion?
-- How often may it change, and is there a floor or cap?
-- What are the balance tiers, and which rate applies at which balance?
-- Which balance computation method is used to accrue interest?
+The practical consequence is simple. The only reliable way to know what your account pays is to look it up, and the only reliable way to know what it paid is to do arithmetic on a statement.
 
-If you want the mechanics of the account type itself rather than its pricing, start with [what a money market account is and how it works](/2026/06/02/what-is-a-money-market-account-and-how-does-it-work/).
+## Your earned rate, backed out of a statement
 
-## Which Tier Moves First
+You need two numbers from one statement: the interest credited, and the balance that earned it. If your balance moved during the period, you need the average daily balance instead. If your statement prints one, use it. If it does not, ask the bank for the figure rather than guessing, because a balance that swung during the month will throw the result off in whichever direction it swung.
 
-Most money market accounts price by balance tier, and a repricing does not have to hit every tier equally. A bank protecting a headline number can leave the entry tier alone and take the cut out of the tiers where the balances actually sit.
+The formula:
 
-Here is an assumed example — these are illustrative figures, not quoted offers — of what an uneven repricing looks like:
+**annualized rate = (interest credited / balance) x (365 / days in the period)**
 
-| Balance tier (assumed example) | Rate before | Rate after | Change |
-|---|---|---|---|
-| Under $10,000 | 1.00% | 1.00% | none |
-| $10,000 – $49,999 | 2.50% | 2.20% | −30 bp |
-| $50,000 and above | 2.75% | 2.30% | −45 bp |
+Say the balance held steady at $20,000.
 
-A saver watching the advertised entry rate would conclude nothing changed. A saver with $60,000 in the account lost the most and was told the least. Tier structures also create a second problem: a withdrawal that drops you below a boundary can cut your rate on the entire balance, not just the portion below the line. Tier tables and blended-rate math belong to the selection stage, covered in [how to choose a money market account](/2026/06/28/a-complete-guide-to-choosing-a-money-market-account/).
+Period A, 31 days, interest credited $10.70:
 
-## Promotional APYs and the Day the Window Closes
+- 10.70 / 20,000 = 0.000535
+- 365 / 31 = 11.774194
+- 0.000535 x 11.774194 = 0.006299, or **0.63%**
 
-Introductory rates are a repricing you agree to in advance. Suppose an account advertises 4.00% for the first three months, then reverts to a standard tier rate of 2.00%. Weighted over the first twelve months, that is:
+Period B, 30 days, interest credited $6.58:
 
-(4.00% × 3 months + 2.00% × 9 months) ÷ 12 = **2.50% blended**
+- 6.58 / 20,000 = 0.000329
+- 365 / 30 = 12.166667
+- 0.000329 x 12.166667 = 0.004003, or **0.40%**
 
-An account paying a flat 2.60% for the whole year beats it, despite a much smaller headline. Two other conditions usually attach to promotions: the rate applies only to new money that was not already at the institution, and the promotional balance may be capped, with anything above the cap earning the standard rate. Put the reversion date on your calendar the day you open the account, because the bank is not required to remind you.
+Same balance, same account, a repricing somewhere in between. This is simple proration: it annualizes one period's interest without compounding it, so the result reads a shade below the quoted APY. At these rate levels that shade is under one hundredth of a percentage point, which vanishes once you round to two decimals.
 
-## How to Spot a Silent Rate Cut on Your Own Statement
+Now the size of the change. On $20,000 held a full year with no additions or withdrawals:
 
-You do not need the bank's rate sheet to know what you are being paid. Your statement already contains the answer: interest credited, the average daily balance, and the number of days in the period.
+- at 0.63% APY: 20,000 x 0.0063 = **$126.00**
+- at 0.40% APY: 20,000 x 0.0040 = **$80.00**
+- annual difference: 126.00 - 80.00 = **$46.00**
 
-**Effective annual rate = (interest credited ÷ average daily balance) × (365 ÷ days in the period)**
+Balance times APY is the right one-year figure for a static balance, because APY already carries a year of compounding inside it.
 
-Work through an assumed example. Your average daily balance is $25,000 in both months, and the statements show:
+Forty-six dollars is a real number, and it is also small enough that you are entitled to look at it and decide the paperwork is not worth it. Naming the figure is the point. The decision stays yours.
 
-| Statement period | Days | Interest credited | Effective annual rate |
-|---|---|---|---|
-| Month A | 31 | $52.02 | (52.02 ÷ 25,000) × (365 ÷ 31) = **2.45%** |
-| Month B | 30 | $44.59 | (44.59 ÷ 25,000) × (365 ÷ 30) = **2.17%** |
+## The national average as a yardstick
 
-That is a 28 basis point cut that arrived without an announcement. On a $25,000 balance it costs $70 over a full year. Three cautions on the arithmetic:
+The FDIC publishes national deposit rate averages across insured institutions. They are not offers, not promotional figures, and not the best rate available anywhere. Their use is as a reference line: far below it is worth a phone call, above it tells you where you stand.
 
-- Use the **average daily balance**, not the closing balance. A large deposit late in the month makes the closing balance flatter the result badly.
-- The formula returns a nominal annual rate. The APY is a few basis points higher because of compounding, so compare it to a quoted APY with that small gap in mind. The relationship between the two is spelled out in [APY, compounding, and what your savings will really earn](/2026/07/04/understanding-apy-what-it-means-for-your-savings-strategy/).
-- If the balance moved a lot between periods, the comparison is still valid, but check whether you crossed a tier boundary before blaming a repricing.
+As of August 17, 2026:
 
-To see what a difference of that size is worth on your own balance, enter your balance, the APY you backed out of the statement, and the number of months you expect to leave the money in place — then run it a second time with the older APY and compare the two totals.
+| Product | National average APY |
+|---|---|
+| Savings | 0.38% |
+| Interest checking | 0.07% |
+| Money market | 0.63% |
+| 3 month CD | 1.14% |
+| 6 month CD | 1.41% |
+| 12 month CD | 1.71% |
+| 24 month CD | 1.57% |
+| 60 month CD | 1.36% |
 
-{% include tools/statement-apy-earned.html %}
+The shape of that column is worth a moment. The money market average sits above savings and below every CD term of three months or longer. That is the trade in one line: a money market account keeps the money reachable and the rate movable, while a CD fixes the rate and attaches a penalty to early access.
 
-## The Baseline You Are Comparing Against
+## Liquidity priced against a locked rate
 
-A rate is only high or low relative to something. Use published sources rather than memory:
+Run the same $20,000 through those averages for one year, balance untouched:
 
-- The FDIC publishes **monthly national rates and rate caps** for deposit products, including money market accounts, at [fdic.gov](https://www.fdic.gov/national-rates-and-rate-caps). Look up the current month's figure for money market accounts and compare it to the effective rate you calculated. The gap, in basis points, is the number that should drive your decision.
-- The Federal Reserve publishes the current policy stance and the schedule of its meetings at [federalreserve.gov](https://www.federalreserve.gov/monetarypolicy.htm). Use it for direction and timing, not for predicting your account.
-- The rate cap portion of the FDIC's publication exists for supervisory reasons rather than consumer shopping, but it is a useful reminder that an unusually high offer is not automatically a free lunch. Read the conditions attached to it.
+- money market at 0.63%: **$126.00**
+- 12 month CD at 1.71%: 20,000 x 0.0171 = **$342.00**
+- difference: 342.00 - 126.00 = **$216.00**
 
-Check the baseline before you check your emotions. A 20 basis point drop when the whole market has moved down by more than that is not a reason to switch banks.
+That gap is the price of access. Whether it is worth paying turns on a question only you can answer: is there a plausible month in the next year when you need this money? If yes, the money market is doing a job the CD cannot. If no, the locked term is doing a job the money market cannot.
 
-## A Ten-Minute Quarterly Review
+Splitting is a third option. Half in each, on those same averages, gives 10,000 x 0.0063 = $63.00 plus 10,000 x 0.0171 = $171.00, which sums to $234.00.
 
-| Step | What you do | Where it comes from | Time |
-|---|---|---|---|
-| 1 | Back out the effective rate from the latest statement | Statement: interest credited, average daily balance, days | 3 min |
-| 2 | Compare it to last quarter's number | Your own log | 1 min |
-| 3 | Confirm the current published rate for your tier | Bank's rate sheet or account page | 2 min |
-| 4 | Look up the FDIC monthly national average for MMAs | fdic.gov national rates page | 1 min |
-| 5 | Subtract any fees charged during the period | Statement fee lines and fee schedule | 2 min |
-| 6 | Confirm you are still above the tier and minimum-balance thresholds | Disclosure plus current balance | 1 min |
+Before committing to any term, find the early-withdrawal penalty in that CD's disclosure. It is often quoted as a number of months of interest, so a CD broken early can hand back less interest than it accrued. The disclosure states the exact formula for the term you are considering, and it is a five-line read.
 
-Step 5 is the one people skip, and it is often larger than the rate change they are worried about. A monthly maintenance charge can erase a rate advantage entirely on a modest balance; the arithmetic is laid out in [the fees that quietly eat your savings interest](/2026/06/26/how-to-identify-and-avoid-common-fees-in-high-yield-options/).
+## The stay-or-move decision
 
-Log the result in one line — date, effective rate, fees, national average. Four lines a year is enough to see a trend that no single statement reveals.
+Three things to verify first. All are checkable, none require trusting anyone's opinion.
 
-## Responding to a Cut: Stay, Split, or Move
+- **Insurance.** FDIC standard coverage is $250,000 per depositor, per insured bank, per ownership category. Credit unions carry the same standard limit through the NCUA. Ownership categories, including single, joint, certain retirement accounts, and revocable trusts, are insured separately. Trust account rules were revised effective April 1, 2024, so if a trust is involved, run your setup through the FDIC's EDIE estimator rather than applying a formula you remember from before.
+- **Access terms.** Regulation D's six-transfer limit was suspended in 2020, but many banks still set their own limits. Yours appear in the deposit agreement, along with the fee for going past them.
+- **Balance conditions.** An account may pay its headline APY only above a minimum, or charge a monthly fee below one. The rate disclosure and fee schedule state which conditions apply to yours. A $5 monthly fee is $60.00 a year, which more than erases the $46.00 of annual difference in the earlier example.
 
-Convert the decision into dollars before you convert it into effort:
+## A five-minute monthly check
 
-**Annual gain = balance × (new APY − current APY)**
+When the statement arrives: pull the interest credited, divide by the balance that earned it, annualize with the 365-day factor, and write the result down where you will see it next month. Three months of that gives you a record of how your account behaves. Not a claim from me, your own data.
 
-On $25,000, a 50 basis point improvement is $125 a year. On $4,000, the same 50 basis points is $20 a year. The percentage is identical; the decision is not.
-
-Then subtract the cost of moving. Money in ACH transit earns nothing at the sending bank — five days out of the market on $25,000 at an assumed 2.5% is about $8.56 — and you may face a fee for closing early, a maintenance charge on the stub balance you leave behind, and an afternoon of re-pointing direct deposits and automatic transfers.
-
-| Situation | Reasonable response | Why |
-|---|---|---|
-| Gap under your written threshold, balance small | Stay | The dollar gain does not cover the effort or the transit cost |
-| Gap large, but you use the checks or debit card weekly | Split — keep the working balance, move the rest | Preserves access without leaving the whole balance underpaid |
-| Gap large, balance sits idle for months | Move | Nothing about the account is worth the yield you are giving up |
-| Rate fell only to where the national average sits | Stay, review next quarter | The market moved, not just your bank |
-| Moving would drop you below a tier minimum at the old bank | Move the whole balance or none of it | A partial move can cut the rate on what remains |
-
-Set the threshold in writing before the next cut arrives — for example, "I move when the annual gain exceeds $100 and the new account clears my insurance and fee checks." A rule written in advance beats a decision made in irritation. Before funding anywhere new, confirm the institution's insurance status: banks through the [FDIC](https://www.fdic.gov/resources/deposit-insurance) and credit unions through the [NCUA](https://ncua.gov/consumers/share-insurance-coverage), both within the standard federal limits.
-
-## What a Full Rate Cycle Looks Like From the Deposit Side
-
-| Phase | What to watch on the deposit side | What to check |
-|---|---|---|
-| Policy rates rising | New-money promotions appear; existing accounts may or may not follow | Whether your own effective rate moved, or only the marketing |
-| Policy rates flat | Differences between banks are competition-driven, not policy-driven | The gap between your rate and the national average |
-| Policy rates falling | Variable accounts can reprice immediately; fixed-term products keep their stated rate until maturity | Whether locking part of the balance in a term product is worth losing access |
-| After a promotion ends | The reversion rate applies to the whole balance | Your calendar reminder and the standard tier rate |
-
-The asymmetry savers complain about — that reductions seem to arrive promptly while increases arrive slowly — is not something to take on faith or on someone else's numbers. Your own quarterly log answers it for your bank specifically, which is the only version of the question that affects your money.
-
-## When Rates Move: What Savers Want to Know
-
-**How often can my money market rate change?**
-For a variable-rate account, any day the bank chooses. Regulation DD requires advance notice for changes in account terms, but that requirement does not extend to interest rate changes on variable-rate accounts.
-
-**Does a Fed rate cut automatically cut my APY?**
-There is no mechanical link unless your disclosure says the rate is tied to a specific index. The bank prices the account. Measure the result rather than assuming a pass-through.
-
-**Is my principal at risk when rates move?**
-Rate movement is a yield question, not a principal question. Deposits at insured institutions are protected within the standard federal limits regardless of what the rate does. Note that a money market *account* at a bank and a money market *fund* at a brokerage are different products with different protections.
-
-**Why is my APY lower than the rate the bank advertises?**
-The four usual causes are a balance tier below the advertised one, an expired promotional window, fees netted against interest, and a balance computation method that credits less than you assumed.
-
-**Should I move to a fixed-rate product when cuts look likely?**
-That is a trade between access and rate certainty. A term product locks a rate but charges you to get out early, so it only fits money you can name a date for.
-
-Pull your two most recent statements, run the effective-rate calculation on both, and write the two numbers down. That single comparison tells you more about what your bank is doing than any rate headline will.
+Then compare it to the FDIC average for your product type as of the date you check, confirm your total at that bank sits inside the insurance limit, and choose. The arithmetic will not tell you what to do. It tells you what the choice costs.
