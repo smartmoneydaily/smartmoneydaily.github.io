@@ -2,7 +2,7 @@
 layout: post
 title: "How to Choose a CD: 9 Terms to Check Before You Sign"
 date: 2026-07-08 15:08:00 +0000
-categories: [bank-comparison]
+categories: [savings]
 description: "The rate is one line of the contract. Nine other terms decide what you actually keep. Here is what to verify on a CD offer before you fund it, not at maturity."
 tags: [bank-comparison, cd-rates, certificates-of-deposit, 2026]
 redirect_from:

@@ -2,7 +2,7 @@
 layout: post
 title: "Building a CD Ladder When 12-Month CDs Pay the Most"
 date: 2026-08-19 12:54:21 +0000
-categories: [cd-rates]
+categories: [savings]
 description: "FDIC national averages as of August 17, 2026 put 12-month CDs at 1.71% APY, above every longer term. How to build a four-rung ladder around that."
 tags: [cd-rates, deposit-accounts, interest-rates-explained, savings]
 ---

@@ -2,7 +2,7 @@
 layout: post
 title: "APY, Compounding, and What Your Savings Will Really Earn"
 date: 2026-07-04 13:05:30 +0000
-categories: [interest-rates]
+categories: [savings]
 description: "APY already includes compounding. Here is the formula, what daily versus monthly is really worth, and how to check what your accounts actually paid you."
 tags: [interest-rates, apy, compound-interest, 2026]
 redirect_from:

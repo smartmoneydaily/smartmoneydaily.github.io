@@ -2,7 +2,7 @@
 layout: post
 title: "Where to Keep an Emergency Fund: HYSA, MMA, CD, or Cash"
 date: 2026-07-20 14:47:01 +0000
-categories: [emergency-fund]
+categories: [savings]
 description: "How fast each account type actually turns into spendable cash, when a money market account or short CD earns a place, and how to split a fund by access speed."
 tags: [emergency-fund, high-yield-savings, liquidity, 2026]
 redirect_from:

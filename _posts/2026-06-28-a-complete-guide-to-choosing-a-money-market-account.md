@@ -2,7 +2,7 @@
 layout: post
 title: "How to Choose a Money Market Account: Tiers and Limits"
 date: 2026-06-28 13:19:06 +0000
-categories: [bank-comparison]
+categories: [savings]
 description: "The headline APY on a money market account is rarely the rate you get. Here is how to read tier tables, minimums, and transfer limits before you open one."
 tags: [bank-comparison, money-market, 2026]
 redirect_from:

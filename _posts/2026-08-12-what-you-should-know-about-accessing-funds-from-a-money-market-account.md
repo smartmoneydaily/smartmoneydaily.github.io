@@ -2,7 +2,7 @@
 layout: post
 title: "What You Should Know About Accessing Funds from a Money Market Account"
 date: 2026-08-12 10:43:56 +0000
-categories: [money-market]
+categories: [savings]
 description: "How to get money out of a money market account without losing yield: access routes, bank transfer caps, settlement timing, fees, and FDIC coverage."
 tags: [money-market, banking, personal-finance]
 ---

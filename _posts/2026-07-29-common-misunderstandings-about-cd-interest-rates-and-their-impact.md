@@ -2,7 +2,7 @@
 layout: post
 title: "Common Misunderstandings About CD Interest Rates and Their Impact"
 date: 2026-07-29 12:45:33 +0000
-categories: [cd-rates]
+categories: [savings]
 description: "Common misunderstandings about CD interest rates can lead to poor financial decisions. This post clarifies misconceptions and their potential impacts on..."
 tags: [cd-rates, deposit-accounts]
 ---

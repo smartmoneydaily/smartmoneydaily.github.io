@@ -2,7 +2,7 @@
 layout: post
 title: "How to Understand the Differences Between FDIC and SIPC Coverage"
 date: 2026-08-08 13:46:26 +0000
-categories: [fdic-insurance]
+categories: [savings]
 description: "FDIC covers deposits at a failed bank while SIPC covers missing property at a failed brokerage, and neither one covers an investment that loses value."
 tags: [fdic-insurance, deposit-accounts, savings, personal-finance]
 ---

@@ -2,7 +2,7 @@
 layout: post
 title: "What the Recent Fed Decisions Mean for Your High-Yield Savings Account"
 date: 2026-08-02 13:16:31 +0000
-categories: [fdic-insurance]
+categories: [savings]
 description: "What do the recent Fed decisions mean for your high-yield savings account? Understand how these changes may impact your savings strategy and returns."
 tags: [fdic-insurance, banking, interest-rates-explained]
 ---

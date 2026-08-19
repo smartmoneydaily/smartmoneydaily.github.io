@@ -2,7 +2,7 @@
 layout: post
 title: "HYSA vs CD vs Money Market: How Each Account Type Works"
 date: 2026-06-21 12:07:52 +0000
-categories: [bank-comparison]
+categories: [savings]
 description: "High-yield savings, CDs, money market accounts, and money market funds compared across nine attributes: rate structure, access, insurance, and real cost."
 tags: [bank-comparison, high-yield-savings-accounts, money-market-accounts, 2026]
 redirect_from:

@@ -2,7 +2,7 @@
 layout: post
 title: "How to Compare CD Rates Across Banks and What Moves Them"
 date: 2026-06-10 14:13:09 +0000
-categories: [cd-rates]
+categories: [savings]
 description: "Two banks can quote very different CD rates the same week. Here is how to put every offer on one denominator and see the dollars before you sign."
 tags: [cd-rates, comparing-cd-rates, interest-rates, 2026]
 redirect_from:

@@ -2,7 +2,7 @@
 layout: post
 title: "Is Now the Right Time to Open a CD in Today’s Market?"
 date: 2026-08-04 15:08:13 +0000
-categories: [cd-rates]
+categories: [savings]
 description: "What the FDIC national average CD curve as of August 17, 2026 says about locking money up, plus the early withdrawal penalty math worked out on 10,000 dollars."
 tags: [cd-rates, savings]
 ---

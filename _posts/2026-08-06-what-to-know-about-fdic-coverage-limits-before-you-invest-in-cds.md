@@ -2,7 +2,7 @@
 layout: post
 title: "What to Know About FDIC Coverage Limits Before You Invest in CDs"
 date: 2026-08-06 14:48:38 +0000
-categories: [fdic-insurance]
+categories: [savings]
 description: "FDIC insurance covers $250,000 per depositor, per insured bank, per ownership category, and here is how that rule applies to CDs, with worked coverage math."
 tags: [fdic-insurance, personal-finance]
 ---

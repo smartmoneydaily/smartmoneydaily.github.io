@@ -2,7 +2,7 @@
 layout: post
 title: "Is It Time to Switch Banks for a Higher Rate?"
 date: 2026-07-02 15:26:23 +0000
-categories: [bank-comparison]
+categories: [savings]
 description: "Decide whether moving your savings to a higher-rate bank is worth it: the gap math, the bonus fine print, and a move order that avoids missed payments."
 tags: [bank-comparison, high-yield-savings, switching-banks, 2026]
 redirect_from:

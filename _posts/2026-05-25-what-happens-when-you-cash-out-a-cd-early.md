@@ -2,7 +2,7 @@
 layout: post
 title: "Cashing Out a CD Early: What the Penalty Actually Costs"
 date: 2026-05-25 15:46:46 +0000
-categories: [cd-rates]
+categories: [savings]
 description: "Breaking a CD early costs a set number of days of interest, sometimes more than you have earned. Here is the math, the exceptions, and when it still pays."
 tags: [cd-rates, early-withdrawal-penalty, 2026]
 redirect_from:

@@ -2,7 +2,7 @@
 layout: post
 title: "The Real Cost of Leaving Extra Cash in Your Checking Account"
 date: 2026-08-20 12:58:06 +0000
-categories: [savings-strategy]
+categories: [savings]
 description: "FDIC national averages as of August 17, 2026: interest checking 0.07% APY vs money market 0.63%. How to size a checking buffer and move the rest."
 tags: [savings-strategy, savings, banking, interest-rates-explained]
 ---

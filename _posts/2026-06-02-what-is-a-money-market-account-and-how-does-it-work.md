@@ -2,7 +2,7 @@
 layout: post
 title: "What Is a Money Market Account and How Does It Work?"
 date: 2026-06-02 17:02:49 +0000
-categories: [money-market]
+categories: [savings]
 description: "A money market account is a bank deposit account that pays interest and lets you spend from it. Here is how tiers, transfer limits, and insurance actually work."
 tags: [money-market, high-yield-savings-accounts, 2026]
 redirect_from:

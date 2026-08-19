@@ -2,7 +2,7 @@
 layout: post
 title: "What Is FDIC Insurance and What Does It Actually Cover?"
 date: 2026-05-29 16:34:49 +0000
-categories: [fdic-insurance]
+categories: [savings]
 description: "FDIC insurance covers deposits, not investments. A product-by-product coverage table, the brokered CD and fintech app exceptions, and how to verify a bank in a minute."
 tags: [fdic-insurance, deposit-insurance, bank-failure, 2026]
 redirect_from:

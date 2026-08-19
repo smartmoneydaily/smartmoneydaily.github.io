@@ -2,7 +2,7 @@
 layout: post
 title: "Money Market Account vs CD: Lock the Cash or Keep It Open"
 date: 2026-07-18 14:30:22 +0000
-categories: [bank-comparison]
+categories: [savings]
 description: "A money market account keeps cash reachable; a CD locks a rate. Compare the withdrawal rules, run the penalty math, and choose by how certain your spend date is."
 tags: [bank-comparison, money-market-accounts, certificates-of-deposit, 2026]
 redirect_from:

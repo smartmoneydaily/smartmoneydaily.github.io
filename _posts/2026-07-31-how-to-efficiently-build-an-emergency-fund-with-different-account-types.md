@@ -2,7 +2,7 @@
 layout: post
 title: "How to Efficiently Build an Emergency Fund with Different Account Types"
 date: 2026-07-31 12:02:54 +0000
-categories: [emergency-fund]
+categories: [savings]
 description: "Building an emergency fund requires strategic choices. This post discusses various account types to help you efficiently save for unexpected expenses."
 tags: [emergency-fund, personal-finance]
 ---

@@ -2,7 +2,7 @@
 layout: post
 title: "Money Market Account vs. Money Market Fund: What's Insured"
 date: 2026-08-22 10:22:59 +0000
-categories: [money-market]
+categories: [savings]
 description: "Two products share a name but only one is a deposit account with FDIC coverage; here is how to tell which one holds your emergency fund."
 tags: [money-market, deposit-accounts, banking, savings]
 ---

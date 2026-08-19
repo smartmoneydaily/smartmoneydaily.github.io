@@ -2,7 +2,7 @@
 layout: post
 title: "What to Know About Promotional Rates and Your Financial Assets"
 date: 2026-07-28 13:39:38 +0000
-categories: [bank-comparison]
+categories: [savings]
 description: "What to know about promotional rates and your financial assets? Understand the benefits and risks associated with these rates to make informed decisions."
 tags: [bank-comparison, interest-rates-explained, banking, personal-finance]
 ---

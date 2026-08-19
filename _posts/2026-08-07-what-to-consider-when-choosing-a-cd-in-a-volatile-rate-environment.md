@@ -2,7 +2,7 @@
 layout: post
 title: "What to Consider When Choosing a CD in a Volatile Rate Environment"
 date: 2026-08-07 10:13:49 +0000
-categories: [cd-rates]
+categories: [savings]
 description: "Choosing a CD when rates move means reading the term curve, pricing the early-withdrawal penalty, and running the break-even math before you lock a rate."
 tags: [cd-rates, deposit-accounts]
 ---

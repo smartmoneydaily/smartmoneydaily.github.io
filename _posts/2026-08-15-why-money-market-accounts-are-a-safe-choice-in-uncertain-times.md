@@ -2,7 +2,7 @@
 layout: post
 title: "Why Money Market Accounts Are a Safe Choice in Uncertain Times"
 date: 2026-08-15 10:51:17 +0000
-categories: [money-market]
+categories: [savings]
 description: "How money market accounts compare with savings and CDs on FDIC national averages, what deposit insurance covers, and the real cost of staying liquid."
 tags: [money-market, interest-rates, personal-finance, savings, banking]
 ---

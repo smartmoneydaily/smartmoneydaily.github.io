@@ -2,8 +2,8 @@
 layout: post
 title: "Money Market Funds: How They Work and Where Risk Hides"
 date: 2026-06-25 15:51:30 +0000
-categories: [money-market]
-description: "A money market fund is a mutual fund, not a bank deposit. Here is what it holds, how its yield is quoted, what SIPC does and does not cover, and when it belongs in your cash plan."
+categories: [savings]
+description: "A money market fund is a mutual fund, not a bank deposit. Here is what it holds, how its yield is quoted, what SIPC does and does not cover, and when it."
 tags: [money-market, money-market-funds, emergency-fund, 2026]
 redirect_from:
   - /2026/07/10/how-does-a-money-market-fund-work-and-what-are-its-benefits/

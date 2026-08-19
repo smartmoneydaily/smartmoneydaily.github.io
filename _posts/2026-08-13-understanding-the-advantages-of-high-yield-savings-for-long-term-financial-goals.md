@@ -2,7 +2,7 @@
 layout: post
 title: "Understanding the Advantages of High-Yield Savings for Long-Term Financial Goals"
 date: 2026-08-13 14:20:37 +0000
-categories: [savings-strategy]
+categories: [savings]
 description: "Why a savings account fits some long-term goals and not others, with five-year math on $30,000 and insurance rules, using FDIC national averages."
 tags: [savings-strategy, deposit-accounts]
 ---

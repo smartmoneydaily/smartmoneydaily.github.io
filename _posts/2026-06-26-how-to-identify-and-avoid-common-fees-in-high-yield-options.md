@@ -2,7 +2,7 @@
 layout: post
 title: "The Fees That Quietly Eat Your Savings Interest"
 date: 2026-06-26 15:36:32 +0000
-categories: [savings-strategy]
+categories: [savings]
 description: "Maintenance, excess-transaction, wire, and dormancy fees can cost more than any rate you chase. Where each one is disclosed, and how to work out your net APY."
 tags: [savings-strategy, bank-fees, money-market-accounts, 2026]
 redirect_from:

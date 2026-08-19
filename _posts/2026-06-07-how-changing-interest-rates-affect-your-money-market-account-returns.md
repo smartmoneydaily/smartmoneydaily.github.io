@@ -2,8 +2,8 @@
 layout: post
 title: "Why Money Market Rates Move and How Fast Yours Follows"
 date: 2026-06-07 14:50:14 +0000
-categories: [interest-rates]
-description: "Money market APYs are variable by contract, so your bank can reprice without telling you. Here is how to back out the rate you actually earned and decide whether to stay or move."
+categories: [savings]
+description: "Money market APYs are variable by contract, so your bank can reprice without telling you. Here is how to back out the rate you actually earned and decide."
 tags: [interest-rates, money-market, 2026]
 redirect_from:
   - /2026/07/06/how-to-understand-interest-rates-in-money-market-accounts/

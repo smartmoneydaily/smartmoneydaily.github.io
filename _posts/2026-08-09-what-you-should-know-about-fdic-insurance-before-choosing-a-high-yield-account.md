@@ -2,7 +2,7 @@
 layout: post
 title: "What You Should Know About FDIC Insurance Before Choosing a High-Yield Account"
 date: 2026-08-09 10:07:18 +0000
-categories: [fdic-insurance]
+categories: [savings]
 description: "What you should know about FDIC insurance is crucial when selecting a high-yield account. Understand coverage limits and the importance of bank stability."
 tags: [fdic-insurance, personal-finance, interest-rates-explained]
 ---

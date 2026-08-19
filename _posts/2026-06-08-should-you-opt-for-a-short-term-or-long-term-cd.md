@@ -2,8 +2,8 @@
 layout: post
 title: "Short-Term vs Long-Term CD: Which Term Fits Right Now"
 date: 2026-06-08 14:37:29 +0000
-categories: [cd-rates]
-description: "Choose a CD term with a rule instead of a rate forecast: what locking actually buys, break-even math when rates move, and how to match a maturity to the date you need the cash."
+categories: [savings]
+description: "Choose a CD term with a rule instead of a rate forecast: what locking actually buys, break-even math when rates move, and how to match a maturity to the date."
 tags: [cd-rates, cd-term-length, interest-rates, 2026]
 redirect_from:
   - /2026/07/25/is-a-short-term-or-long-term-cd-better-for-your-savings-strategy/

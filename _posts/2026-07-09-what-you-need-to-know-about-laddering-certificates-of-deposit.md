@@ -2,7 +2,7 @@
 layout: post
 title: "CD Laddering: Build a Ladder That Beats One Long CD"
 date: 2026-07-09 16:13:05 +0000
-categories: [savings-strategy]
+categories: [savings]
 description: "How to build a CD ladder rung by rung, roll it each year, and see with worked numbers when the ladder wins against one long CD and when it quietly loses."
 tags: [savings-strategy, cd-ladder, certificates-of-deposit, 2026]
 redirect_from:

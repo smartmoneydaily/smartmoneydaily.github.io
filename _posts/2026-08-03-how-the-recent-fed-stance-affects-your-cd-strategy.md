@@ -2,7 +2,7 @@
 layout: post
 title: "How the Recent Fed Stance Affects Your CD Strategy"
 date: 2026-08-03 13:26:15 +0000
-categories: [cd-rates]
+categories: [savings]
 description: "How the recent Fed stance impacts your CD strategy is crucial for your financial planning. Understand the implications and adjust your approach effectively."
 tags: [cd-rates, personal-finance]
 ---

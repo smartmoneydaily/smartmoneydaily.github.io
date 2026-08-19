@@ -2,8 +2,8 @@
 layout: post
 title: "When the Fed Moves, How Fast Do Deposit Rates Follow?"
 date: 2026-06-16 15:54:45 +0000
-categories: [interest-rates]
-description: "A Fed decision does not change your APY on its own. Here is the chain from policy rate to your statement, how to measure your own bank's pass-through, and what to do in each phase of the cycle."
+categories: [savings]
+description: "A Fed decision does not change your APY on its own. Here is the chain from policy rate to your statement, how to measure your own bank's pass-through, and what."
 tags: [interest-rates, deposit-accounts, cd-rates, 2026]
 redirect_from:
   - /2026/05/23/what-to-know-about-the-impact-of-interest-rate-changes-on-your-earnings/

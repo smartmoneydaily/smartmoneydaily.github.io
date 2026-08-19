@@ -2,8 +2,8 @@
 layout: post
 title: "High-Yield Savings Accounts: What to Check Before Opening"
 date: 2026-06-15 17:56:27 +0000
-categories: [high-yield-savings]
-description: "The eight disclosure terms that decide what you actually keep in a high-yield savings account, how fast a variable APY can move after you fund it, and who really holds your money."
+categories: [savings]
+description: "The eight disclosure terms that decide what you actually keep in a high-yield savings account, how fast a variable APY can move after you fund it, and who."
 tags: [high-yield-savings, account-checklist, 2026]
 redirect_from:
   - /2026/04/07/understanding-high-yield-savings-accounts-key-features-to-consider/

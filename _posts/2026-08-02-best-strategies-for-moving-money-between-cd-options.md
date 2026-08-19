@@ -2,7 +2,7 @@
 layout: post
 title: "Best Strategies for Moving Money Between CD Options"
 date: 2026-08-02 04:02:53 +0000
-categories: [cd-rates]
+categories: [savings]
 description: "Moving money between CD options can optimize your savings. This post compares effective strategies to manage your funds for the best returns."
 tags: [cd-rates, deposit-accounts]
 ---

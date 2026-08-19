@@ -2,8 +2,8 @@
 layout: post
 title: "FDIC Limits: How the $250,000 Cap Is Really Calculated"
 date: 2026-06-01 16:47:38 +0000
-categories: [fdic-insurance]
-description: "The $250,000 FDIC limit is per depositor, per bank, per ownership category. Here is how those three words are applied to real accounts, and where coverage quietly disappears."
+categories: [savings]
+description: "The $250,000 FDIC limit is per depositor, per bank, per ownership category. Here is how those three words are applied to real accounts, and where coverage."
 tags: [fdic-insurance, deposit-limits, ownership-categories, 2026]
 redirect_from:
   - /2026/06/29/what-to-know-about-fdic-insurance-limits-for-savings-accounts/

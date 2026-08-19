@@ -2,7 +2,7 @@
 layout: post
 title: "What to Know About Current High-Yield Savings Rates and Future Trends"
 date: 2026-08-14 11:35:18 +0000
-categories: [savings-strategy]
+categories: [savings]
 description: "The FDIC national savings average was 0.38% APY on August 17, 2026 - here is what actually moves deposit rates, how to read the CD curve, and the penalty math."
 tags: [savings-strategy, savings, personal-finance, banking]
 ---

@@ -2,7 +2,7 @@
 layout: post
 title: "What Is a Certificate of Deposit and How Does a CD Work?"
 date: 2026-07-16 13:30:59 +0000
-categories: [cd-rates]
+categories: [savings]
 description: "A CD is a deposit account with a contract attached: fixed rate, fixed term, penalty for leaving early. Here is how one works from funding day to maturity."
 tags: [cd-rates, certificates-of-deposit, savings-basics, 2026]
 redirect_from:

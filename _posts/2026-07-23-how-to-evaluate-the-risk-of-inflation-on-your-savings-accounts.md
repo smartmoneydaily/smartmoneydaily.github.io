@@ -2,7 +2,7 @@
 layout: post
 title: "Real Return: What Inflation Does to Your Savings APY"
 date: 2026-07-23 15:16:55 +0000
-categories: [savings-strategy]
+categories: [savings]
 description: "Your APY is not your return. Learn the real-return formula, why subtracting CPI is only a rough cut, and which balances should lose ground on purpose."
 tags: [savings-strategy, inflation, real-return, 2026]
 redirect_from:

@@ -2,7 +2,7 @@
 layout: post
 title: "Are Traditional CDs Still a Smart Option in Today’s Market?"
 date: 2026-08-10 11:55:19 +0000
-categories: [cd-rates]
+categories: [savings]
 description: "CD rates, penalties and ladders in exact dollars, using FDIC national averages as of August 17, 2026, plus the cases where a CD is the wrong tool."
 tags: [cd-rates, savings]
 ---

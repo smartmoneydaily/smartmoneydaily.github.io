@@ -2,7 +2,7 @@
 layout: post
 title: "How FDIC Ownership Categories Stack Coverage at One Bank"
 date: 2026-08-21 11:50:58 +0000
-categories: [fdic-insurance]
+categories: [savings]
 description: "Single, joint, trust, and retirement accounts each carry a separate FDIC limit at the same bank, and here is how to stack and verify them."
 tags: [fdic-insurance, banking, deposit-accounts, personal-finance]
 ---

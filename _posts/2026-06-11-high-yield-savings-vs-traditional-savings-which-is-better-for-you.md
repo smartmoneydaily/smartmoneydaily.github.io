@@ -2,7 +2,7 @@
 layout: post
 title: "High-Yield vs Traditional Savings: The Real Dollar Gap"
 date: 2026-06-11 13:03:34 +0000
-categories: [bank-comparison]
+categories: [savings]
 description: "Work out exactly what your branch savings account costs you each year versus a high-yield account, then decide whether to move all of it, split it, or stay put."
 tags: [bank-comparison, high-yield-savings, 2026]
 redirect_from:

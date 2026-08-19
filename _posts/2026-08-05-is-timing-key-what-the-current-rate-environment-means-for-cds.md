@@ -2,7 +2,7 @@
 layout: post
 title: "Is Timing Key? What the Current Rate Environment Means for CDs"
 date: 2026-08-05 13:34:49 +0000
-categories: [cd-rates]
+categories: [savings]
 description: "FDIC national averages as of August 17, 2026 put the CD peak at 1.71% for twelve months, and here is what that curve shape means for choosing a term."
 tags: [cd-rates, interest-rates-explained, deposit-accounts, savings]
 ---

@@ -2,7 +2,7 @@
 layout: post
 title: "How Current Interest Rates Impact Your CD Strategy"
 date: 2026-08-16 11:59:07 +0000
-categories: [cd-rates]
+categories: [savings]
 description: "FDIC national average CD rates as of August 17, 2026, why terms past two years pay less, and the arithmetic behind laddering and early-withdrawal penalties."
 tags: [cd-rates, deposit-accounts]
 ---

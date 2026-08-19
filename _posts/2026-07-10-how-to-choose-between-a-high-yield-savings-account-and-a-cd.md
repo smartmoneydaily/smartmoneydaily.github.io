@@ -2,7 +2,7 @@
 layout: post
 title: "HYSA vs CD: Which Should Hold Your Money Right Now?"
 date: 2026-07-10 13:50:15 +0000
-categories: [bank-comparison]
+categories: [savings]
 description: "A high-yield savings account and a CD hold the same insured dollar under different contracts. Compare them on one balance, one term, and three rate paths."
 tags: [bank-comparison, high-yield-savings, cd-rates, 2026]
 redirect_from:

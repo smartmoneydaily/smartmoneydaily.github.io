@@ -2,7 +2,7 @@
 layout: post
 title: "How Inflation Erodes Your Savings and How to Protect Them"
 date: 2026-08-01 14:23:50 +0000
-categories: [savings-strategy]
+categories: [savings]
 description: "Inflation erodes your savings over time, impacting your financial future. This post discusses effective strategies to safeguard your hard-earned money..."
 tags: [savings-strategy, deposit-accounts, personal-finance]
 ---

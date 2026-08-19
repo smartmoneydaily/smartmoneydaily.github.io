@@ -2,7 +2,7 @@
 layout: post
 title: "Which Savings Account Fits Your Goal and Timeline?"
 date: 2026-07-06 16:26:45 +0000
-categories: [savings-strategy]
+categories: [savings]
 description: "Match your goal date to the right account: savings, no-penalty CD, term CD, or ladder. Includes a timeline matcher, four worked goals, and what to do when the date moves."
 tags: [savings-strategy, savings-timeline, cd-vs-savings, 2026]
 redirect_from:

@@ -2,7 +2,7 @@
 layout: post
 title: "Common mistakes with understanding FDIC insurance limits and how to avoid them"
 date: 2026-08-18 13:23:43 +0000
-categories: [fdic-insurance]
+categories: [savings]
 description: "The FDIC limit is misread far more often than it is exceeded. Six mistakes that quietly leave deposits uninsured, what each costs, and the fix for each."
 tags: [fdic-insurance, interest-rates-explained]
 ---

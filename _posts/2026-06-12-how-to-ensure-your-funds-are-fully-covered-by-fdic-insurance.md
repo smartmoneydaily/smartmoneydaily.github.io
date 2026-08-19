@@ -2,7 +2,7 @@
 layout: post
 title: "How to Insure More Than $250,000 in Bank Deposits"
 date: 2026-06-12 14:04:06 +0000
-categories: [fdic-insurance]
+categories: [savings]
 description: "Four working routes to keep a balance above $250,000 fully insured: separate charters, ownership categories, deposit networks, and Treasuries — plus a 15-minute audit."
 tags: [fdic-insurance, deposit-limits, account-titling, 2026]
 redirect_from:

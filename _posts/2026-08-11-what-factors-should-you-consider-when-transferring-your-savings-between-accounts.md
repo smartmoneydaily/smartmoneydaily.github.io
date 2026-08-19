@@ -2,7 +2,7 @@
 layout: post
 title: "What Factors Should You Consider When Transferring Your Savings Between Accounts?"
 date: 2026-08-11 10:38:33 +0000
-categories: [bank-comparison]
+categories: [savings]
 description: "A dollars-and-days framework for moving savings: rate gap math, transfer timing, CD penalty arithmetic, fees and minimums, and FDIC coverage limits."
 tags: [bank-comparison, savings, banking]
 ---

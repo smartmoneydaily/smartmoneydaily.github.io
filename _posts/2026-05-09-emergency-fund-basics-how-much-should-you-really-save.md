@@ -2,7 +2,7 @@
 layout: post
 title: "How Big Should Your Emergency Fund Be? Run the Numbers"
 date: 2026-05-09 09:14:00 +0000
-categories: [emergency-fund]
+categories: [savings]
 description: "Three to six months is a starting point, not your answer. Count essential expenses, apply five risk multipliers, and get a target number plus a funding schedule."
 tags: [emergency-fund, savings-goals, 2026]
 redirect_from:

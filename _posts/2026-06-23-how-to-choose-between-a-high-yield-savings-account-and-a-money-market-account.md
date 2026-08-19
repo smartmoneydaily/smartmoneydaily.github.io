@@ -2,7 +2,7 @@
 layout: post
 title: "HYSA vs Money Market Account: Access, Yield, and Checks"
 date: 2026-06-23 16:05:24 +0000
-categories: [bank-comparison]
+categories: [savings]
 description: "The real split between a high-yield savings account and a money market account is not the rate — it is how you spend from it. Tier math, fees, and three saver profiles."
 tags: [bank-comparison, money-market-accounts, high-yield-savings, 2026]
 redirect_from:

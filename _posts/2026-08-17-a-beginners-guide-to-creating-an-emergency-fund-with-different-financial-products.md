@@ -2,7 +2,7 @@
 layout: post
 title: "A beginner's guide to creating an emergency fund with different financial products"
 date: 2026-08-17 12:17:58 +0000
-categories: [emergency-fund]
+categories: [savings]
 description: "Build an emergency fund from zero in three stages, with the deposit products that fit each one, FDIC national average rates, and the early-break math."
 tags: [emergency-fund, banking]
 ---

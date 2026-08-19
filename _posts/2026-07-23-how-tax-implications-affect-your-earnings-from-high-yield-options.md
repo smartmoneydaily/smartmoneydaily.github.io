@@ -2,7 +2,7 @@
 layout: post
 title: "Taxes on Savings Interest: 1099-INT and After-Tax APY"
 date: 2026-07-23 13:25:39 +0000
-categories: [savings-strategy]
+categories: [savings]
 description: "Savings and CD interest is ordinary income. Here is when it gets taxed, how to read Form 1099-INT box by box, and how to work out the APY you actually keep."
 tags: [savings-strategy, taxes, 1099-int, 2026]
 redirect_from:

@@ -2,7 +2,7 @@
 layout: post
 title: "How to Split Cash Across Savings, Money Market, and CDs"
 date: 2026-06-14 12:46:45 +0000
-categories: [savings-strategy]
+categories: [savings]
 description: "A dollar-by-dollar method for dividing your cash into a spending buffer, an emergency reserve, and dated goal money, with two worked plans you can copy."
 tags: [savings-strategy, cash-allocation, money-market, 2026]
 redirect_from:
