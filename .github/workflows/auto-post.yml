@@ -65,6 +65,13 @@ jobs:
           # git log 자체 실패는 fail-closed(발행 안 함). `| grep -c ... || true` 한 줄로 쓰면
           # git log 실패까지 || true 가 삼켜 published=0 → 과발행하므로, log 단계를 분리해
           # 실패 시 이 슬롯은 skip. grep 0매치(빈 날)만 || true 로 정상 0 처리.
+          # v17 (2026-08-19, 쿠마님 지시): 손으로 미리 채워 둔 날은 봇이 덧쓰지 않는다.
+          # 오늘 날짜 파일(_posts/YYYY-MM-DD-*.md)이 이미 있으면 그 날은 발행 완료로 본다.
+          # (커밋 메시지 카운트만 보면, 며칠치를 한 번에 커밋한 다음 날 봇이 또 써서 2편이 된다.)
+          if git ls-tree --name-only "$COUNT_REF" _posts/ 2>/dev/null | grep -q "^_posts/${TODAY_UTC}-"; then
+            echo "a post file for $TODAY_UTC already exists (pre-written) — skip"
+            echo "post=false" >> "$GITHUB_OUTPUT"; exit 0
+          fi
           if ! log_subjects=$(git log "$COUNT_REF" --since="${TODAY_UTC}T00:00:00Z" --pretty=%s); then
             echo "git log failed — skip this slot for safety"
             echo "post=false" >> "$GITHUB_OUTPUT"; exit 0

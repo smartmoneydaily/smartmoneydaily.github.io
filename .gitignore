@@ -7,3 +7,5 @@ vendor/
 __pycache__/
 *.pyc
 .env
+manual_context.json
+fix_inputs_smd.json
