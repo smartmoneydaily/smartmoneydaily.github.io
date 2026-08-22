@@ -1,13 +1,13 @@
 ---
 layout: post
-title: "Money Market Funds After the 2023 Reforms: Fees, Not Gates"
+title: "Is Your Money Market Fund Safe? What Changed After 2023"
 date: 2026-09-07 12:17:14 +0000
 categories: [savings]
-description: "The SEC rewrote money market fund rules after the 2020 stress episode. Redemption gates are gone, liquidity buffers are larger, and some funds now face a mandatory fee."
+description: "The SEC rewrote money market fund rules after the 2020 stress episode. Redemption gates are gone, liquidity buffers are larger, and most retail funds are outside the new mandatory fee."
 tags: [savings, money-market, brokerage, regulations, liquidity]
 ---
 
-![Money Market Funds After the 2023 Reforms: Fees, Not Gates](/assets/pin-images/2026-09-07-money-market-funds-after-the-2023-reforms-fees-not-gates.png)
+![Is Your Money Market Fund Safe? What Changed After 2023](/assets/pin-images/2026-09-07-money-market-funds-after-the-2023-reforms-fees-not-gates.png)
 
 A money market fund is not a bank account, and the difference shows up under stress rather than in normal weeks. The rules governing that stress were rewritten by the SEC in July 2023, with the main provisions phasing in through October 2024.
 

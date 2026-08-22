@@ -1,13 +1,13 @@
 ---
 layout: post
-title: "Deposit Betas: Why Savings Rates Fall Faster Than They Rise"
+title: "Why Your Savings Rate Drops Faster Than It Rises"
 date: 2026-09-01 10:31:18 +0000
 categories: [savings]
-description: "Banks pass through rate cuts quickly and rate increases slowly. The asymmetry has a name and a measurable size, and it explains most of what happens to your APY."
+description: "Banks pass rate cuts to savers within days and rate hikes over months. The pattern has a name, a measurable size, and a few practical consequences for where you keep cash."
 tags: [savings, interest-rates-explained, banking, deposit-accounts]
 ---
 
-![Deposit Betas: Why Savings Rates Fall Faster Than They Rise](/assets/pin-images/2026-09-01-deposit-betas-why-savings-rates-fall-faster-than-they-rise.png)
+![Why Your Savings Rate Drops Faster Than It Rises](/assets/pin-images/2026-09-01-deposit-betas-why-savings-rates-fall-faster-than-they-rise.png)
 
 Anyone who watched their savings rate during a full rate cycle has noticed the asymmetry. When the [Federal Reserve](https://www.federalreserve.gov/monetarypolicy.htm) raised rates, the APY crept up over months. When cuts came, the APY dropped within days.
 
