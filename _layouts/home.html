@@ -29,7 +29,7 @@ layout: default
   <li>
     <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
     <p class="post-meta">{{ post.date | date: "%B %d, %Y" }}{% if post.categories %} &middot; {{ post.categories | join: ", " }}{% endif %}</p>
-    <p>{{ post.excerpt | strip_html | truncatewords: 36 }}</p>
+    <p>{{ post.description | default: post.excerpt | strip_html | truncatewords: 36 }}</p>
     <p><a href="{{ post.url | relative_url }}">Continue reading &rarr;</a></p>
   </li>
   {% endfor %}

@@ -21,6 +21,9 @@ layout: default
     "url": "{{ '/' | absolute_url }}"
   },
   "description": {{ page.description | default: site.description | jsonify }},
+  {%- assign ld_pin_date = page.date | date: '%Y-%m-%d' -%}
+  {%- capture ld_pin_path -%}/assets/pin-images/{{ ld_pin_date }}-{{ page.slug }}.png{%- endcapture -%}
+  "image": "{{ page.image | default: ld_pin_path | absolute_url }}",
   "mainEntityOfPage": {
     "@type": "WebPage",
     "@id": "{{ page.url | absolute_url }}"
