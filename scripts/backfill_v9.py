@@ -14,7 +14,8 @@ import generate_post as g
 BLOG = "SmartMoneyDaily"
 ROOT = g.get_repo_root()
 POSTS = os.path.join(ROOT, "_posts")
-HAS_KEY = bool(os.environ.get("OPENAI_API_KEY"))
+# 2026-09-04: OpenAI 경로 폐지. 키가 있어도 GPT 를 쓰지 않는다.
+HAS_KEY = False
 MONTHS = ["", "January", "February", "March", "April", "May", "June",
           "July", "August", "September", "October", "November", "December"]
 

@@ -12,7 +12,6 @@ import sys
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 
-os.environ.setdefault("OPENAI_API_KEY", "dummy")
 ROOT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..")
 
 journal = sys.argv[1]

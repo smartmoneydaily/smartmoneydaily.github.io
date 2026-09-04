@@ -7,7 +7,6 @@ import sys
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 
-os.environ.setdefault("OPENAI_API_KEY", "dummy")  # import 시 클라이언트 생성 방지용
 from generate_post import (fetch_fdic_national_rates, get_existing_slugs,
                            get_recent_posts_for_linking, load_used_topics)
 

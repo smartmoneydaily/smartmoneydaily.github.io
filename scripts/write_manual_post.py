@@ -20,7 +20,6 @@ import sys
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 
-os.environ.setdefault("OPENAI_API_KEY", "dummy")
 from generate_post import (BLOG_NAME, _link_primary_sources, _resolve_bare_brackets,
                            fetch_fdic_national_rates, get_recent_posts_for_linking,
                            get_repo_root, inject_internal_links, inject_tool,
