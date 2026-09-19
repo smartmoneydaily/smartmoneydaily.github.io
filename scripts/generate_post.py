@@ -913,7 +913,7 @@ def _deterministic_repair(content, market_data, client=None, title=""):
     return content
 
 
-def validate_post_quality(content, market_data=None):
+def validate_post_quality(content, market_data=None, allow_rates=None):
     """발행 전 결정적(비확률) 품질 검증. 실패 사유 리스트 반환 — 빈 리스트면 통과.
 
     프롬프트 금지가 실출력에서 절반쯤 새는 문제(티스토리봇 실측)를 코드로 잡는다.
@@ -964,7 +964,14 @@ def validate_post_quality(content, market_data=None):
                     )
     # 소수점 2자리 % = '정밀한 현재 금리' 서술 스타일. 검증된 FDIC 수치가 아니면 출처 불명의
     # 금리 단정이므로 차단 (가설 예시는 4% / 4.5% 같은 라운드 숫자로 쓰게 유도).
-    allowed = {r for _, r in (market_data or {}).get("rates", [])}
+    # allow_rates = 원고가 1차 출처(TreasuryDirect·IRS 등)에서 직접 확인해 신고한 수치.
+    # FDIC 화이트리스트에만 없다는 이유로 출처가 명확한 값까지 막던 오탐을 푼다(2026-09-20).
+    # agy 검토(2026-09-20): allow_rates 가 리스트가 아니라 "4.26" 이나 4.26 으로 들어오면
+    # 문자 단위 순회 / TypeError 로 발행이 깨진다. 단일 값도 받아 주고 % 기호를 털어낸다.
+    _raw = [allow_rates] if isinstance(allow_rates, (str, int, float)) else (allow_rates or [])
+    allowed = ({r for _, r in (market_data or {}).get("rates", [])}
+               | {(f"{r:.2f}" if isinstance(r, float) else str(r).strip().rstrip("%").strip())
+                  for r in _raw})   # float 0.90 이 "0.9" 로 줄어 조용히 차단되는 것 방지
     precise = [p for p in re.findall(r"\b(\d{1,2}\.\d{2})\s*%", content) if p not in allowed]
     if precise:
         problems.append(

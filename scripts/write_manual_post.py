@@ -34,7 +34,7 @@ def build_post(item, market_data, recent_posts, used_topics):
     date_str = item["date"].strip()
     slug = item.get("slug") or slugify(title)
 
-    problems = validate_post_quality(content, market_data)
+    problems = validate_post_quality(content, market_data, item.get("verified_rates"))
     if problems:
         print(f"  [validate] {title[:40]} → {problems}")
 
