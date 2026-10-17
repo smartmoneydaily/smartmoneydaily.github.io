@@ -65,14 +65,6 @@ The clean rule: if you would be unhappy holding this money at whatever rates pre
 
 Callable structures are overwhelmingly a brokered CD phenomenon. A CD opened directly at a bank branch or website is very unlikely to be callable, though the disclosure is worth checking on unusually long terms with unusually good rates. The bank version of the same idea is the promotional rate that resets after an introductory period, a different mechanism with a similar effect on what you actually earn.
 
-## Further Reading
-
-- [The Tax Bite on Savings Interest: What Your Real Yield Is](/2026/08/26/the-tax-bite-on-savings-interest-what-your-real-yield-is/)
-- [When Breaking a CD Actually Pays: Run the Break-Even](/2026/08/25/when-breaking-a-cd-actually-pays-run-the-break-even/)
-- [Six Lines in a Bank Disclosure That Decide What You Earn](/2026/08/24/six-lines-in-a-bank-disclosure-that-decide-what-you-earn/)
-- [What Happens to Your Money When a Bank Fails](/2026/08/23/what-happens-to-your-money-when-a-bank-fails/)
-- [Money Market Account vs. Money Market Fund: What's Insured](/2026/08/22/money-market-account-vs-money-market-fund-whats-insured/)
-
 ## Yield to call, not yield to maturity
 
 Brokerage listings display more than one yield figure for a callable CD, and the difference between them is the entire risk in one number.
@@ -103,3 +95,11 @@ If callable issues are going into a ladder, a few structural choices reduce the 
 4. **Compare on yield to worst** across all candidates, which puts callable and non-callable issues on the same footing.
 
 The point is not to avoid callable CDs. It is to stop treating the higher headline yield as free, and to hold the position in a size where being handed cash at the wrong moment is an annoyance rather than a problem.
+
+## Further Reading
+
+- [The Tax Bite on Savings Interest: What Your Real Yield Is](/2026/08/26/the-tax-bite-on-savings-interest-what-your-real-yield-is/)
+- [When Breaking a CD Actually Pays: Run the Break-Even](/2026/08/25/when-breaking-a-cd-actually-pays-run-the-break-even/)
+- [Six Lines in a Bank Disclosure That Decide What You Earn](/2026/08/24/six-lines-in-a-bank-disclosure-that-decide-what-you-earn/)
+- [What Happens to Your Money When a Bank Fails](/2026/08/23/what-happens-to-your-money-when-a-bank-fails/)
+- [Money Market Account vs. Money Market Fund: What's Insured](/2026/08/22/money-market-account-vs-money-market-fund-whats-insured/)

@@ -64,14 +64,6 @@ Run your own numbers instead: your balance, the APY on offer, and the period you
 
 {% include tools/apy-calculator.html %}
 
-## Further Reading
-
-- [When Your Bank Is Acquired, Not Failed: What Happens to Your CD](/2026/09/03/when-your-bank-is-acquired-not-failed-what-happens-to-your-cd/)
-- [Insuring More Than $250,000 Without Opening Ten Accounts](/2026/09/02/insuring-more-than-250000-without-opening-ten-accounts/)
-- [Deposit Betas: Why Savings Rates Fall Faster Than They Rise](/2026/09/01/deposit-betas-why-savings-rates-fall-faster-than-they-rise/)
-- [Credit Union Share Insurance: How NCUA Coverage Compares](/2026/08/31/credit-union-share-insurance-how-ncua-coverage-compares/)
-- [Where Brokerage Cash Actually Sits, and What Insures It](/2026/08/30/where-brokerage-cash-actually-sits-and-what-insures-it/)
-
 ## Safe deposit boxes follow the same path
 
 The dormancy rules cover contents as well as balances. A safe deposit box whose rent goes unpaid and whose holder cannot be reached is drilled, inventoried, and its contents turned over to the state after the statutory period.
@@ -95,3 +87,11 @@ For a living owner, the standard package is identification, proof of the connect
 For an heir, the requirements expand to a death certificate, proof of relationship, and documentation of authority to act for the estate, sometimes including letters testamentary. Claims involving multiple heirs or an estate that was never formally administered take considerably longer.
 
 The asymmetry between those two processes is the argument for the record-keeping habit. An account list costs nothing to maintain and removes the hardest part of the problem for whoever handles your affairs later.
+
+## Further Reading
+
+- [When Your Bank Is Acquired, Not Failed: What Happens to Your CD](/2026/09/03/when-your-bank-is-acquired-not-failed-what-happens-to-your-cd/)
+- [Insuring More Than $250,000 Without Opening Ten Accounts](/2026/09/02/insuring-more-than-250000-without-opening-ten-accounts/)
+- [Deposit Betas: Why Savings Rates Fall Faster Than They Rise](/2026/09/01/deposit-betas-why-savings-rates-fall-faster-than-they-rise/)
+- [Credit Union Share Insurance: How NCUA Coverage Compares](/2026/08/31/credit-union-share-insurance-how-ncua-coverage-compares/)
+- [Where Brokerage Cash Actually Sits, and What Insures It](/2026/08/30/where-brokerage-cash-actually-sits-and-what-insures-it/)

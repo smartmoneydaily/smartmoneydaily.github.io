@@ -60,14 +60,6 @@ The one difference that catches people is that an assuming bank in a failure may
 
 None of this is urgent on the day the letter arrives. All of it has a deadline attached, which is the reason it is worth reading rather than filing.
 
-## Further Reading
-
-- [Where Brokerage Cash Actually Sits, and What Insures It](/2026/08/30/where-brokerage-cash-actually-sits-and-what-insures-it/)
-- [Callable CDs: The Risk That Only Appears When Rates Fall](/2026/08/29/callable-cds-the-risk-that-only-appears-when-rates-fall/)
-- [No-Penalty, Bump-Up, and Add-On CDs: When the Variants Pay](/2026/08/28/no-penalty-bump-up-and-add-on-cds-when-the-variants-pay/)
-- [Brokered CDs vs Bank CDs: The Differences That Matter](/2026/08/27/brokered-cds-vs-bank-cds-the-differences-that-matter/)
-- [The Tax Bite on Savings Interest: What Your Real Yield Is](/2026/08/26/the-tax-bite-on-savings-interest-what-your-real-yield-is/)
-
 ## The savings rate timeline after an acquisition
 
 CDs are protected by contract. Savings accounts are not, and the drift is predictable enough to plan around.
@@ -96,3 +88,11 @@ None of these are financial risks. They are the reason a conversion week is a ba
 The insurance grace period gives you six months, and CDs longer. That is enough time to decide deliberately rather than react.
 
 The decision is simply whether the combined bank is still where this money should be. If the acquired institution was chosen for its rate and the acquirer does not compete on rate, the answer is often no, and the cleanest exit point is a CD maturity date rather than an early withdrawal. Mapping those dates against the end of the grace period turns the whole thing into a calendar exercise.
+
+## Further Reading
+
+- [Where Brokerage Cash Actually Sits, and What Insures It](/2026/08/30/where-brokerage-cash-actually-sits-and-what-insures-it/)
+- [Callable CDs: The Risk That Only Appears When Rates Fall](/2026/08/29/callable-cds-the-risk-that-only-appears-when-rates-fall/)
+- [No-Penalty, Bump-Up, and Add-On CDs: When the Variants Pay](/2026/08/28/no-penalty-bump-up-and-add-on-cds-when-the-variants-pay/)
+- [Brokered CDs vs Bank CDs: The Differences That Matter](/2026/08/27/brokered-cds-vs-bank-cds-the-differences-that-matter/)
+- [The Tax Bite on Savings Interest: What Your Real Yield Is](/2026/08/26/the-tax-bite-on-savings-interest-what-your-real-yield-is/)

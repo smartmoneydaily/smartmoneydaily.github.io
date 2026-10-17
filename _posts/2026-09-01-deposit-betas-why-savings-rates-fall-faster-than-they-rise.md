@@ -58,14 +58,6 @@ Three habits cover most of the value:
 
 Deposit beta explains most of what happens to a savings rate without any need for a theory about intentions. The bank is repricing a variable product in the direction that suits it, at the speed the market forces on it. Knowing which direction you are in tells you whether to wait or to move.
 
-## Further Reading
-
-- [Where Brokerage Cash Actually Sits, and What Insures It](/2026/08/30/where-brokerage-cash-actually-sits-and-what-insures-it/)
-- [Callable CDs: The Risk That Only Appears When Rates Fall](/2026/08/29/callable-cds-the-risk-that-only-appears-when-rates-fall/)
-- [No-Penalty, Bump-Up, and Add-On CDs: When the Variants Pay](/2026/08/28/no-penalty-bump-up-and-add-on-cds-when-the-variants-pay/)
-- [Brokered CDs vs Bank CDs: The Differences That Matter](/2026/08/27/brokered-cds-vs-bank-cds-the-differences-that-matter/)
-- [The Tax Bite on Savings Interest: What Your Real Yield Is](/2026/08/26/the-tax-bite-on-savings-interest-what-your-real-yield-is/)
-
 ## What the asymmetry costs, in dollars
 
 Abstract percentages understate this. Consider $40,000 held through a full cycle where market rates rise by three points and later fall by three points, and compare two accounts.
@@ -95,3 +87,11 @@ Forecasting the rate path is not a useful personal finance activity. Three obser
 3. **The shape of CD offerings.** Banks frequently pay the most on terms they expect to be cheap for them, and a sudden willingness to pay well on longer terms is information about what the market expects.
 
 None of that requires an opinion about the Federal Reserve. It requires reading your own statement, which is where the effect actually shows up.
+
+## Further Reading
+
+- [Where Brokerage Cash Actually Sits, and What Insures It](/2026/08/30/where-brokerage-cash-actually-sits-and-what-insures-it/)
+- [Callable CDs: The Risk That Only Appears When Rates Fall](/2026/08/29/callable-cds-the-risk-that-only-appears-when-rates-fall/)
+- [No-Penalty, Bump-Up, and Add-On CDs: When the Variants Pay](/2026/08/28/no-penalty-bump-up-and-add-on-cds-when-the-variants-pay/)
+- [Brokered CDs vs Bank CDs: The Differences That Matter](/2026/08/27/brokered-cds-vs-bank-cds-the-differences-that-matter/)
+- [The Tax Bite on Savings Interest: What Your Real Yield Is](/2026/08/26/the-tax-bite-on-savings-interest-what-your-real-yield-is/)

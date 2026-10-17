@@ -60,14 +60,6 @@ Adding a family member's name to reach a higher joint limit changes legal owners
 
 And the FDIC's own coverage estimator settles most of these questions in a few minutes, using your actual account titling rather than a general rule.
 
-## Further Reading
-
-- [Where Brokerage Cash Actually Sits, and What Insures It](/2026/08/30/where-brokerage-cash-actually-sits-and-what-insures-it/)
-- [Callable CDs: The Risk That Only Appears When Rates Fall](/2026/08/29/callable-cds-the-risk-that-only-appears-when-rates-fall/)
-- [No-Penalty, Bump-Up, and Add-On CDs: When the Variants Pay](/2026/08/28/no-penalty-bump-up-and-add-on-cds-when-the-variants-pay/)
-- [Brokered CDs vs Bank CDs: The Differences That Matter](/2026/08/27/brokered-cds-vs-bank-cds-the-differences-that-matter/)
-- [The Tax Bite on Savings Interest: What Your Real Yield Is](/2026/08/26/the-tax-bite-on-savings-interest-what-your-real-yield-is/)
-
 ## What happens to uninsured money in a failure
 
 Being partly uninsured is not the same as losing the excess, and the historical record is worth knowing before restructuring anything in a panic.
@@ -93,3 +85,11 @@ Nonprofits and government depositors have their own treatment, and public unit d
 Nearly every question in this area is answered faster by running the numbers than by reasoning about the rules. The FDIC publishes a coverage estimator that takes your actual account titling, ownership category, and beneficiary count and returns the insured and uninsured amounts.
 
 Two minutes there beats an hour of interpreting the categories, particularly for households with a mix of joint accounts, POD designations, and retirement accounts at the same bank.
+
+## Further Reading
+
+- [Where Brokerage Cash Actually Sits, and What Insures It](/2026/08/30/where-brokerage-cash-actually-sits-and-what-insures-it/)
+- [Callable CDs: The Risk That Only Appears When Rates Fall](/2026/08/29/callable-cds-the-risk-that-only-appears-when-rates-fall/)
+- [No-Penalty, Bump-Up, and Add-On CDs: When the Variants Pay](/2026/08/28/no-penalty-bump-up-and-add-on-cds-when-the-variants-pay/)
+- [Brokered CDs vs Bank CDs: The Differences That Matter](/2026/08/27/brokered-cds-vs-bank-cds-the-differences-that-matter/)
+- [The Tax Bite on Savings Interest: What Your Real Yield Is](/2026/08/26/the-tax-bite-on-savings-interest-what-your-real-yield-is/)

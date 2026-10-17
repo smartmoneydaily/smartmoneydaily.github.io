@@ -60,14 +60,6 @@ Four questions, and the answers are all in the account's cash management disclos
 
 For cash that is genuinely waiting to be invested in a few days, none of this is worth much attention. For a balance that has been sitting for months because it never got a decision, it is the difference between the cash working and the cash sitting.
 
-## Further Reading
-
-- [The Tax Bite on Savings Interest: What Your Real Yield Is](/2026/08/26/the-tax-bite-on-savings-interest-what-your-real-yield-is/)
-- [When Breaking a CD Actually Pays: Run the Break-Even](/2026/08/25/when-breaking-a-cd-actually-pays-run-the-break-even/)
-- [Six Lines in a Bank Disclosure That Decide What You Earn](/2026/08/24/six-lines-in-a-bank-disclosure-that-decide-what-you-earn/)
-- [What Happens to Your Money When a Bank Fails](/2026/08/23/what-happens-to-your-money-when-a-bank-fails/)
-- [Money Market Account vs. Money Market Fund: What's Insured](/2026/08/22/money-market-account-vs-money-market-fund-whats-insured/)
-
 ## The alternatives to a sweep
 
 For cash that will sit more than a few days, a brokerage account offers instruments that are not sweep options at all.
@@ -93,3 +85,11 @@ The practical habit is to look at the cash line once a quarter rather than once 
 Insurance limits apply per depositor per bank per ownership category, and the sweep does not change that logic. Cash swept from an individual taxable account and cash swept from an IRA at the same firm may land at the same program bank, and whether those combine depends on the ownership category each falls into.
 
 Retirement accounts sit in their own category, so an IRA sweep does not combine with an individual account's sweep at the same bank. Two individual accounts at the same firm do combine. A joint account is a third category again. The arithmetic is the same one that applies at a bank, applied to destinations you did not personally choose.
+
+## Further Reading
+
+- [The Tax Bite on Savings Interest: What Your Real Yield Is](/2026/08/26/the-tax-bite-on-savings-interest-what-your-real-yield-is/)
+- [When Breaking a CD Actually Pays: Run the Break-Even](/2026/08/25/when-breaking-a-cd-actually-pays-run-the-break-even/)
+- [Six Lines in a Bank Disclosure That Decide What You Earn](/2026/08/24/six-lines-in-a-bank-disclosure-that-decide-what-you-earn/)
+- [What Happens to Your Money When a Bank Fails](/2026/08/23/what-happens-to-your-money-when-a-bank-fails/)
+- [Money Market Account vs. Money Market Fund: What's Insured](/2026/08/22/money-market-account-vs-money-market-fund-whats-insured/)

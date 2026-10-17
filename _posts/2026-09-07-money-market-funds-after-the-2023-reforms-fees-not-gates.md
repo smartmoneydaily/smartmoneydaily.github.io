@@ -71,14 +71,6 @@ Run your own numbers instead: your balance, the APY on offer, and the period you
 
 {% include tools/apy-calculator.html %}
 
-## Further Reading
-
-- [When Your Bank Is Acquired, Not Failed: What Happens to Your CD](/2026/09/03/when-your-bank-is-acquired-not-failed-what-happens-to-your-cd/)
-- [Insuring More Than $250,000 Without Opening Ten Accounts](/2026/09/02/insuring-more-than-250000-without-opening-ten-accounts/)
-- [Deposit Betas: Why Savings Rates Fall Faster Than They Rise](/2026/09/01/deposit-betas-why-savings-rates-fall-faster-than-they-rise/)
-- [Credit Union Share Insurance: How NCUA Coverage Compares](/2026/08/31/credit-union-share-insurance-how-ncua-coverage-compares/)
-- [Where Brokerage Cash Actually Sits, and What Insures It](/2026/08/30/where-brokerage-cash-actually-sits-and-what-insures-it/)
-
 ## Reading what a fund actually holds
 
 A fund's category tells you most of what you need, and the holdings report tells you the rest.
@@ -108,3 +100,11 @@ Three adjustments make the comparison real.
 **Certainty of principal.** A deposit is a fixed claim on the bank, insured to the limit. A fund share is a claim on a portfolio. In normal conditions the distinction is invisible, and it is not the kind of thing to discover during the week it starts mattering.
 
 For a genuine emergency fund, the insured deposit is the more appropriate instrument even at a slightly lower yield. For cash waiting on an investment decision inside a brokerage account, a government money market fund is a reasonable and now better-buffered place to hold it.
+
+## Further Reading
+
+- [When Your Bank Is Acquired, Not Failed: What Happens to Your CD](/2026/09/03/when-your-bank-is-acquired-not-failed-what-happens-to-your-cd/)
+- [Insuring More Than $250,000 Without Opening Ten Accounts](/2026/09/02/insuring-more-than-250000-without-opening-ten-accounts/)
+- [Deposit Betas: Why Savings Rates Fall Faster Than They Rise](/2026/09/01/deposit-betas-why-savings-rates-fall-faster-than-they-rise/)
+- [Credit Union Share Insurance: How NCUA Coverage Compares](/2026/08/31/credit-union-share-insurance-how-ncua-coverage-compares/)
+- [Where Brokerage Cash Actually Sits, and What Insures It](/2026/08/30/where-brokerage-cash-actually-sits-and-what-insures-it/)

@@ -58,14 +58,6 @@ Before moving a meaningful balance to a credit union you have not used:
 
 Safety is not the reason to hesitate. A federally insured credit union and an FDIC insured bank are protected on the same terms by different agencies.
 
-## Further Reading
-
-- [Where Brokerage Cash Actually Sits, and What Insures It](/2026/08/30/where-brokerage-cash-actually-sits-and-what-insures-it/)
-- [Callable CDs: The Risk That Only Appears When Rates Fall](/2026/08/29/callable-cds-the-risk-that-only-appears-when-rates-fall/)
-- [No-Penalty, Bump-Up, and Add-On CDs: When the Variants Pay](/2026/08/28/no-penalty-bump-up-and-add-on-cds-when-the-variants-pay/)
-- [Brokered CDs vs Bank CDs: The Differences That Matter](/2026/08/27/brokered-cds-vs-bank-cds-the-differences-that-matter/)
-- [The Tax Bite on Savings Interest: What Your Real Yield Is](/2026/08/26/the-tax-bite-on-savings-interest-what-your-real-yield-is/)
-
 ## How joining actually works
 
 Field of membership sounds restrictive and usually is not, in practice.
@@ -91,3 +83,11 @@ Mergers are far more common than failures, and they usually improve the survivin
 Accounts convert to the acquirer's product set on a stated date, share certificates generally hold their rate to maturity the way bank CDs do, and membership carries over. The six-month separate insurance window that applies to bank mergers has an equivalent in NCUA rules, which matters if you were a member of both institutions.
 
 Loans transfer with their terms intact. What changes most often is the rate on variable-rate savings, the fee schedule, and the online banking platform.
+
+## Further Reading
+
+- [Where Brokerage Cash Actually Sits, and What Insures It](/2026/08/30/where-brokerage-cash-actually-sits-and-what-insures-it/)
+- [Callable CDs: The Risk That Only Appears When Rates Fall](/2026/08/29/callable-cds-the-risk-that-only-appears-when-rates-fall/)
+- [No-Penalty, Bump-Up, and Add-On CDs: When the Variants Pay](/2026/08/28/no-penalty-bump-up-and-add-on-cds-when-the-variants-pay/)
+- [Brokered CDs vs Bank CDs: The Differences That Matter](/2026/08/27/brokered-cds-vs-bank-cds-the-differences-that-matter/)
+- [The Tax Bite on Savings Interest: What Your Real Yield Is](/2026/08/26/the-tax-bite-on-savings-interest-what-your-real-yield-is/)

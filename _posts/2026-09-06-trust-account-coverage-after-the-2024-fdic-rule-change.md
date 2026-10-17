@@ -61,14 +61,6 @@ Beneficiary designations also outlive relationships. Reviewing them after a marr
 
 The FDIC's coverage estimator handles the trust arithmetic directly, using your account titling and beneficiary count, which settles the question faster than reasoning through the formula by hand.
 
-## Further Reading
-
-- [When Your Bank Is Acquired, Not Failed: What Happens to Your CD](/2026/09/03/when-your-bank-is-acquired-not-failed-what-happens-to-your-cd/)
-- [Insuring More Than $250,000 Without Opening Ten Accounts](/2026/09/02/insuring-more-than-250000-without-opening-ten-accounts/)
-- [Deposit Betas: Why Savings Rates Fall Faster Than They Rise](/2026/09/01/deposit-betas-why-savings-rates-fall-faster-than-they-rise/)
-- [Credit Union Share Insurance: How NCUA Coverage Compares](/2026/08/31/credit-union-share-insurance-how-ncua-coverage-compares/)
-- [Where Brokerage Cash Actually Sits, and What Insures It](/2026/08/30/where-brokerage-cash-actually-sits-and-what-insures-it/)
-
 ## Formal trust or POD: which one to use
 
 Both fall in the same insurance category now, so coverage is not the deciding factor. The differences are legal rather than insurance-related.
@@ -96,3 +88,11 @@ The fix in every case is a request to the bank to confirm how the account is tit
 Certain retirement accounts, including traditional and Roth IRAs held as deposits, sit in their own insurance category with its own $250,000 limit. They do not combine with trust accounts, single accounts, or joint accounts at the same bank.
 
 That is frequently the simplest available headroom for a household near the limit at an institution it wants to stay with, and it requires no restructuring at all, only an awareness that the balance is already in a separate bucket.
+
+## Further Reading
+
+- [When Your Bank Is Acquired, Not Failed: What Happens to Your CD](/2026/09/03/when-your-bank-is-acquired-not-failed-what-happens-to-your-cd/)
+- [Insuring More Than $250,000 Without Opening Ten Accounts](/2026/09/02/insuring-more-than-250000-without-opening-ten-accounts/)
+- [Deposit Betas: Why Savings Rates Fall Faster Than They Rise](/2026/09/01/deposit-betas-why-savings-rates-fall-faster-than-they-rise/)
+- [Credit Union Share Insurance: How NCUA Coverage Compares](/2026/08/31/credit-union-share-insurance-how-ncua-coverage-compares/)
+- [Where Brokerage Cash Actually Sits, and What Insures It](/2026/08/30/where-brokerage-cash-actually-sits-and-what-insures-it/)

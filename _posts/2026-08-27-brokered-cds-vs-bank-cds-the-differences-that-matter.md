@@ -72,14 +72,6 @@ A brokered CD suits money that is genuinely staying put, held alongside other in
 
 Neither is the better product in the abstract. The one that fits depends on whether the money is more likely to stay put or come back.
 
-## Further Reading
-
-- [The Tax Bite on Savings Interest: What Your Real Yield Is](/2026/08/26/the-tax-bite-on-savings-interest-what-your-real-yield-is/)
-- [When Breaking a CD Actually Pays: Run the Break-Even](/2026/08/25/when-breaking-a-cd-actually-pays-run-the-break-even/)
-- [Six Lines in a Bank Disclosure That Decide What You Earn](/2026/08/24/six-lines-in-a-bank-disclosure-that-decide-what-you-earn/)
-- [What Happens to Your Money When a Bank Fails](/2026/08/23/what-happens-to-your-money-when-a-bank-fails/)
-- [Money Market Account vs. Money Market Fund: What's Insured](/2026/08/22/money-market-account-vs-money-market-fund-whats-insured/)
-
 ## How each one shows up at tax time
 
 A bank CD produces a single Form 1099-INT from the bank, with interest in Box 1 and any early withdrawal penalty in Box 2.
@@ -107,3 +99,11 @@ The FDIC has published guidance repeatedly on pass-through insurance for these a
 3. Confirm whether interest is paid out or compounds, and where paid interest lands.
 4. Note the settlement date, which is when interest starts.
 5. Decide in advance whether this money can tolerate a secondary market sale, because that is the only exit.
+
+## Further Reading
+
+- [The Tax Bite on Savings Interest: What Your Real Yield Is](/2026/08/26/the-tax-bite-on-savings-interest-what-your-real-yield-is/)
+- [When Breaking a CD Actually Pays: Run the Break-Even](/2026/08/25/when-breaking-a-cd-actually-pays-run-the-break-even/)
+- [Six Lines in a Bank Disclosure That Decide What You Earn](/2026/08/24/six-lines-in-a-bank-disclosure-that-decide-what-you-earn/)
+- [What Happens to Your Money When a Bank Fails](/2026/08/23/what-happens-to-your-money-when-a-bank-fails/)
+- [Money Market Account vs. Money Market Fund: What's Insured](/2026/08/22/money-market-account-vs-money-market-fund-whats-insured/)

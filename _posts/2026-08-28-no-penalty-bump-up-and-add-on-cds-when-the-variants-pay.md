@@ -59,14 +59,6 @@ Your own disclosure has the penalty terms — put them in below, with your balan
 
 {% include tools/cd-penalty.html %}
 
-## Further Reading
-
-- [The Tax Bite on Savings Interest: What Your Real Yield Is](/2026/08/26/the-tax-bite-on-savings-interest-what-your-real-yield-is/)
-- [When Breaking a CD Actually Pays: Run the Break-Even](/2026/08/25/when-breaking-a-cd-actually-pays-run-the-break-even/)
-- [Six Lines in a Bank Disclosure That Decide What You Earn](/2026/08/24/six-lines-in-a-bank-disclosure-that-decide-what-you-earn/)
-- [What Happens to Your Money When a Bank Fails](/2026/08/23/what-happens-to-your-money-when-a-bank-fails/)
-- [Money Market Account vs. Money Market Fund: What's Insured](/2026/08/22/money-market-account-vs-money-market-fund-whats-insured/)
-
 ## Step-up CDs, which are a different thing
 
 A step-up CD is often confused with a bump-up CD, and the mechanics are not the same.
@@ -92,3 +84,11 @@ None of this is arbitrary. A bank issuing a CD is buying funding for a known ter
 A no-penalty CD might leave early, so the bank cannot count on the funding for the full term. A bump-up may reprice upward. An add-on may grow at an old rate. Each uncertainty is priced by lowering the starting rate, and the size of the reduction is roughly the bank's estimate of what the feature will cost it across all the customers who buy it.
 
 That framing answers most questions about whether a variant is worth it. The bank has priced the feature for the average buyer. It is a good deal only if you are more likely than average to use it, which requires a concrete reason rather than a general preference for flexibility.
+
+## Further Reading
+
+- [The Tax Bite on Savings Interest: What Your Real Yield Is](/2026/08/26/the-tax-bite-on-savings-interest-what-your-real-yield-is/)
+- [When Breaking a CD Actually Pays: Run the Break-Even](/2026/08/25/when-breaking-a-cd-actually-pays-run-the-break-even/)
+- [Six Lines in a Bank Disclosure That Decide What You Earn](/2026/08/24/six-lines-in-a-bank-disclosure-that-decide-what-you-earn/)
+- [What Happens to Your Money When a Bank Fails](/2026/08/23/what-happens-to-your-money-when-a-bank-fails/)
+- [Money Market Account vs. Money Market Fund: What's Insured](/2026/08/22/money-market-account-vs-money-market-fund-whats-insured/)

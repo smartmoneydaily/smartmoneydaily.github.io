@@ -58,23 +58,15 @@ The holds are not negotiable in general, but several things shift the outcome:
 4. **Read the hold notice** rather than assuming the standard schedule. It names the release date.
 5. **Keep the account healthy.** Deposit history and overdraft history feed directly into the discretion the rules allow.
 
-For a savings account funded by transfer, none of this comes up. It matters most on checking accounts receiving paper checks, and on newly opened accounts of any type, where the longer new-account schedule catches people moving a balance to chase a rate.
+For a savings account funded by transfer, these check-hold rules do not come up. For its funds-availability rules, Regulation CC defines an account as a transaction account, such as a checking, NOW or share draft account, and leaves savings deposits out. The rules matter most when paper checks go into a transaction account, and most of all when that account is new, because longer holds can apply to check deposits in a new account.
 
 The general principle is simple enough: the money is legally yours on deposit, and the availability rules govern when the bank must let you use it. They are a ceiling on delay, not a description of how fast things normally go.
 
-## Further Reading
-
-- [When Your Bank Is Acquired, Not Failed: What Happens to Your CD](/2026/09/03/when-your-bank-is-acquired-not-failed-what-happens-to-your-cd/)
-- [Insuring More Than $250,000 Without Opening Ten Accounts](/2026/09/02/insuring-more-than-250000-without-opening-ten-accounts/)
-- [Deposit Betas: Why Savings Rates Fall Faster Than They Rise](/2026/09/01/deposit-betas-why-savings-rates-fall-faster-than-they-rise/)
-- [Credit Union Share Insurance: How NCUA Coverage Compares](/2026/08/31/credit-union-share-insurance-how-ncua-coverage-compares/)
-- [Where Brokerage Cash Actually Sits, and What Insures It](/2026/08/30/where-brokerage-cash-actually-sits-and-what-insures-it/)
-
 ## New accounts opened to chase a rate
 
-The longer new-account schedule catches a specific group of people: those moving a balance to a bank offering a better rate.
+The longer new-account schedule catches a specific group of people: those who open a new checking or other transaction account, often while moving their everyday banking or chasing the rate on an interest-bearing checking account, and fund it with a check. A new savings account is a different case. Regulation CC's availability schedules do not apply to savings deposits, so the bank's own funds-availability policy is the one to read.
 
-For roughly the first thirty days, a bank may apply an extended availability schedule to a new account. The first portion of certain check deposits is still available quickly, and the rest can take substantially longer than the standard schedule allows.
+For roughly the first thirty days, a bank may apply an extended availability schedule to a new transaction account. Even then, cash deposited in person and electronic payments must be available by the next business day, as under the basic schedule. The first portion of certain check deposits is still available quickly, and the rest can take substantially longer than the standard schedule allows.
 
 The way around it is to fund the account by transfer rather than by check. An ACH pull initiated from the new bank, or a push from the old one, sits outside the check hold framework. Wire transfers arrive same-day and cost a fee, which is occasionally worth it on a large balance where the days of lost interest exceed the wire cost.
 
@@ -93,3 +85,11 @@ For deposits from an unfamiliar payer, the conservative habit is to wait until t
 Scams that ask a victim to deposit a check and forward part of the proceeds rely entirely on the gap between availability and settlement. The deposit shows up, the funds become available on schedule, the victim sends money, and the check is returned weeks later. The bank reverses the deposit and the victim is responsible for the shortfall.
 
 The rule that protects against it is simple and worth stating plainly: funds becoming available is a legal deadline for the bank, not a verification that the check was good. Money forwarded on the strength of a deposited check from someone you do not know is money at risk regardless of what the balance says.
+
+## Further Reading
+
+- [When Your Bank Is Acquired, Not Failed: What Happens to Your CD](/2026/09/03/when-your-bank-is-acquired-not-failed-what-happens-to-your-cd/)
+- [Insuring More Than $250,000 Without Opening Ten Accounts](/2026/09/02/insuring-more-than-250000-without-opening-ten-accounts/)
+- [Deposit Betas: Why Savings Rates Fall Faster Than They Rise](/2026/09/01/deposit-betas-why-savings-rates-fall-faster-than-they-rise/)
+- [Credit Union Share Insurance: How NCUA Coverage Compares](/2026/08/31/credit-union-share-insurance-how-ncua-coverage-compares/)
+- [Where Brokerage Cash Actually Sits, and What Insures It](/2026/08/30/where-brokerage-cash-actually-sits-and-what-insures-it/)
