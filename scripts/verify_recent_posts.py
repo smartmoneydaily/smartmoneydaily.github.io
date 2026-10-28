@@ -5,6 +5,7 @@ v9/v10 가드(메타 양산단어·promissory 표현·내부링크 permalink·�
 자동 발행 글에서 실제로 지켜지는지 검사. 수정은 하지 않고 리포트만 출력.
 
 사용: python scripts/verify_recent_posts.py [--since 2026-06-02]
+2026-10-28: 2026-11-01 이후 글은 스크립트/humanlike.py scan_en 사람글 검사도 본다(치명 = FAIL). 모듈이 없으면 건너뛴다고 출력.
 """
 import os
 import re
@@ -27,6 +28,12 @@ CLICHE_PAT = re.compile(
 # 내부 링크: /YYYY/MM/DD/slug/ (또는 /assets/, /tools/) 형식 외의 상대링크 = 404 후보
 LINK_PAT = re.compile(r"\]\((/[^)]+)\)")
 GOOD_LINK_PAT = re.compile(r"^/(?:\d{4}/\d{2}/\d{2}/[a-z0-9-]+/?|assets/|tools/)")
+STYLE_SINCE = "2026-11-01"
+try:
+    sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "..", "..", "스크립트"))
+    import humanlike
+except ImportError:
+    humanlike = None
 
 
 def tokens(text):
@@ -80,8 +87,13 @@ def main():
         if about_n:
             issues.append(f"About the Author 섹션 {about_n}개 (v11 이후엔 0이어야)")
 
+        if fn[:10] >= STYLE_SINCE and humanlike is not None:
+            issues += ["사람글: " + x for x in humanlike.scan_en(body)[0]]
+
         results.append((fn, title, wc, issues))
 
+    if humanlike is None:
+        print("참고: 사람글 검사 모듈(스크립트/humanlike.py)을 못 찾아 사람글 검사는 건너뜀")
     print(f"=== {since} 이후 {len(results)}편 검증 ===\n")
     fails = 0
     for fn, title, wc, issues in results:

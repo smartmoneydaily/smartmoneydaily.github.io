@@ -525,7 +525,7 @@ _TOOL_RULES = (
     ), (
         "Enter your CD's balance, rate, months held, and the penalty from your disclosure to see "
         "whether breaking it actually pays.",
-        "Your own disclosure has the penalty terms — put them in below, with your balance and how "
+        "Your own disclosure has the penalty terms. Put them in below, with your balance and how "
         "long you have held the CD, and the math will show whether an early exit leaves you ahead.",
         "Rather than guess, run your numbers: balance, rate, months held, and the stated penalty.",
     )),
@@ -534,7 +534,7 @@ _TOOL_RULES = (
     ), (
         "Put your total amount and the number of rungs in below to see each rung's size, maturity, "
         "and interest.",
-        "How a ladder actually splits up depends on your total and how many rungs you want — set "
+        "How a ladder actually splits up depends on your total and how many rungs you want. Set "
         "both below to see the maturity schedule.",
         "Try it with your own total: the rung sizes and maturity dates fall out of those two inputs.",
     )),
@@ -543,7 +543,7 @@ _TOOL_RULES = (
         "returns", "earnings", "grow",
     ), (
         "Enter your own balance and APY below to see what the difference is worth over your time frame.",
-        "The gap only means something against your own balance — put yours in below with the APY "
+        "The gap only means something against your own balance, so put yours in below with the APY "
         "you are comparing.",
         "Run your own numbers instead: your balance, the APY on offer, and the period you plan to hold.",
         "Below, set the balance you would actually deposit and the rate you are being quoted.",
