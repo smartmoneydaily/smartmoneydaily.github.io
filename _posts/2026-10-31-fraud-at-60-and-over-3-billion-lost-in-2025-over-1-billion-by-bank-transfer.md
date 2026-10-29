@@ -47,7 +47,7 @@ Figure 1 splits each year's losses by the size of the individual loss. The total
 
 Over those five years, the number of loss reports grew 78%. Total losses grew about fivefold, and losses in six-figure reports grew nearly sevenfold. The report counts 6,769 reports of losses over $100,000 in 2025, up from 1,136 in 2020.
 
-**Worked example: the median and the average.** A footnote in the report sorts the 2025 loss reports into three sizes, and Figure 1 gives the dollars for each.
+A footnote in the report sorts the 2025 loss reports into three sizes, and Figure 1 gives the dollars for each.
 
 | Size of loss | Reports | Combined losses | Average per report |
 |---|---|---|---|
@@ -96,7 +96,7 @@ Figure 7 shows how older adults paid, measured by total dollars and by share of 
 
 Since 2020, the report says, older adults' reported losses have grown more than tenfold on scams paid by bank transfer and more than twenty-sevenfold on scams paid with cryptocurrency. "The largest share of aggregated reported losses by older adults using bank transfers or cryptocurrency was on investment scams and scams impersonating well-known businesses, particularly banks and Microsoft."
 
-**Worked example: share of reports against dollars lost.** Credit cards were the payment method in 28% of the loss reports in the chart and carried $94 million. Bank transfers appeared in 11% and carried $1,033 million. Because both shares come from the same pool of reports, the average bank-transfer loss works out to roughly 28 times the average credit-card loss ($1,033 million ÷ 11 against $94 million ÷ 28). Rounding in the chart means the true multiple could be somewhat higher or lower. The same arithmetic puts the average cash loss at about four times the average gift-card loss. Bank transfers, cash, wires and checks together come to about $1.5 billion, about 60% of the roughly $2.5 billion across the ten methods shown. That total is below $3 billion because the chart leaves out reports that named no payment method and methods people wrote in.
+Credit cards were the payment method in 28% of the loss reports in the chart and carried $94 million. Bank transfers appeared in 11% and carried $1,033 million. Because both shares come from the same pool of reports, the average bank-transfer loss works out to roughly 28 times the average credit-card loss ($1,033 million ÷ 11 against $94 million ÷ 28). Rounding in the chart means the true multiple could be somewhat higher or lower. The same arithmetic puts the average cash loss at about four times the average gift-card loss. Bank transfers, cash, wires and checks together come to about $1.5 billion, about 60% of the roughly $2.5 billion across the ten methods shown. That total is below $3 billion because the chart leaves out reports that named no payment method and methods people wrote in.
 
 Gift cards still matter by count. The report says older adults named gift cards more often than any other method on tech support scams, romance scams, family and friend impersonation, and prize, sweepstakes and lottery scams.
 
@@ -133,17 +133,17 @@ The report gives numbers on one recovery route. The FBI's Internet Crime Complai
 
 The FTC feeds that process. When a report of a high-dollar loss comes in through ReportFraud.ftc.gov or the FTC's call center, meets certain criteria and the person agrees, the FTC can refer it to the FBI. In 2025 it referred 680 reports. Of those, 451 went straight to the Recovery Asset Team, which could act on 200 that fit its criteria. Those 200 reports had more than $18.7 million in reported losses, and over $10.8 million was frozen. The report doesn't list the criteria.
 
-**A case from the FBI: a $52,000 wire.** The report includes a case the FBI's team shared. In a report to the FTC in August 2025, an older adult said they had opened a spoofed text that appeared to come from Apple Support and claimed $500 had been charged to their credit card. A caller claiming to be from Apple Support then said the person was being investigated by the FBI and told them to send a $52,000 wire, along with smaller transfers through bitcoin ATMs, "in order to verify their identity." The wire went to a U.S. bank that held a custodial account for Coinbase. The Recovery Asset Team started the kill chain with its banking partners, with further instruction to Coinbase, and more than $51,000 was frozen.
+The report also includes a case shared by the FBI's team involving a $52,000 wire transfer. In a report to the FTC in August 2025, an older adult said they had opened a spoofed text that appeared to come from Apple Support and claimed $500 had been charged to their credit card. A caller claiming to be from Apple Support then said the person was being investigated by the FBI and told them to send a $52,000 wire, along with smaller transfers through bitcoin ATMs, "in order to verify their identity." The wire went to a U.S. bank that held a custodial account for Coinbase. The Recovery Asset Team started the kill chain with its banking partners, with further instruction to Coinbase, and more than $51,000 was frozen.
 
 ## Where to report, by payment method
 
 The FTC's consumer page on what to do after paying a scammer names the first contact, depending on how the money was sent:
 
-- **Zelle or a bank transfer:** the bank or credit union, immediately, with a request to reverse the payment and refund the money.
-- **A wire transfer company such as Western Union or MoneyGram:** the company, immediately, with a request for a refund.
-- **Cryptocurrency, including a crypto ATM:** the exchange or the ATM operator, immediately, with word that the transaction was fraudulent. The page notes that cryptocurrency payments don't have the same legal protections as credit and debit cards.
-- **Cash sent through the U.S. mail:** the U.S. Postal Inspection Service, at 1-877-876-2455, immediately; for a fee, the service may be able to intercept the package.
-- **Credit or debit card:** the card issuer, or for a debit card the bank or credit union, through the number on the back of the card or the online account.
+- Zelle or a bank transfer: the bank or credit union, immediately, with a request to reverse the payment and refund the money.
+- A wire transfer company such as Western Union or MoneyGram: the company, immediately, with a request for a refund.
+- Cryptocurrency, including a crypto ATM: the exchange or the ATM operator, immediately, with word that the transaction was fraudulent. The page notes that cryptocurrency payments don't have the same legal protections as credit and debit cards.
+- Cash sent through the U.S. mail: the U.S. Postal Inspection Service, at 1-877-876-2455, immediately; for a fee, the service may be able to intercept the package.
+- Credit or debit card: the card issuer, or for a debit card the bank or credit union, through the number on the back of the card or the online account.
 
 Each step is a request, not a guarantee that the money comes back. Reports to agencies are a separate step. [ReportFraud.ftc.gov](https://reportfraud.ftc.gov/) is the FTC's reporting site; its reports go into Sentinel and, for qualifying high-dollar losses with the person's consent, to the FBI as described above. Since April 2026, older adults who call the FTC to report significant fraud and need more support are connected directly to the Justice Department's National Elder Fraud Hotline, and online filers with substantial or very recent losses are given its number. The hotline, 833-FRAUD-11 (833-372-8311), takes reports of fraud against anyone 60 or older. It is open Monday through Friday, 10 a.m. to 6 p.m. Eastern time, in English, Spanish and other languages, and it assigns each caller a case manager. Its page carries a warning of its own: scammers have used the hotline's name and number to ask for personal information or money.
 
@@ -155,16 +155,7 @@ The FTC is explicit about what Sentinel can show. Its data "is self-reported and
 
 Most fraud is never reported. A study the FTC cites found that just 4.8% of victims of mass-market consumer fraud complained to a Better Business Bureau or a government entity. Using different assumptions about underreporting, the FTC estimates the overall cost of fraud to older adults in 2025 at between $13.3 billion and $119.5 billion, and it says those figures "reflect a considerable degree of uncertainty."
 
-## Dates in order
-
-| Date | What happened |
-|---|---|
-| August 2025 | An older adult reports a $52,000 wire scam to the FTC; more than $51,000 was frozen |
-| Oct. 1 to Nov. 13, 2025 | The FTC took no consumer reports during a funding lapse |
-| April 2026 | The FTC began connecting older adults with significant losses to the National Elder Fraud Hotline |
-| Oct. 19, 2026 | The FTC released Protecting Older Consumers 2025–2026 |
-
-## Common questions
+## Other questions about the report
 
 **Does the $3 billion count all fraud against people 60 and over in 2025?**
 

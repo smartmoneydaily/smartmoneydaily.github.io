@@ -27,17 +27,15 @@ The timing affects how to read every number. The report says the majority of the
 
 The headline results were mixed. Real median family income rose 7% between the 2022 and 2025 surveys to $82,200, and real median net worth rose 2% to $215,900. The report also found more families falling behind on loan payments, covered further below.
 
-## What counts as a transaction account
-
 The survey doesn't report savings accounts by themselves. Its basic cash category is the transaction account, and the definition in the report's appendix is broad:
 
 > "Transaction accounts include checking, savings, and money market deposit accounts; money market funds (MMFs); call or cash accounts at brokerages; and prepaid debit cards."
 
 Three details in the appendix change what the $8,200 median covers.
 
-- **Some tax-advantaged accounts count as savings.** "The savings account category includes tax-preferred accounts such as medical or health savings accounts and Coverdell or 529 education accounts." A health savings account, for instance, is counted as savings. Our guide to [2027 HSA limits and where HSA cash is insured](/2026/10/03/2027-hsa-limits-4500-and-9000-and-where-hsa-cash-is-insured/) covers those accounts.
-- **Brokerage cash counts.** Call accounts "include those that hold money received from the sale of securities until the money is reinvested."
-- **Some apps count.** Prepaid debit cards, "collected in the SCF for the first time in 2016, include reloadable prepaid debit cards, government benefit cards, and some online payment services and mobile apps that include an account feature that allow families to receive and store money (such as Venmo, CashApp, Paypal, and the apps for Starbucks and Apple)."
+- Some tax-advantaged accounts count as savings. "The savings account category includes tax-preferred accounts such as medical or health savings accounts and Coverdell or 529 education accounts." A health savings account, for instance, is counted as savings. Our guide to [2027 HSA limits and where HSA cash is insured](/2026/10/03/2027-hsa-limits-4500-and-9000-and-where-hsa-cash-is-insured/) covers those accounts.
+- Brokerage cash counts. Call accounts "include those that hold money received from the sale of securities until the money is reinvested."
+- Some apps count. Prepaid debit cards, "collected in the SCF for the first time in 2016, include reloadable prepaid debit cards, government benefit cards, and some online payment services and mobile apps that include an account feature that allow families to receive and store money (such as Venmo, CashApp, Paypal, and the apps for Starbucks and Apple)."
 
 Other cash-like holdings are separate categories and aren't in the $8,200. Certificates of deposit "are accounts held for a set period of time that must be cashed or renewed at the maturity date." Savings bonds "include only U.S. government issues; recent series include EE and I, and older bonds may be series E, H, and HH." Retirement accounts, including IRAs and 401(k) plans, are another category, held by 54.9% of families with a median of $106,000.
 
@@ -72,7 +70,7 @@ Only 2022 had a higher median or a higher mean in the full series, which runs ev
 
 Transaction accounts also shrank as a share of families' financial assets. In the Fed's Table 5, they were 9.8% of all families' financial assets in 2025, down from 12.2% in 2022. Retirement accounts rose from 35.9% to 39.3%, and CDs from 1.3% to 1.9%.
 
-## Bank balances by age
+## Balances by age, income and family type
 
 The tables group families by the age of a "reference person," a label the Fed uses "as a means of organizing the data consistently." For a couple, the reference person is "the male in a mixed-sex couple or the older person in a same-sex couple," so a couple's age group follows one partner's age.
 
@@ -89,8 +87,6 @@ Medians rise with age, but far less steeply than means. The median for families 
 
 Four of the six age groups had lower medians than in 2022. The largest move was for families 65 to 74, whose median fell from $14,800 to $10,000, while the median for families 75 and older rose from $10,900 to $14,000. Changes in a single age group should be read with caution. Each group is a slice of 4,367 interviews, and the report says that "although the statistical significance of the results generally is not addressed," it highlights "findings that are significant or are interesting in a broader context." Its discussion of transaction accounts doesn't break them out by age at all. The age figures come from the tables.
 
-## Bank balances by income
-
 The income groups are percentile ranges. The first four each contain 20% of families, and the last two each contain 10%. The second column, from the Fed's Table 1, is the median income within each group, which helps in placing a household.
 
 | Income group | Median income in the group | Families with a transaction account | Median balance | Mean balance |
@@ -105,8 +101,6 @@ The income groups are percentile ranges. The first four each contain 20% of fami
 The spread is much wider by income than by age. The middle fifth's median balance, $7,500, was more than nine times the bottom fifth's $800, and the top tenth's median, $105,000, was 14 times the middle fifth's. Families without any transaction account were most common in the bottom fifth, where 95.3% had one and 4.7% didn't. The top tenth's median fell from $121,600 in 2022, the largest dollar drop of any income group, while the others moved by $3,100 or less.
 
 At the top, balances run into deposit insurance limits. A mean of $327,200 in transaction accounts doesn't mean a family keeps that much at one bank, but large balances raise the question. FDIC coverage is "$250,000 per depositor, per FDIC-insured bank, for each account ownership category," and the FDIC's own examples give a single account and a joint account at the same bank separate coverage. Whether a large balance is fully insured depends on how it is split across banks, owners and ownership categories, and on how much of it sits in money market funds or brokerage cash that aren't bank deposits. Two of our guides go through the categories: one on [how FDIC ownership categories stack coverage at one bank](/2026/08/21/how-fdic-ownership-categories-stack-coverage-at-one-bank/) and one on [insuring more than $250,000](/2026/09/02/insuring-more-than-250000-without-opening-ten-accounts/).
-
-## Owners, renters and family type
 
 The tables split the 2025 figures several other ways. These are some of them.
 
@@ -143,8 +137,6 @@ Table 1 of the historic tables answers a different question: not what families h
 | 75 or older | 55.0% | 53.4% |
 
 The share fell in five of the six income groups and held steady in the bottom fifth. The biggest drop came in the second fifth, from 48.7% to 41.2%. By age, families under 35 were the only group in which the share rose; the steepest decline was among families 45 to 54.
-
-## What families would do with a month's income
 
 The 2025 survey also tried a hypothetical, analyzed in one of the FEDS Notes. Respondents were asked: "Imagine you unexpectedly receive a sum of money equal to one month of your family's normal annual income. Thinking over the next 12 months, please indicate the percent of this money that you would save, the percent that you would spend, and the percent that you would use to pay down debts."
 
@@ -214,13 +206,11 @@ Two rules from the Treasury and the IRS apply to anyone holding older bonds. Fir
 
 Second, the tax timing follows maturity. Interest on EE and I bonds is subject to federal income tax but not state or local income tax, according to TreasuryDirect, which adds that "most people put off reporting the interest until they actually get it." Publication 550 calls that method 1: "Postpone reporting the interest until the earlier of the year you cash or dispose of the bonds or the year in which they mature." Under that method, a bond that reaches its 30-year final maturity puts its deferred interest on that year's return, whether or not it has been cashed. TreasuryDirect says the Form 1099-INT comes "for the year in which you get the interest," and for a paper bond that happens "when you cash the bond." For a paper bond left uncashed past final maturity, the year the interest must be reported under method 1 and the year the form arrives can differ. Our guide to [the EE bond guarantee](/2026/09/28/the-ee-bond-guarantee-how-a-low-stated-rate-still-doubles/) covers how EE bonds earn interest before then.
 
-## Signs of strain in the same survey
+## Late payments and banking habits
 
 The same survey found more families having trouble keeping up with payments. Families with debt at the time of the interview were asked whether they had been behind on any loan payments in the preceding year. In 2025, 19.6% of families reported being late, up from 12.2% in 2022, and 8.2% reported being 60 days late or more. The share of families whose debt payments exceeded 40% of income rose from 6.5% to 8.6%. The share of families carrying a credit card balance was about unchanged at 45%, but the median balance rose $150 to $3,100 and the mean rose $1,300 to $8,000. The share of families who didn't apply for credit for fear of being turned down rose from 12.9% to 13.5%.
 
 One of the FEDS Notes looked past the balance sheet to help from friends and relatives. The survey asked whether respondents "could obtain at least $3,000 from friends or relatives during an emergency," a question earlier surveys also asked, and whether others might rely on them. The note found that 79.7% of families expected they could either be relied on for or obtain monetary support in an emergency. It also identified "the 5.5 percent of families who both have low financial wealth and lack an informal F/CG network," its shorthand for informal financial and caregiving networks among friends and relatives.
-
-## How families use their banks
 
 A few items in the report and tables are about banking itself. The report notes that 88% of families used online banking in 2025, up from 85% in 2022, while the share that visited a local bank branch "remained steady at 66 percent."
 
@@ -230,27 +220,16 @@ Asked for the most important reason they chose the institution for their main ch
 
 It is easy to misread the survey's numbers when comparing them with one household's accounts. These steps keep the comparison like for like.
 
-1. **Add up the same accounts.** To set your cash beside the $8,200 median, total checking, savings, money market deposit accounts, money market funds, brokerage cash, prepaid card and app balances, and any savings held in an HSA or 529 account. Keep CDs and savings bonds separate, since the survey does.
-2. **Compare the same unit.** The survey's "family" is the economically dominant single person or couple "and all other persons in the household who are financially interdependent with that economically dominant person or couple." A couple's accounts count once, together.
-3. **Use the median in your row.** For a typical figure, the median in your age, income or family-type row is closer than the mean, which the largest balances pull up.
-4. **Keep the dates in mind.** The balances are from interviews held mostly from April to December 2025, with about one-seventh from January to May 2026, and they are stated in 2025 dollars.
-5. **Watch for asterisks.** In the Fed's tables an asterisk marks "Ten or fewer observations," and small groups can swing between surveys.
-6. **Check insurance separately.** The survey's categories don't follow insurance rules. The [FDIC's coverage page](https://www.fdic.gov/resources/deposit-insurance/understanding-deposit-insurance) points depositors to its Electronic Deposit Insurance Estimator (EDIE) "to calculate how much of your funds are covered by deposit insurance." For credit unions, the limits are on the NCUA's page.
+1. Add up the same accounts. To set your cash beside the $8,200 median, total checking, savings, money market deposit accounts, money market funds, brokerage cash, prepaid card and app balances, and any savings held in an HSA or 529 account. Keep CDs and savings bonds separate, since the survey does.
+2. Compare the same unit. The survey's "family" is the economically dominant single person or couple "and all other persons in the household who are financially interdependent with that economically dominant person or couple." A couple's accounts count once, together.
+3. Use the median in your row. For a typical figure, the median in your age, income or family-type row is closer than the mean, which the largest balances pull up.
+4. Keep the dates in mind. The balances are from interviews held mostly from April to December 2025, with about one-seventh from January to May 2026, and they are stated in 2025 dollars.
+5. Watch for asterisks. In the Fed's tables an asterisk marks "Ten or fewer observations," and small groups can swing between surveys.
+6. Check insurance separately. The survey's categories don't follow insurance rules. The [FDIC's coverage page](https://www.fdic.gov/resources/deposit-insurance/understanding-deposit-insurance) points depositors to its Electronic Deposit Insurance Estimator (EDIE) "to calculate how much of your funds are covered by deposit insurance." For credit unions, the limits are on the NCUA's page.
 
 The [Fed's survey page](https://www.federalreserve.gov/econres/scfindex.htm) has the report, an interactive chartbook and the Excel tables, including standard errors for the report's first two tables.
 
-## Dates in order
-
-| Date | What happened |
-|---|---|
-| 2016 survey | Prepaid debit cards first collected as transaction accounts |
-| August 2024 | All HH savings bonds reached final maturity and stopped earning interest |
-| April to December 2025 | Most interviews for the 2025 survey |
-| January to May 2026 | About one-seventh of the 2025 survey's interviews |
-| Oct. 9, 2026 | Fed releases the 2025 report, historic tables and three FEDS Notes |
-| Oct. 19, 2026 | Date of the FDIC national rates table cited here |
-
-## Common questions
+## Questions about the survey's figures
 
 **What is the median savings account balance in the U.S.?**
 
