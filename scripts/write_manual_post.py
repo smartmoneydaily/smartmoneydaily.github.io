@@ -142,6 +142,8 @@ def main():
         print(f"[{item['date']}] {item['title']}")
         if item["date"] >= STYLE_SINCE:
             sf, sw, _ = humanlike.scan_en(item["content"])
+            tf, tw = humanlike.scan_title_en(item["title"])   # 10/30 쿠마님 13314 — 제목 틀(What You Need to Know 등)도 막는다
+            sf, sw = sf + tf, sw + tw
             for x in sw:
                 print(f"  [사람글 참고] {x}")
             if sf and "--force-style" not in sys.argv:

@@ -89,6 +89,7 @@ def main():
 
         if fn[:10] >= STYLE_SINCE and humanlike is not None:
             issues += ["사람글: " + x for x in humanlike.scan_en(body)[0]]
+            issues += ["사람글: " + x for x in humanlike.scan_title_en(title)[0]]   # 10/30 제목 틀도 본다
 
         results.append((fn, title, wc, issues))
 
