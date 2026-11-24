@@ -3,13 +3,13 @@ layout: post
 title: "A Late or Missing Black Friday Order Is a Credit Card Billing Error, With 60 Days From the Statement to Dispute. Federal Debit Card Rules Don't Cover It"
 date: 2026-11-27 10:13:47 +0000
 categories: [savings]
-description: "A credit card gives you 60 days from the statement to dispute a late or missing Black Friday order and hold off paying for it. On debit, the money's gone."
+description: "A credit card gives you 60 days from the statement to dispute a late or missing Black Friday order and hold off paying. On debit, the money's already out."
 tags: [savings, black-friday, credit-card-disputes, billing-errors, regulation-z, debit-cards, buy-now-pay-later, holiday-returns]
 ---
 
 ![A Late or Missing Black Friday Order Is a Credit Card Billing Error, With 60 Days From the Statement to Dispute. Federal Debit Card Rules Don't Cover It](/assets/pin-images/2026-11-27-a-late-or-missing-black-friday-order-is-a-credit-card-billing-error-with-60-days-from-the-statement-to-dispute-federal-debit-card-rules-dont-cover-it.png)
 
-If a TV you order on Black Friday, Nov. 27, never arrives, or shows up three weeks after the date the store promised, the card you paid with decides what happens next. On a credit card, federal rules treat that charge as a billing error. The card issuer has to receive your written notice within 60 days after it sends the first statement showing the charge, and while it investigates, you don't have to pay that amount. On a debit card, the same missing package generally isn't an "error" under the federal rules for electronic transfers. The money has already left your checking account, and getting it back depends on your bank and the card network.
+If a TV you order on Black Friday, Nov. 27, never arrives, or shows up three weeks after the date the store promised, the card you paid with decides what happens next. On a credit card, federal rules treat that charge as a billing error. The card issuer has to receive your written notice within 60 days after it sends the first statement showing the charge, and while it investigates, you don't have to pay that amount. On a debit card, the same missing package generally isn't an "error" under the federal rules for electronic transfers. The money has already left your checking account, and if the store won't refund it, getting it back depends on your bank and the card network.
 
 Pay-in-4 plans sit somewhere else again. In 2024 the [Consumer Financial Protection Bureau said many of these lenders owed their customers credit card-style dispute rights, then withdrew that position on May 12, 2025](https://www.federalregister.gov/documents/2025/05/12/2025-08286/interpretive-rules-policy-statements-and-advisory-opinions-withdrawal). So three people who buy the same $600 TV can end up with three very different processes if it never comes.
 
@@ -55,7 +55,7 @@ So the $600 can sit in savings for as long as the investigation runs, up to 90 d
 
 ## When the order arrives but isn't right
 
-For goods you accepted, the credit card rule is narrower. If the store won't fix a problem with something you bought with the card, you can raise against the card issuer the same claims and defenses you'd have against the store, other than tort claims, and withhold payment up to the amount of credit still outstanding for that purchase. The issuer can't report that withheld amount as delinquent until the dispute is settled or a court rules.
+For goods you accepted, the credit card rule is narrower. If the store won't fix a problem with something you bought with the card, you can raise against the card issuer the same claims and defenses you'd have against the store, other than tort claims, and withhold payment up to the amount of credit still outstanding for that purchase, plus any finance or other charges on it. The issuer can't report that withheld amount as delinquent until the dispute is settled or a court rules.
 
 It comes with conditions:
 
@@ -63,17 +63,19 @@ It comes with conditions:
 - You charged more than $50 for it on the card.
 - The purchase happened in the same state as your current address on file with the issuer, or within 100 miles of it.
 
-For mail, phone and internet orders, where the purchase "happened" is left to state or other applicable law. The $50 and distance limits drop away when the store and the issuer are the same company, one controls the other, or both are controlled by the same third party, and in a couple of narrower cases, such as an order that came through a mail offer the issuer took part in. A store simply putting the card's logo on its door doesn't count. Whether your complaint about the product is valid at all is also a matter of state or other applicable law. The federal rule only lets you bring it to the card issuer.
+For mail, phone and internet orders, where the purchase took place is left to state or other applicable law. The $50 and distance limits drop away when the store and the issuer are the same company, one controls the other, or both are controlled by the same third party, and in a couple of narrower cases, such as an order that came through a mail offer the issuer took part in. A store simply putting the card's logo on its door doesn't count. Whether your complaint about the product is valid at all is also a matter of state or other applicable law. The federal rule only lets you bring it to the card issuer.
 
 Timing matters here in a different way than with billing errors. The amount you can assert is capped at the credit still outstanding for that purchase when you first tell the issuer or the store about the problem. The commentary says that if you pay a disputed balance, you have no further right to assert claims and defenses, though a billing error notice sent in time still works. So if you paid the statement in full before telling the store or the issuer, this rule has nothing left to work on. The two rules run separately, so an unpaid charge for a missing package that meets those conditions can qualify under both.
 
 ## A debit card covers a double charge, not a missing package
 
-Regulation E's list of errors is about the transfer itself. It includes transfers you didn't authorize (the [debit card fraud post](/2026/09/14/the-60-day-line-where-debit-card-fraud-stops-being-capped/) covers that side), transfers for the wrong amount, transfers missing from a statement, a bank's bookkeeping mistakes, the wrong cash from an ATM, and requests for documentation or clarification. A 2016 Consumer Compliance Outlook article from the Philadelphia Fed put it directly: "Regulation E does not define an error to include the right to dispute a transaction with a merchant because of a problem with goods or services." A dispute about the goods themselves "would generally not qualify," it said.
+Regulation E's list of errors is about the transfer itself. It includes transfers you didn't authorize (the [debit card fraud post](/2026/09/14/the-60-day-line-where-debit-card-fraud-stops-being-capped/) covers that side), incorrect transfers such as a charge for the wrong amount, transfers missing from a statement, a bank's math or bookkeeping mistakes, the wrong cash from an ATM, and some requests for documentation or clarification about a transfer. A 2016 Consumer Compliance Outlook article from the Philadelphia Fed put it directly: "Regulation E does not define an error to include the right to dispute a transaction with a merchant because of a problem with goods or services." A dispute about the goods themselves "would generally not qualify," it said.
 
 A wrong amount is different. The article's example is a store charging a debit card twice, which counts as "an incorrect electronic fund transfer," so the bank has to investigate it under the federal error timeline. That works much like the clock in the [Chase outage post](/2026/11/21/after-chases-nov-16-outage-the-clock-for-reporting-a-double-debit-starts-when-your-bank-sends-the-statement/): 60 days from the statement that first shows the error, and a deadline for the bank to decide or put the money back provisionally while it keeps looking.
 
 For a TV that never arrives, your bank may still try to recover the money through the card network's dispute process, and it may have duties under state law or network rules. Those aren't the federal error rules, though. Federal law doesn't set a resolution deadline for that or require a provisional credit while the bank works on it. The Regulation Z rule on claims and defenses doesn't help either. It covers purchases made with a credit card, and its commentary says it doesn't apply even when an ordinary debit card dips into an overdraft line of credit. The practical result is that the $600 is gone from checking on the day of the purchase and stays gone until someone decides in your favor.
+
+The store does have a federal duty of its own if the delay is that it hasn't shipped, whether you paid with a debit card or a credit card you already had. Under the FTC's rule for mail, internet and phone orders, a seller that can't ship within the time it stated, or within 30 days of receiving your completed order if it didn't state one, has to offer you the choice of accepting the delay or canceling for a refund. If you cancel an order you paid for by debit card, the store has 7 working days to send that refund. The rule is about shipping, though. Once the box is in a carrier's hands, it counts as shipped, so a package that goes missing after that falls outside it.
 
 ## Pay-in-4 plans and the rule the bureau took back
 
@@ -85,9 +87,9 @@ That matters most for the autopay. With a credit card you can hold back a disput
 
 ## Returns that leave a credit on your card
 
-Credit card refunds have their own clock. When a store accepts a return that's going back to your card, it has 7 business days to send the credit to the issuer. The issuer then has 3 business days from receiving it to post the credit to your account.
+Credit card refunds have their own clock. When a store accepts a return that's going back to your card, it has 7 business days to send the credit to the issuer. The issuer then has to credit your account as of a date within 3 business days of receiving it.
 
-Federal rules don't make a store take returns at all. That's the store's policy. There's one twist: a store that routinely gives cash refunds to customers who paid cash has to give credit or cash refunds to card customers too, unless it said otherwise at the time of the sale.
+That rule doesn't make a store give refunds for returns at all, and it doesn't stop a store from offering an exchange instead. That's store policy. There's one twist: if a store that isn't also your card issuer routinely gives cash refunds to customers who paid cash, it has to give credit or cash refunds to credit card customers too, unless it disclosed otherwise at the time of the sale.
 
 A refund can also land after the bill is paid. Say you pay a $1,450 statement in full in late December, and a $300 refund for a returned gift posts in January. Your card now shows a $300 credit balance. Once a credit balance is over $1, the issuer has to refund it within 7 business days of receiving a written request from you. If it sits on the account for more than 6 months, the issuer has to make a good-faith effort to send it back by check, cash, money order or a deposit to your bank account. Issuers are allowed to refund faster, or on a phone or online request. If you don't plan to run up new charges on that card soon, asking for the $300 back to put in savings beats leaving it there for months.
 
