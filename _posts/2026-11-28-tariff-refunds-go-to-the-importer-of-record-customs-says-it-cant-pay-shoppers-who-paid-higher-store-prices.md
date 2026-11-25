@@ -3,7 +3,7 @@ layout: post
 title: "Tariff Refunds Go to the Importer of Record. Customs Says It Can't Pay Shoppers Who Paid Higher Store Prices"
 date: 2026-11-28 09:47:16 +0000
 categories: [savings]
-description: "Customs pays back struck-down IEEPA tariffs, with interest, only to importers of record or parties they name. Shoppers get one only if listed as the importer."
+description: "Customs pays back struck-down IEEPA tariffs, with interest, only to importers of record or parties they name. Shoppers get one from CBP only if they're the importer or the importer names them."
 tags: [savings, tariff-refunds, ieepa, customs-duties, importer-of-record, tariff-rebate-checks, refund-scams, interest]
 ---
 
@@ -31,7 +31,7 @@ Ask the carrier or broker that billed you for two things: the entry number, whic
 - If the price you paid already included duties and nobody billed you separately, the same rule applies. The refund goes to whoever is named as importer on the entry, and the seller or carrier is the only one who can tell you who that was.
 - If you're listed as the importer of record yourself, the steps in the next section apply to you just as they would to a business.
 
-Goods from Europe and Japan have a wrinkle. Under the framework deals with the European Union, Japan, South Korea and Switzerland/Liechtenstein, the regular duty and the IEEPA duty had to add up to 15%, and the whole 15% could show up as a single line on the entry. CBP's own example: if the regular duty rate was 5%, the IEEPA share was 10%, and only that 10% comes back.
+Goods from Europe and Japan have a wrinkle. Under the framework deals with the European Union, Japan, South Korea and Switzerland/Liechtenstein, goods whose regular duty rate was under 15% were topped up so the regular duty and the IEEPA duty added up to 15%, and the whole 15% could show up as a single line on the entry. CBP's own example: if the regular duty rate was 5%, the IEEPA share was 10%, and only that 10% comes back.
 
 Low-value packages that used to come in duty-free are a separate question. When the Court of International Trade ordered the refunds in March, it added that "nothing in this order addresses issues concerning duty free de minimis treatment," an issue it has before it in another case.
 
@@ -41,7 +41,7 @@ CBP pays these refunds by direct deposit, "with rare exceptions," not by paper c
 
 The request itself is called a CAPE declaration. It's a CSV file listing entry numbers, and CBP doesn't ask for anything else in it. Only the importer of record or the licensed customs broker that filed those entries can upload one. CBP says an attorney can't. Once a declaration is accepted it can't be amended or canceled, and each entry can appear on only one accepted declaration, so it pays to check the list before you upload. CBP prohibits asking for an IEEPA refund through a post summary correction instead.
 
-What CAPE will take is limited. It accepts entries that haven't liquidated yet, entries whose liquidation is suspended, extended or under review, and entries liquidated within the previous 80 days, though entries not filed in ACE, entries under an open protest and entries on a drawback claim are among those it turns away. CBP says the 80 days leave it time to reliquidate by the 90th day, the legal limit for doing that on its own. Liquidation is the final assessment of duties on an entry. One liquidated more than 80 days earlier gets rejected with the message "Entry Summary is in Final Liquidation Status," and CBP's Nov. 4 notice lists entries whose liquidation is final among those CAPE doesn't currently accept. For entries in the first phase, those not yet liquidated or still inside the 90-day window, CBP says you don't need to file a case at the Court of International Trade to get the refund. For any other entries, it "offers no legal guidance on whether a case needs to be filed with the CIT."
+What CAPE will take is limited. It accepts entries that haven't liquidated yet, entries whose liquidation is suspended, extended or under review, and entries liquidated within the previous 80 days, though entries not filed in ACE, entries under an open protest and entries on a drawback claim are among those it turns away. CBP says the 80 days leave it time to reliquidate by the 90th day, the legal limit for doing that on its own. Liquidation is the final assessment of duties on an entry. One liquidated more than 80 days earlier gets rejected with the message "Entry Summary is in Final Liquidation Status," and CBP's Nov. 4 notice lists entries whose liquidation is final among those CAPE doesn't currently accept. The exception is for importers that sued at the Court of International Trade: since Oct. 6, a separate part of CAPE called Phase 3 takes finally liquidated entries, including ones under protest, from plaintiffs whose entries the court has ordered reliquidated, according to a [CBP declaration filed with the court](https://www.cit.uscourts.gov/sites/cit/files/15th%20CBP%20Decl.pdf). For entries in the first phase, those not yet liquidated or still inside the 90-day window, CBP says you don't need to file a case at the Court of International Trade to get the refund. For any other entries, it "offers no legal guidance on whether a case needs to be filed with the CIT."
 
 ## How long it takes, and what the interest adds
 
