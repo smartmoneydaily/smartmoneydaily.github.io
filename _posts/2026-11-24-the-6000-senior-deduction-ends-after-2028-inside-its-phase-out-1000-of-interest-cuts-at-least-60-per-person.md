@@ -1,13 +1,13 @@
 ---
 layout: post
-title: "The $6,000 Senior Deduction Ends After 2028. Inside Its Phase-Out, $1,000 of Interest Cuts at Least $60 Per Person"
+title: "The $6,000 Senior Deduction Ends After 2028. Inside Its Phase-Out, $1,000 of Interest Cuts Up to $60 Per Person"
 date: 2026-11-24 12:06:44 +0000
 categories: [savings]
 description: "The extra $6,000 deduction for people 65+ covers 2025-2028 returns. Above $75,000 of MAGI ($150,000 joint) it shrinks 6 cents per dollar, interest included."
 tags: [savings, senior-deduction, schedule-1-a, savings-interest, magi, retirees, treasury-bills, cd-interest]
 ---
 
-![The $6,000 Senior Deduction Ends After 2028. Inside Its Phase-Out, $1,000 of Interest Cuts at Least $60 Per Person](/assets/pin-images/2026-11-24-the-6000-senior-deduction-ends-after-2028-inside-its-phase-out-1000-of-interest-cuts-at-least-60-per-person.png)
+![The $6,000 Senior Deduction Ends After 2028. Inside Its Phase-Out, $1,000 of Interest Cuts Up to $60 Per Person](/assets/pin-images/2026-11-24-the-6000-senior-deduction-ends-after-2028-inside-its-phase-out-1000-of-interest-cuts-at-least-60-per-person.png)
 
 Section 151(d)(5)(C) of the tax code gives people 65 and older an extra $6,000 deduction, and it also says when that stops. The deduction applies "in the case of a taxable year beginning before January 1, 2029," which covers the 2025, 2026, 2027 and 2028 returns. The 2028 return, filed in 2029, is the last one that can claim it unless Congress changes the law.
 
